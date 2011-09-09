@@ -1,0 +1,12 @@
+/*  
+styles to fix search input box issue in IE plus any additional IE fixes
+*/
+
+#maincontainer .datesearch .search .searchbutton { float:left; margin-top:6px; background:#cccccc; border:1px solid #dddddd; height:21px;  }
+
+
+#sidebarnarrow { width: 140px; float:left; margin:0px; }
+
+
+#sidebarnarrow select { width:140px; } 
+

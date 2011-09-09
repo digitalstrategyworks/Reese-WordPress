@@ -1,0 +1,1 @@
+﻿package Classes {		import flash.display.Sprite;			public class BigInfo extends Sprite {						public function BigInfo() {			// constructor code		}	}	}

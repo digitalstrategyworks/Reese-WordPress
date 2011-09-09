@@ -1,0 +1,749 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buffet Framework 0.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-28 00:38+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Melvin Lee <zy@zy.sg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Melvin\\Documents\\Local Server\\htdocs\\wordpress-trunk\\wp-content\\themes\\the-buffet-framework\n"
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/404.php:6
+msgid "Not Found"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/404.php:7
+msgid ""
+"<p><strong>We're very sorry, but that page doesn't exist or has been moved.</strong><br />\n"
+"Please make sure you have the right URL.</p>\n"
+"<p>If you still can't find what you're looking for, try using the search form below.<br />"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:13
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:15
+#, php-format
+msgid "%s Archive"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:17
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:19
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:21
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:17
+msgid "F jS, Y"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:19
+msgid "F, Y"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:21
+msgid "Y"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:24
+msgid "Author Archive"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/archive.php:26
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/sidebar.php:8
+msgid "Archives"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/attachment.php:16
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/page.php:14
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/single.php:14
+msgid "<p>Read the rest of this entry &raquo;</p>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/attachment.php:18
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:5
+msgid "<p class=\"nocomments\">This post is password protected. Enter the password to view comments.</p>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:11
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:28
+msgid "No Comments"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:11
+msgid "1 Comment"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:22
+msgid "Trackbacks / Pings"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:29
+msgid "Start the ball rolling by posting a comment on this article!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:31
+msgid "Comments Closed"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:32
+msgid "Comments are closed. You will not be able to post a comment in this post."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:38
+msgid "Leave a Reply"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:38
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:44
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%3$s</a>."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:45
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:45
+msgid "Logout"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:49
+msgid "Name"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:49
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:53
+msgid "(required)"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:53
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:57
+msgid "Website"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:61
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:69
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/comments.php:70
+msgid "Cancel Reply"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/header.php:14
+#, php-format
+msgid "%s latest posts"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/header.php:15
+#, php-format
+msgid "%s latest comments"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/page.php:15
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/single.php:15
+msgid "<p class=\"entry-nav\"><strong>Pages:</strong> "
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/search.php:8
+#, php-format
+msgid "Search Results for <strong>&#8216;%s&#8217;</strong></p>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/search.php:26
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/sidebar.php:12
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:250
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:332
+msgid "Categories"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:18
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:24
+msgid "Options"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:64
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:74
+msgid "Reset"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:117
+msgid "Your settings have been saved to the database."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:131
+msgid "Your settings have been reverted to the defaults."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:206
+msgid "zy.sg - Developer's Blog"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:249
+msgid "General"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:251
+msgid "Navigation"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:252
+msgid "Layout"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:253
+msgid "Design"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:276
+msgid "RSS Feeds"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:280
+msgid "RSS Feed (URL)"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:283
+msgid "This will replace the default WordPress RSS feed to this. Useful if you have decided to use third-party services like <a href=\"http://feedburner.google.com/\">Feedburner</a>."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:288
+msgid "RSS Comments Feed (URL)"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:291
+msgid "This will replace the default WordPress RSS comments feed to this. Useful if you have decided to use third-party services like <a href=\"http://feedburner.google.com/\">Feedburner</a>."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:297
+msgid "Footer Information"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:301
+msgid "Footer Message"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:304
+msgid "Usually your website's copyright information would go here.<br /> It would be great if you could include a link to WordPress and even greater if you could include a link to the theme website. :)"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:313
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:363
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:427
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:458
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:476
+msgid "Save Changes"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:336
+msgid "Featured Category"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:339
+msgid "Articles from this category will be shown on the featured section of the index page. <br />You can also specify your stickied posts as the featured 'category'."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:344
+msgid "News Category"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:347
+msgid "The news category will be shown below the featured section in the index page."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:352
+msgid "Asides Category"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:377
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:381
+msgid "None"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:386
+msgid "Main Navigation / Breadcrumbs"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:390
+msgid "Home Link"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:393
+msgid "You can change the name of the home link at the main navigation."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:398
+msgid "Blog Link"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:401
+msgid "Used for breadcrumbs."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:406
+msgid "Parent Page for Blog Posts"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:409
+msgid "This adds another page in-between Home and the blog post."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:414
+msgid "Link Category"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:417
+msgid ""
+"By default, the theme will list all the available categories on the main navigation (besides the home link). \n"
+"\tTo organise and arrange the links in the top navigation, you can create a link category with all the links you want to display at the main navigation and assign the link category here."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:442
+msgid "Author Information"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:448
+msgid "Display author information in single post"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:491
+msgid "Revert to Default Settings"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:492
+msgid "If you do screw up, you can reset the settings here."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:493
+msgid "<strong>NOTE: This will erase all your settings!</strong>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:495
+msgid "Revert to default settings? This action cannot be undone!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:495
+msgid "Uninstall / Reset Arras.Theme"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:512
+msgid "Project Page"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:513
+msgid "Developer's Blog"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:527
+msgid "Buffet Framework WPMU Options"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:528
+msgid "These options will only apply to themes using the Buffet Framework."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:531
+msgid "Allow Access for Theme Options"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:533
+msgid "Tick to allow regular user accounts to access the theme options page."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:536
+msgid "Allow Access for Theme Extensions"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/admin.php:538
+msgid "Tick to allow regular user accounts to access the theme extensions page."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:32
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:38
+msgid "Extensions"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:79
+#, php-format
+msgid "%s Extensions"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:82
+msgid "Extensions are like mini WordPress plugins, they are a group of functions hooked into the theme system. However, they are isolated within the theme itself."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:83
+msgid "If you are a theme developer, you can use extensions to allow users to enable/disable features as they wish using this tool right here."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:91
+msgid "Description"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:92
+msgid "Action"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:110
+msgid "Enable"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions.php:111
+msgid "Disable"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:60
+#, php-format
+msgid "%s Posts RSS Feed"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:61
+msgid "Posts"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:62
+#, php-format
+msgid "%s Comments RSS Feed"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:63
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:309
+msgid "Comments"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:84
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:148
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:212
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:111
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:111
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:175
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:239
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:116
+msgid "Read More"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:279
+#, php-format
+msgid "<span class=\"author vcard\">By <span class=\"fn\">%s</span></span>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:280
+#, php-format
+msgid "<span class=\"published\">Published: <abbr class=\"date\" title=\"%1$s\">%2$s at %3$s</abbr></span>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:280
+msgid "c"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:280
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:412
+msgid "F j, Y"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:280
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:412
+msgid "g:i A"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:283
+msgid "<span class=\"entry-tags\">Tags:"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:313
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:361
+msgid "Submit to Digg!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:313
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:361
+msgid "Digg it!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:314
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:362
+msgid "Post it to your Facebook Profile"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:314
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:362
+msgid "Facebook"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:315
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:363
+msgid "Twitter"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:317
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:365
+msgid "Edit Post"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:404
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:408
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:412
+#, php-format
+msgid "Posted <abbr class=\"comment-datetime\" title=\"%1$s\">%2$s at %3$s</abbr>"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:460
+msgid "That 'something' you are looking for isn't here!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/filters.php:461
+msgid "<strong>We're very sorry, but that page doesn't exist or has been moved.</strong><br />Please make sure you have the right URL."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/options.php:186
+#, php-format
+msgid "<strong>&copy; %s</strong>. All Rights Reserved."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/options.php:188
+msgid "Home"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/options.php:189
+msgid "Blog"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/template.php:57
+#, php-format
+msgid "Search results for %s"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/template.php:417
+msgid "You are Here:"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/template.php:544
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/template.php:545
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:20
+msgid "Notice to Theme Developers"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:21
+msgid "This is a test extension. If enabled, it displays a notice about this theme at the top of the theme option page."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:31
+msgid "Welcome to the Buffet Framework!"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:32
+msgid "If you are intending to customize this theme by editing the template files, I recommend that you create a child theme and customise from it."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:33
+msgid "For more information about Theme Frameworks, check out the <a href=\"http://codex.wordpress.org/Theme_Frameworks\">WordPress Codex</a>."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:34
+msgid "You can disable this notice from the <strong>Extensions</strong> page."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:53
+msgid "Highlight Search Terms"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:54
+msgid "Highlights Search Terms with jQuery. Based on <a href=\"http://weblogtoolscollection.com/archives/2009/04/10/how-to-highlight-search-terms-with-jquery/\">this tutorial</a>."
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:95
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:110
+msgid "Featured Post"
+msgstr ""
+
+#: C:\Users\Melvin\Documents\Local
+#: Server\htdocs\wordpress-trunk\wp-content\themes\the-buffet-framework/includes/extensions/default-extensions.php:96
+msgid "Shows a featured post from the assigned featured category from the theme options."
+msgstr ""
+

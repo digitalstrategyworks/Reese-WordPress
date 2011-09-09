@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link href="shark.css" rel="stylesheet" type="text/css" />
+
+<head>
+
+	 <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+           $("#main_nav li a.main").hover(function(){
+               $("#main_nav li a.main").removeClass("active");
+               $(this).addClass("active");
+               $(this).queue(function() {                    
+                   $(".sub_nav").fadeOut();
+                   $(this).siblings(".sub_nav").fadeIn();
+                   $(this).dequeue();
+               });
+           });
+       });
+	   
+	   
+	   
+	   //  number of questions
+		var numQues = 5;
+
+// number of choices in each question
+		var numChoi = 3;
+
+//  number of questions displayed in answer area
+		var answers = new Array(5);
+
+//  answers to questions
+		answers[0] = "Keep your eye on the shark as you swim cautiously for the shore.";
+		answers[1] = "Get the *$!%^ out of the water and find a way to stop the bleeding.";
+		answers[2] = "Claw at its eyes and gills until it backs off long enough for you to exit the water.";
+		answers[3] = "Calmly reposition yourself to a place where the shark might not feel threatened that you are blocking its path to safety.";
+		answers[4] = "You decline, and explain to your friends that sharks pose a higher threat during this time. How about Monopoly, instead?";
+
+	function getScore(form) {
+  		var score = 0;
+  		var currElt;
+  		var currSelection;
+  		for (i=0; i<numQues; i++) {
+    		currElt = i*numChoi;
+    		for (j=0; j<numChoi; j++) {
+      			currSelection = form.elements[currElt + j];
+      			if (currSelection.checked) {
+        		if (currSelection.value == answers[i]) {
+          		score++;
+          	break;
+			}
+		  }
+		}
+	  }
+	  score = Math.round(score/numQues*100);
+	  form.percentage.value = score + "%";
+	  var correctAnswers = "";
+	  for (i=1; i<=numQues; i++) {
+		correctAnswers += i + ". " + answers[i-1] + "\r\n";
+	  }
+	  form.solutions.value = correctAnswers;
+	}
+       </script>
+       
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shark Attack Survival Quiz</title>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+	<div class="menu">
+		<ul id="main_nav">
+			<li><a href="sharkHome.html" class="main">home</a></li>
+			<li><a href="sharkHunt.html" class="main">Sharks on the Hunt</a></li>
+			<li><a href="sharkProtection.html" class="main">How to Protect Yourself</a>
+				<ul class="sub_nav">
+					<li><a href="sharkPrevention.html">Prevention</a></li>
+					<li><a href="sharkSurvival.html">Survival</a></li>
+				</ul></li>
+			<li><a href="sharkQuiz.html" class="main">Take the Survival Quiz</a></li>
+			<li><a href="sharkDiscussion.html" class="main">Join the Discussion</a></li>
+			<li><a href="sharkCredits.html" class="main">Credits</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+    
+    <div id="main_content_title"><h2>Would YOU Survive an Attack?</h2></div>
+    <div id="main_content">
+    <p>Now that you have reviewed how a shark hunts and studied ways to prevent and protect from attacks, here's your chance to prove that you would survive. The quiz below poses vacation scenarios involving sharks. Select the best answer for each question.</p><br />
+    
+
+<h3>Survival Test Begins Here</h3>
+
+<form name="quiz">
+<b>Scenario #1:</b> Your fishing boat capsizes off the coast of Florida. The chum from your fish haul has attracted a hungry shark that has just bumped into you, testing your edibility. What do you do?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q1" value="Play dead and hope it leaves you alone.">Play dead and hope it leaves you alone.</li>
+  <li><input type="radio" name="q1" value="Keep your eye on the shark as you swim cautiously for the shore.">Keep your eye on the shark as you swim cautiously for the shore.</li>
+  <li><input type="radio" name="q1" value="Flail your arms wildly and scream for help.">Flail your arms wildly and scream for help.</li>
+</ul><br />
+
+<b>Scenario #2:</b> A Great White has just taken a nibble off your left calf and you are bleeding profusely. Thankfully, the shark realized you weren't a seal and has swam away. What is your next move?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q2" value="Take a deep breath, relax and let the salt water wash out the wound.">Take a deep breath, relax and let the salt water wash out the wound.</li>
+  <li><input type="radio" name="q2" value="Pass out from relief and hope that someone finds you soon.">Pass out from relief and hope that someone finds you soon.</li>
+  <li><input type="radio" name="q2" value="Get the *$!%^ out of the water and find a way to stop the bleeding.">Get the *$!%^ out of the water and find a way to stop the bleeding.</li>
+</ul><br />
+
+<b>Scenario #3:</b> You are swimming off the coast of Australia and a shark begins to attack you! It currently has your arm in its massive jaws. How do you react?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="Claw at its eyes and gills until it backs off long enough for you to exit the water.">Claw at its eyes and gills until it backs off long enough for you to exit the water.</li>
+  <li><input type="radio" name="q3" value="Play dead.">Play dead.</li>
+  <li><input type="radio" name="q3" value="Grab onto its top fin and squeeze until it lets you go.">Grab onto its top fin and squeeze until it lets you go.</li>
+</ul><br />
+
+<b>Scenario #4:</b> You are diving near a reef and notice a shark not too far away. You take note that you are currently between the shark and open water, perhaps creating a situation where the shark feels threatened by your presence. What should you do?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="Aggressively attack the shark before he attacks you.">Aggressively attack the shark before he attacks you.</li>
+  <li><input type="radio" name="q4" value="Stay extremely still and pray that the shark thinks you are part of the reef.">Stay extremely still and pray that the shark thinks you are part of the reef.</li>
+  <li><input type="radio" name="q4" value="Calmly reposition yourself to a place where the shark might not feel threatened that you are blocking its path to safety.">Calmly reposition yourself to a place where the shark might not feel threatened that you are blocking its path to safety.</li>
+</ul><br />
+
+<b>Scenario #5:</b> You are on vacation with your friends at the beach. Drunkenly, your friends decide that they want to go swimming very close to nightfall. They ask you to join them. What do you do?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="You don't want to be left out, so you join them but decide to only stay in the shallow area.">You don't want to be left out, so you join them but decide to only stay in the shallow area.</li>
+  <li><input type="radio" name="q4" value="You decline, and explain to your friends that sharks pose a higher threat during this time. How about Monopoly, instead?">You decline, and explain to your friends that sharks pose a higher threat during this time. How about Monopoly, instead?</li>
+  <li><input type="radio" name="q4" value="Being drunk as well, you rip your clothes off and race your friends into the ocean.">Being drunk as well, you rip your clothes off and race your friends into the ocean.</li>
+</ul><br />
+
+<input type="button" value="Did you survive?" onClick="getScore(this.form)">
+<input type="reset" value="Clear answers">
+<p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>
+See what you should have done differently:<br>
+<textarea class="bgclr" name="solutions" wrap="virtual" rows="10" cols="50" disabled>
+</textarea>
+</form>
+
+
+	</div>             
+</body>
+</html>

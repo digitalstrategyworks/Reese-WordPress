@@ -1,0 +1,173 @@
+<coaches>
+  <coach name="Nat Cartmell" mc="cartmell_mc" stat="cartmellStat_mc">
+    <wins>25</wins>
+    <losses>25</losses>
+    <years>
+      <start>1911</start>
+      <end>1914</end>
+    </years>
+    <fact>Cartmell was a world-renowned sprinter before becoming UNC-CH's first basketball coach.</fact>
+  </coach>
+  <coach name="Charles Doak" mc="doak_mc" stat="doakStat_mc">
+    <wins>18</wins>
+    <losses>16</losses>
+    <years>
+      <start>1915</start>
+      <end>1916</end>
+    </years>
+    <fact>Doak was also UNC-CH's baseball coach when he was named head coach for basketball.</fact>
+  </coach>
+  <coach name="Howell Peacock" mc="peacock_mc" stat="peacockStat_mc">
+    <wins>23</wins>
+    <losses>14</losses>
+    <years>
+      <start>1917</start>
+      <end>1919</end>
+    </years>
+    <fact>Peacock later became a noted surgeon after coaching at UNC-CH.</fact>
+  </coach>
+  <coach name="Fred Boye" mc="boye_mc" stat="boyeStat_mc">
+    <wins>19</wins>
+    <losses>17</losses>
+    <years>
+      <start>1920</start>
+      <end>1921</end>
+    </years>
+    <fact>Boye also headed the ROTC program at Carolina.</fact>
+  </coach>
+  <coach name="No Coach" mc="noCoach_mc" stat="noCoachStat_mc">
+    <wins>30</wins>
+    <losses>7</losses>
+    <years>
+      <start>1922</start>
+      <end>1923</end>
+    </years>
+    <fact>The post World War I boom was over and no replacement was available so the team played without a head coach.</fact>
+  </coach>
+  <coach name="Norman Shepard" mc="nShepard_mc" stat="nShepardStat_mc">
+    <wins>26</wins>
+    <losses>0</losses>
+    <years>
+      <start>1924</start>
+      <end>1924</end>
+    </years>
+    <fact>Shepard is the only basketball coach in UNC-CH history with a perfect career record and the first to win a championship.</fact>
+  </coach>
+  <coach name="Monk McDonald" mc="mcDonald_mc" stat="mcDonaldStat_mc">
+    <wins>20</wins>
+    <losses>5</losses>
+    <years>
+      <start>1925</start>
+      <end>1925</end>
+    </years>
+    <fact>McDonald was a player for the Tar Heels before becoming head coach after graduating.</fact>
+  </coach>
+  <coach name="Harlan Sanborn" mc="sanborn_mc" stat="sanbornStat_mc">
+    <wins>20</wins>
+    <losses>5</losses>
+    <years>
+      <start>1926</start>
+      <end>1926</end>
+    </years>
+    <fact>Sanborn was head coach at Virginia Tech before coaching at UNC-CH.</fact>
+  </coach>
+  <coach name="James Ashmore" mc="ashmore_mc" stat="ashmoreStat_mc">
+    <wins>80</wins>
+    <losses>37</losses>
+    <years>
+      <start>1927</start>
+      <end>1931</end>
+    </years>
+    <fact>Ashmore also had a coaching career in 2 other sports, baseball and football.</fact>
+  </coach>
+  <coach name="George Shepard" mc="gShepard_mc" stat="gShepardStat_mc">
+    <wins>69</wins>
+    <losses>16</losses>
+    <years>
+      <start>1932</start>
+      <end>1935</end>
+    </years>
+    <fact>Shepard was often mistaken for one of his players because of his youthful appearance.</fact>
+  </coach>
+  <coach name="Walter Skidmore" mc="skidmore_mc" stat="skidmoreStat_mc">
+    <wins>65</wins>
+    <losses>25</losses>
+    <years>
+      <start>1936</start>
+      <end>1939</end>
+    </years>
+    <fact>Skidmore was the Carolina's freshman coach prior to becoming head coach of the varsity team.</fact>
+  </coach>
+  <coach name="Bill Lange" mc="lange_mc" stat="langeStat_mc">
+    <wins>85</wins>
+    <losses>41</losses>
+    <years>
+      <start>1940</start>
+      <end>1944</end>
+    </years>
+    <fact>Lange resigned after the 1944 season because of illness.</fact>
+  </coach>
+  <coach name="Ben Carnevale" mc="carnevale_mc" stat="carnevaleStat_mc">
+    <wins>52</wins>
+    <losses>11</losses>
+    <years>
+      <start>1945</start>
+      <end>1946</end>
+    </years>
+    <fact>Carnevale was only a year or so older than his players and was also a lieutenant in the Navy ROTC program.</fact>
+  </coach>
+  <coach name="Tom Scott" mc="scott_mc" stat="scottStat_mc">
+    <wins>100</wins>
+    <losses>65</losses>
+    <years>
+      <start>1947</start>
+      <end>1952</end>
+    </years>
+    <fact>During Scott's tenure, UNC-CH lost 15 times to N.C. State.</fact>
+  </coach>
+  <coach name="Frank McGuire" mc="mcGuire_mc" stat="mcGuireStat_mc">
+    <wins>164</wins>
+    <losses>58</losses>
+    <years>
+      <start>1953</start>
+      <end>1961</end>
+    </years>
+    <fact>McGuire lead UNC-CH to its first NCAA Championship title in his 1956-1957 season.</fact>
+  </coach>
+  <coach name="Dean Smith" mc="smith_mc" stat="smithStat_mc">
+    <wins>879</wins>
+    <losses>254</losses>
+    <years>
+      <start>1962</start>
+      <end>1996</end>
+    </years>
+    <fact>Smith won his first NCAA championship in 1982, when the team was composed of Michael Jordan, James Worthy and Sam Perkins.</fact>
+  </coach>
+  <coach name="Bill Guthridge" mc="guthridge_mc" stat="guthridgeStat_mc">
+    <wins>80</wins>
+    <losses>28</losses>
+    <years>
+      <start>1997</start>
+      <end>1999</end>
+    </years>
+    <fact>Guthridge won national coach of the year in 1998.</fact>
+  </coach>
+  <coach name="Matt Doherty" mc="doherty_mc" stat="dohertyStat_mc">
+    <wins>53</wins>
+    <losses>43</losses>
+    <years>
+      <start>2000</start>
+      <end>2003</end>
+    </years>
+    <fact>Doherty currently coaches at Southern Methodist University.</fact>
+  </coach>
+  <coach name="Roy Williams" mc="williams_mc" stat="williamsStat_mc">
+    <wins>222</wins>
+    <losses>61</losses>
+    <years>
+      <start>2004</start>
+      <end>2011</end>
+    </years>
+    <fact>Williams served as an assistant coach for Dean Smith in Smith's 1978 to 1988 season.</fact>
+  </coach>
+</coaches>

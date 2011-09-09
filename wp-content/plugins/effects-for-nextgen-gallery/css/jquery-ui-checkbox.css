@@ -1,0 +1,94 @@
+﻿@CHARSET "UTF-8";
+
+/* 
+ * The state classes are a little bit complex, because of the doubble class bug in IE6
+ * The state class looks like this:
+ * 
+ * .ui-radio-state[-checked][-disabled][-hover] or .ui-checkbox-state[-checked][-disabled][-hover]
+ * 
+ * Examples:
+ * 
+ * .ui-radio-state-checked (simply checked) 
+ * .ui-radio-state-checked-hover (checked and hovered/focused)
+ * .ui-radio-state-hover (unchecked and hovered/focused)
+ * 
+ */
+
+.ui-helper-hidden-accessible {
+	position: absolute;
+	left: -999em;
+}
+
+span.ui-checkbox,
+span.ui-radio {
+	display: block;
+	float: left;
+	width: 18px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+
+span.ui-checkbox {
+	background: url(../img/checkbox.png);
+}
+
+span.ui-radio {
+	background: url(../img/radiobutton.png);
+}
+
+span.ui-helper-hidden {
+	display: none;
+}
+label {
+	padding: 2px;
+	
+}
+
+/*
+ * CHECKBOX, RADIOBUTTON
+ */
+.ui-checkbox,
+.ui-checkbox-state-checked,
+.ui-checkbox-state-disabled,
+.ui-checkbox-state-disabled-hover,
+.ui-checkbox-state-checked-disabled,
+.ui-checkbox-state-checked-hover,
+.ui-checkbox-state-checked-disabled-hover,
+.ui-radio,
+.ui-radio-state-checked,
+.ui-radio-state-disabled,
+.ui-radio-state-disabled-hover,
+.ui-radio-state-checked-disabled,
+.ui-radio-state-checked-hover,
+.ui-radio-state-checked-disabled-hover {
+
+}
+
+span.ui-checkbox-state-checked,
+span.ui-radio-state-checked {
+	background-position: -18px 0px;
+}
+
+span.ui-checkbox-state-hover,
+span.ui-radio-state-hover {
+	background-position: 0px -16px;
+}
+
+span.ui-checkbox-state-checked-hover,
+span.ui-radio-state-checked-hover {
+	background-position: -18px -16px;
+}
+
+span.ui-checkbox-state-checked-disabled,
+span.ui-checkbox-state-checked-disabled-hover,
+span.ui-radio-state-checked-disabled,
+span.ui-radio-state-checked-disabled-hover {
+	background-position: -18px -32px;
+}
+
+span.ui-checkbox-state-disabled,
+span.ui-checkbox-state-disabled-hover,
+span.ui-radio-state-disabled,
+span.ui-radio-state-disabled-hover {
+	background-position: 0px -32px;
+}

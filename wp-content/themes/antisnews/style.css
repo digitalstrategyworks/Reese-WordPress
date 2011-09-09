@@ -1,0 +1,61 @@
+/*  
+Theme Name: Antisnews
+Theme URI: http://www.antisocialmediallc.com
+Description: Showcase content from multiple categoies in a clean attractive magazine style layout. Create your own color scheme without editing any css file. Various widgetized areas on magazine home page so you can intermix widgets with your featured post content.  For information on how to use go to Appearance->Antisnews Options and click the Manage Options button next to Standard Configuration Options. Switch "Operation Mode" to "Tutorial" then go to your homepage.
+Version: 1.9
+Author: antisocialmediallc.com
+Tags: white,black,right-sidebar,left-sidebar
+License: GPL
+Attributions: postsidebar.php social media icons credit to Paul Robert Llyod (http://paulrobertlloyd.com)
+*/ 
+
+
+* html .wp-caption.aligncenter img { 
+   width: expression( document.body.clientWidth > 475 ? "475px" : "auto" ); /* sets max-width for IE */
+}
+
+* html .wp-caption.alignleft img { 
+   width: expression( document.body.clientWidth > 250 ? "250px" : "auto" ); /* sets max-width for IE */
+}
+* html .wp-caption.alignright img { 
+   width: expression( document.body.clientWidth > 250 ? "250px" : "auto" ); /* sets max-width for IE */
+}
+
+.wp-caption {
+text-align: center;
+padding: 4px;
+margin: 10px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+.wp-caption img {
+margin: 0;
+padding: 0;
+border: 0 none;
+}
+
+.wp-caption.aligncenter img {  max-width: 475px; height:auto;  }
+.wp-caption.alignleft img {  max-width: 250px; height:auto;  }
+.wp-caption.alignright img {  max-width: 250px; height:auto;  }
+
+.wp-caption p.wp-caption-text {
+font-size: 11px;
+line-height: 17px;
+padding: 0 4px 5px;
+margin: 0;
+}
+
+.alignleft { float:left; margin-right:10px; }
+.alignright { float:right; margin-left:10px; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; margin-top:10px;  }
+
+img.alignleft { float:left; margin-right:10px; padding:5px; max-width: 250px; height:auto;}
+img.alignright { float:right; margin-left:10px; padding:5px; max-width: 250px; height:auto;}
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; padding:5px; max-width: 475px;  margin-top:10px; height:auto; }
+
+html>body .alignleft { width: auto; height: auto; max-width:250px; }
+html>body .alignright { width: auto; height: auto; max-width:250px; }
+html>body .aligncenter { width: auto; height: auto; max-width:475px;  margin-top:10px; }

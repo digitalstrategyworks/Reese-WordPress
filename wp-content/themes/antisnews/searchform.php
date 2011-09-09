@@ -1,0 +1,1 @@
+<form method="get" id="searchform" action="<?php bloginfo('url'); ?>"> <input type="text" value="" name="s" id="s" /> <input type="submit" id="go" value="<?php _e("Search","Antisnews");?>" alt="<?php _e('Search'); ?>" title="<?php _e('Search'); ?>" /></form>

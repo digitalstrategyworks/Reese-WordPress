@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Javascript Adder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-02 20:08+0530\n"
+"PO-Revision-Date: 2011-01-02 20:09+0530\n"
+"Last-Translator: Aakash Chakravarthy <aakash.19493@gmail.com>\n"
+"Language-Team: Aakash Chakravarthy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../html-javascript-adder.php:54
+msgid "Used to add HTML, javascripts, Flash embed codes to sidebar"
+msgstr "Utilizzato per aggiungere HTML, JavaScript, Flash incorporare codici a barra laterale"
+
+#: ../html-javascript-adder.php:56
+msgid "HTML Javascript Adder"
+msgstr "HTML Javascript Adder"
+
+#: ../html-javascript-adder.php:197
+msgid "Title :"
+msgstr "Titolo:"
+
+#: ../html-javascript-adder.php:203
+msgid "Content :"
+msgstr "Contenuto:"
+
+#: ../html-javascript-adder.php:204
+msgid "Link"
+msgstr "Link"
+
+#: ../html-javascript-adder.php:204
+msgid "Image"
+msgstr "Image"
+
+#: ../html-javascript-adder.php:204
+msgid "Code"
+msgstr "Codice"
+
+#: ../html-javascript-adder.php:204
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../html-javascript-adder.php:209
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../html-javascript-adder.php:212
+msgid "Don't display in Posts page"
+msgstr "Non visualizzare i messaggi in pagina"
+
+#: ../html-javascript-adder.php:214
+msgid "Don't display in Archive or Tag page"
+msgstr "Non visualizzare in Archivio o pagina Tag"
+
+#: ../html-javascript-adder.php:216
+msgid "Don't display in Home page"
+msgstr "Non visualizzare in Home Page"
+
+#: ../html-javascript-adder.php:218
+msgid "Don't display in Pages"
+msgstr "Non visualizzare nelle pagine"
+
+#: ../html-javascript-adder.php:220
+msgid "Don't display in Search page"
+msgstr "Non visualizzare nella pagina di ricerca"
+
+#: ../html-javascript-adder.php:222
+msgid "Automatically add paragraphs"
+msgstr "Aggiungi automaticamente i punti"
+
+#: ../html-javascript-adder.php:228
+msgid "Don't display to admin"
+msgstr "Non visualizzare a admin"
+
+#: ../html-javascript-adder.php:230
+msgid "Don't show in posts"
+msgstr "Non visualizzare i messaggi in"
+
+#: ../html-javascript-adder.php:232
+msgid "Post ID's / name / title seperated by comma"
+msgstr "Post ID / nome / titolo separati da virgola"
+
+#: ../html-javascript-adder.php:240
+#: ../html-javascript-adder.php:282
+msgid "Make Donations"
+msgstr "Fare donazioni"
+
+#: ../html-javascript-adder.php:240
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: ../html-javascript-adder.php:240
+msgid "Visit Author site"
+msgstr "Visita il sito Autore"
+
+#: ../html-javascript-adder.php:240
+msgid "Support Forum"
+msgstr "Forum di Supporto"
+
+#: ../html-javascript-adder.php:240
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: ../html-javascript-adder.php:240
+msgid "Promote"
+msgstr "Promuovere"
+
+#: ../html-javascript-adder.php:249
+msgid "Added with HTML Javascript Adder Wordpress plugin"
+msgstr "Ha aggiunto con HTML Javascript Adder plugin per Wordpress"
+
+#: ../html-javascript-adder.php:302
+msgid "Disable HTML Javascript Adder link back"
+msgstr "Disabilita HTML Javascript Adder link di ritorno"
+
+#: ../html-javascript-adder.php:303
+msgid "Save"
+msgstr "Aggiornamento"
+
+#: ../html-javascript-adder.php:322
+msgid "Subscribe to Updates"
+msgstr "Iscriviti agli aggiornamenti"
+
+#: ../html-javascript-adder.php:322
+msgid "Follow on Twitter"
+msgstr "Segui su Twitter"
+
+#: ../html-javascript-adder.php:322
+msgid "Home Page"
+msgstr "Home Page"
+
+#: ../html-javascript-adder.php:327
+msgid "AW Latest Updates"
+msgstr "AW Ultimi Aggiornamenti"
+

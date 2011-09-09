@@ -1,0 +1,21 @@
+/**
+ * Página de administración
+ *
+ * @since 1.0.0
+ * @package Bitly Service
+ * @subpackage CSS
+ */
+
+/* Icono */
+.settings_page_bitly-service #icon-bitly-service {
+	background: url(bitly-service.png) no-repeat scroll;
+}
+
+/* Formulario */
+.settings_page_bitly-service input[type=text] {
+	width: 300px;
+}
+
+.settings_page_bitly-service select {
+	width: 180px;
+}

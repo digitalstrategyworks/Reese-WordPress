@@ -1,0 +1,171 @@
+#bf-help-links {
+    float: right;
+    margin: 20px 25px 0;
+}
+#bf-tabs {
+    margin: 15px 5px 0;
+    width: 100%;
+	border-bottom: 3px solid #8A8A8A;
+}
+#bf-tabs li {
+    float: left;
+    font-size: 12px;
+    margin: 0;
+}
+#bf-tabs a {
+    background: #FFF;
+    border: 1px solid #bbb;
+    border-right: none;
+    display: block;
+    color: #21759B;
+    text-decoration: none;
+    padding: 5px 12px;
+	cursor: default;
+}
+#bf-tabs li:last-child a {
+	border-right: 1px solid #bbb;
+}
+#bf-tabs a:hover {
+    background: #EAF2FA;
+    color: #333;
+}
+#bf-tabs .ui-tabs-selected a, .bf-hook-title {
+    background: #8a8a8a;
+    color: #fff;
+    border-bottom: none;
+    padding-bottom: 6px;
+	font-weight: bold;
+}
+#bf-settings-form {
+	margin-right: 25px;
+}
+.bf-options-tabcover {
+    background: #8a8a8a;
+    height: 5px;
+}
+.padding-content {
+    padding: 10px;
+}
+.padding-content h3 {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+.ui-tabs-hide {
+    display: none !important;
+}
+.form-table {
+    margin-bottom: 0 !important;
+}
+.form-table th, .largetext {
+    font-size: 12px;
+}
+.form-table select {
+    width: 200px;
+}
+.version {
+    font-size: 12px !important;
+    font-weight: bold;
+}
+#add-new-hook {
+    margin-top: 10px;
+}
+#hooks-placeholder {
+    padding: 10px;
+    margin: 20px 0 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#hooks-placeholder div:last-child {
+    margin-bottom: 0;
+}
+.bf-hook {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    background: #fcfcfc;
+}
+.bf-hook-title {
+    padding: 6px 10px 8px;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 14px !important;
+    font-weight: normal;
+}
+.bf-hook-wrapper {
+    padding: 0 10px;
+}
+.bf-hook .form-table th {
+    padding: 8px 10px 0;
+}
+.bf-hook ul li {
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    cursor: move;
+}
+.bf-hook ul li .remove-hook-condition {
+    float: right;
+    cursor: pointer !important;
+    padding-top: 3px;
+}
+.bf-hook .condition-label {
+    width: 200px;
+    display: inline-block;
+    padding: 3px 15px 0 0;
+}
+#hook-template, #hook-condition-template {
+    display: none;
+}
+.remove-hook {
+    margin: 15px 10px;
+}
+#bf-background-container {
+    border: 1px solid #ccc;
+    padding: 10px 10px 0;
+    overflow-y: scroll;
+    background: #fff;
+    height: 330px;
+}
+#bf-background-container .background-selected {
+    border: 2px solid #D54E21;
+}
+#bf-background-container p {
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    clear: both;
+}
+.bf-background-node {
+    float: left;
+    margin: 0 10px 10px 0;
+    border: 2px solid #fff;
+}
+.bf-background-node a {
+    width: 196px;
+    height: 120px;
+    display: block;
+}
+.hide {
+    display: none !important;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+    display: block;
+} 
+* html .clearfix {
+    height: 1%;
+}

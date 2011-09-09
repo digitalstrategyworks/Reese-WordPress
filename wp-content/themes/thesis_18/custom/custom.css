@@ -1,0 +1,350 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }	<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+body.custom {
+	font-family: AntennaRE, sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+        color: #444;
+}
+
+.custom .entry-content {
+	font-size: 13.5px;
+	//font-family: Mencken Text;
+}
+
+.custom h1, .custom h2, .custom h3, .custom h4, .custom h5, .custom h6 {
+	letter-spacing: -1px;
+}
+
+.custom h2.entry-title {
+	font-size: 30px;
+}
+
+.custom .widget h3 {
+	letter-spacing: 0px;
+}
+
+.custom #page {
+	background-color: #ffffff;
+	-moz-box-shadow: 0px 0px 15px #acacac; /* Firefox */
+ 	 -webkit-box-shadow: 0px 0px 15px #acacac; /* Safari, Chrome */
+  	box-shadow: 0px 0px 15px #acacac; /* CSS3 */
+	margin-top:30px;
+}
+
+.custom ul.menu {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.custom li.tab-home {
+	border-left: 1px solid #DDDDDD;
+}
+
+.custom #container #header{
+	border: 0;
+	margin: 0;
+	background-position: 10px 20px;
+	background-color: #759eC7;
+	width: auto;
+	height:100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 0;
+-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    -webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+}
+
+.custom #content.hfeed{
+	background-color:#fff;
+	margin-top: 0px;
+	width: 503px;
+	padding: 10px 0px 10px 0px;
+	margin-left: 0px;
+}
+
+.custom #content {
+	background-color: #ffffff;
+	width: 503px;
+	padding: 10 0 10 0px;
+}
+
+
+.custom h1, .custom h2, .custom h3, .custom h4, .custom h5, .custom h6, .custom h2.entry-title a, .custom h1.entry-title a{
+        color: #26466D;
+        font-family: AntennaRE, sans-serif;
+	font-weight: bold;
+        font-style: normal;
+}
+
+.custom h2.entry-title a, .custom h1.entry-title a{
+	text-shadow: none;
+}
+
+.custom h3 {
+	background-color: #759eC7;
+	color: #ffffff;
+	font-weight: lighter;
+        padding-left: 5px;
+	font-variant: none;
+	text-transform: uppercase;
+}
+
+.custom h2.entry-title a:hover, .custom h1.entry-title a:hover {
+	text-decoration: none;
+	color: #666;
+}
+
+.custom .headline_area p.headline_meta, .custom #footer p, .custom #footer p a  {
+	color: #759eC7;
+}
+
+.custom li#polls-widget-3.widget.widget_polls-widget {
+	background-color: #efefef;
+	padding: 10px;
+	-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+   	-webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+
+}
+
+.custom form#polls_form_1.wp-polls-form p{
+	font-weight: normal;
+}
+
+.custom form#polls_form_1.wp-polls-form p a{
+	font-weight: bold;
+}
+
+.custom li#categories-4.widget.widget_categories {
+	background-color: #efefef;
+	padding: 10px;
+	-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    	-webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+    	width:170px;	
+}
+
+
+.custom li.widget{
+	max-width: 170px;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0px 15px 30px 15px;
+	-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    	-webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+}
+
+.custom li#ngg-mrssw-3.widget.ngg_mrssw{
+	background-color: #efefef;
+	padding: 10px;
+	-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    	-webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+}
+
+.custom table#wp-calendar td {
+	color:#2e2e2e;
+}
+
+.custom .widget_calendar {
+	background-color: #efefef;
+	-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    	-webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+	padding: 10px;
+	width: 170px;
+}
+
+.custom table#wp-calendar caption {
+        color: #26466D;
+        font-family: AntennaRE;
+}
+
+.custom .headline_meta a {
+	border:none;
+} 
+
+.custom abbr.published{
+	color: #759eC7;
+	cursor: default;
+}
+
+.custom #footer p a{
+	text-decoration: none;
+	border: none;
+}
+
+.custom a:link, .custom a:visited, .custom #sidebars a:link, .custom #sidebars a:visited {
+	color:#26466D;
+	text-decoration: none;
+}
+
+.custom a:hover {
+	text-decoration: none;
+	color: #888888;
+}
+
+.custom #sidebars .widget_box h1, .custom #sidebars .widget_box h2, .custom #sidebars .widget_box h3, .custom #sidebars .widget_box h4, .custom #sidebars .widget_box h5, .custom #sidebars .widget_box h6 {
+	color: #26466D;
+}
+
+.custom #sidebars{
+	margin-top: -10px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+
+.custom #sidebar_1{
+	border: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.custom #sidebar_1 ul.sidebar_list{
+	margin-right: 0;
+	padding-left: 0 px;
+	padding-right: 0;
+}
+
+.custom #sidebar_2.sidebar{
+	width: 21em;
+	/*border-color: #26466D; 
+	border-style: dotted;
+	border-width: 0 0 0 0.1em; */
+	float: left; 
+	clear: right;
+	/*margin-left: -5px;*/
+}
+
+#sidebar_2.sidebar ul.sidebar_list{
+}
+
+.custom #sidebars #multimedia_box{
+	background-color: #efefef;
+	height:225px;
+	border:none;
+	margin: 20px 20px 20px 25px;
+	width: 387px;
+-moz-box-shadow: 1px 1px 3px #acacac; /* Firefox */
+    -webkit-box-shadow: 1px 1px 3px #acacac; /* Safari, Chrome */
+padding: 10px 12px 10px 8px;
+}
+
+.custom #sidebars #video_box {
+padding: 12px 12px 0px 18px;
+
+}
+
+.custom a:hover, .custom a:active, .custom #sidebars a:hover, .custom #sidebars a:active {
+	/*text-decoration: underline;*/
+	cursor: pointer;
+	text-decoration: none;
+	color: #888888;
+}
+
+.custom #post-1{
+	padding-top: 0px;
+}
+
+.custom #ui-datepicker-div{
+	background: transparent;
+}
+
+.custom #header{
+	border-bottom: 1px solid #fff;
+	margin: 20px 0px 20px 0px;
+	padding: 0px 0px 25px 0px;
+}
+
+.custom #sidebars .widget_box{
+	border: none;
+	background-color: #efefef;
+	-moz-box-shadow: 0px 0px 3px #acacac; /* Firefox */
+  -webkit-box-shadow: 0px 0px 3px #acacac; /* Safari, Chrome */
+  box-shadow: 0px 0px 3px #acacac; /* CSS3 */
+}
+
+.custom ul.menu {
+	border-color: #fff;
+}
+
+.custom #sidebars{
+	/*border-color: #fff;*/
+}
+
+.custom #content span.bracket{
+	color: #fff;
+}
+
+.custom .format_text.entry-content{
+
+	padding: 0px 10px 10px 0px;
+
+}
+
+.custom .headline_area {
+	margin-bottom: 15px;
+}
+
+.custom #content p.to_comments a{
+	color: #000;
+	font-size:12px;
+	font-weight: normal;
+	padding-left: 0;
+	margin-left: -15px;
+	padding-bottom: 20px;
+}
+
+.custom #content p.to_comments a:hover{
+	text-decoration: none;
+}
+
+.custom #content_box {
+	padding-top: 10px;
+}
+
+.custom input .wpcf7-submit {
+	font-family: AntennaRE, sans-serif;
+	font-weight: lighter;
+	font-style: normal;
+        color: #2e2e2e;
+}
+
+.custom #footer{
+	border-top: 1px solid #fff;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.custom .post_box {
+margin-left: 0px;
+margin-top: -5px;
+width: 510px;
+}
+.custom strong{
+	font-weight: bold;
+}

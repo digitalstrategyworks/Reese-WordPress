@@ -1,0 +1,56 @@
+<businesses>
+<mainbusinesses>
+	<business name="Apple" mc="apple_mc">
+		<location population="4,000">Maiden, N.C.</location>
+		<cost>$1 billion</cost>
+		<size>500,000 square feet</size>
+		<date>Oct. 2009</date>
+		<costs>$46 million in tax incentives over the next 10 years</costs>
+		<benefits>50 full-time employees, 250 temporary jobs, plus an impact of up to 3,000 jobs in related industries</benefits>
+		<quote author="N.C. House Minority Leader Paul Stam">They're playing us, and they're going to keep playing us as long as you agree to be played.</quote>
+		<sources>CNET</sources>
+	</business>
+	<business name="Facebook" mc="facebook_mc">
+		<location population="63,000">Forest City, N.C.</location>
+		<cost>$450 million</cost>
+		<size>300,000 square feet</size>
+		<date>2012</date>
+		<costs>$17 million in local subsidies and tax breaks over 10 years--that amounts to $1.2 million in local subsidies per job</costs>
+		<benefits>42 full-time employees, 250 temporary jobs</benefits>
+		<quote author="Gov. Bev Perdue">We are proud that Facebook chose to make North Carolina a 'friend.' The feeling is certainly mutual... </quote>
+		<sources>N.C. Dept. of Commerce</sources>
+	</business>
+	<business name="Google" mc="google_mc">
+		<location population="16,763">Lenoir, N.C.</location>
+		<cost>$600 million</cost>
+		<size>an unknown size</size>
+		<date>May 2007</date>
+		<costs>$260 million in tax breaks over 30 years</costs>
+		<benefits>210 full-time employees, 400-500 temporary employees, and an estimated $1.06 billion to the state’s gross economic product over the next 12 years, and a net state revenue benefit of more than $37 million</benefits>
+		<quote author="Catawba County's economic development director">We started thinking about developing potential sites for data centers, and realized we had some infrastructure-rich sites.</quote>
+		<sources>DataKnowledgeCenter.com</sources>
+	</business>
+</mainbusinesses>
+<quickview>
+	<business name="Wipro" mc="wipro_mc">
+		<location population="9,693">Kings Mountain, N.C.</location>
+		<cost>$75 million</cost>
+		<sources>DataKnowledgeCenter.com</sources>
+	</business>
+	<business name="IBM" mc="ibm_mc">
+		<location population="1,742,816">Research Triangle Park, N.C.</location>
+		<cost>$300 million</cost>
+		<sources>DataKnowledgeCenter.com</sources>
+	</business>
+	<business name="NetApp" mc="netapp_mc">
+		<location population="136,637">Cary, N.C.</location>
+		<cost>$65 million</cost>
+		<sources>DataKnowledgeCenter.com</sources>
+	</business>
+	<business name="SAS" mc="sas_mc">
+		<location population="136,637">Cary, N.C.</location>
+		<cost>$70 million</cost>
+		<sources>DataKnowledgeCenter.com</sources>
+	</business>
+</quickview>	
+</businesses>

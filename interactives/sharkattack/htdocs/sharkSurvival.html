@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link href="shark.css" rel="stylesheet" type="text/css" />
+
+<head>
+
+	 <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+           $("#main_nav li a.main").hover(function(){
+               $("#main_nav li a.main").removeClass("active");
+               $(this).addClass("active");
+               $(this).queue(function() {                    
+                   $(".sub_nav").fadeOut();
+                   $(this).siblings(".sub_nav").fadeIn();
+                   $(this).dequeue();
+               });
+           });
+       });
+       </script>
+       
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Protect Yourself from the Attack</title>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+	<div class="menu">
+		<ul id="main_nav">
+			<li><a href="sharkHome.html" class="main">home</a></li>
+			<li><a href="sharkHunt.html" class="main">Sharks on the Hunt</a></li>
+			<li><a href="sharkProtection.html" class="main">How to Protect Yourself</a>
+				<ul class="sub_nav">
+					<li><a href="sharkPrevention.html">Prevention</a></li>
+					<li><a href="sharkSurvival.html">Survival</a></li>
+				</ul></li>
+			<li><a href="sharkQuiz.html" class="main">Take the Survival Quiz</a></li>
+			<li><a href="sharkDiscussion.html" class="main">Join the Discussion</a></li>
+			<li><a href="sharkCredits.html" class="main">Credits</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+    
+    <div id="main_content_title"><h2>Survival Methods</h2></div>
+    <div id="main_content">
+    <p>
+		<ul>Even after making all arrangements to prevent shark attacks while on vacation, the unexpected may still happen. In this case, it is best to be aware of what to do should you fall victim to a shark attack.
+		<li>Always remain aware of a nearby shark, or a shark that has come into contact with you. Sharks may sometime 'test' their prey by bumping or biting once, and then sneak up on you for the kill.</li>
+		<li>Attempt to exit the water immediately after bitten or wounded by the shark. Even if the one that attacked you has left, your blood is likely to attract others.
+</li>
+		<li>Be aggressive towards sharks that are showing signs of interest in you. Hit the shark if it attacks by aiming for vulnerable areas like the eyes, gills and nose. It's important that you thrust in a straight line to reduce drag created by the water.</li>
+		<li>Once you are out of the water, seek immediate medical attention. Suppress any bleeding as soon as possible. Many fatalities from shark attacks are a result of blood loss.</li></ul></p>
+	</div>             
+</body>
+</html>

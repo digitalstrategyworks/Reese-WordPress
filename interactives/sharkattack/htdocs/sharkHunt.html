@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link href="shark.css" rel="stylesheet" type="text/css" />
+
+<head>
+
+	 <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+           $("#main_nav li a.main").hover(function(){
+               $("#main_nav li a.main").removeClass("active");
+               $(this).addClass("active");
+               $(this).queue(function() {                    
+                   $(".sub_nav").fadeOut();
+                   $(this).siblings(".sub_nav").fadeIn();
+                   $(this).dequeue();
+               });
+           });
+       });
+	   
+	   function preloader(){
+		   sharkImage = new Image(); 
+		   sharkImage.src = "Images/sharkHunt.jpg";
+		}
+
+       </script>
+       
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sharks on the Hunt</title>
+</head>
+<body onLoad="javascript:preloader()">
+<div id="wrapper">
+	<div id="header">
+	<div class="menu">
+		<ul id="main_nav">
+			<li><a href="sharkHome.html" class="main">home</a></li>
+			<li><a href="sharkHunt.html" class="main">Sharks on the Hunt</a></li>
+			<li><a href="sharkProtection.html" class="main">How to Protect Yourself</a>
+				<ul class="sub_nav">
+					<li><a href="sharkPrevention.html">Prevention</a></li>
+					<li><a href="sharkSurvival.html">Survival</a></li>
+				</ul></li>
+			<li><a href="sharkQuiz.html" class="main">Take the Survival Quiz</a></li>
+			<li><a href="sharkDiscussion.html" class="main">Join the Discussion</a></li>
+			<li><a href="sharkCredits.html" class="main">Credits</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+    
+    <div id="main_content_title"><h2>Sharks on the Hunt...</h2></div>
+    <div id="main_content">
+    <p>The Great White is the shark species most responsible for attacks on humans, yet most scientists would attribute these attacks to misidentification of prey. In most cases, the shark will release the human after realizing that it is not a seal or fish part of its natural diet. Unfortunately, just a test bite from these massive beasts is enough to fatally wound a human. The diagram below shows the anatomy of a Great White and how it hunts.</p> <p>Click the buttons below the image to view how different parts of a shark's anatomy can help it hunt for food.</p>
+	</div>          
+ <div id="sharkHunt"><img alt="A shark uses a unique anatomical structure to hunt." src="Images/sharkHunt.jpg"></div>
+
+<div id="subMain_content">
+<input type="button" value="Teeth and Jaws"
+onclick="document.getElementById('text1').style.visibility='visible';">
+<div id="text1" style="visibility:hidden;">
+A Great White has rows of serrated teeth, and uses them to bite and tear prey apart. Sharks, unique from other animals, also has the ability to move both the top and bottom jaws, which gives the beast incredible power and force when devouring victims.
+<input type="button" value="Hide"
+onclick="document.getElementById('text1').style.visibility = 'hidden';">
+</div>
+</div>
+
+<div id="subMain_content2">
+<input type="button" value="Lateral Line"
+onclick="document.getElementById('text2').style.visibility='visible';">
+<div id="text2" style="visibility:hidden;">
+A lateral line is a unique sense that allows a shark to easily detect prey through their vibrations in the water. Special pores called Ampullae of Lorenzini allow sharks to sense electromagnetic fields created by movements of their prey in the water.
+<input type="button" value="Hide"
+onclick="document.getElementById('text2').style.visibility = 'hidden';">
+</div>
+</div>
+
+<div id="subMain_content3">
+<input type="button" value="Smelling and Hearing"
+onclick="document.getElementById('text3').style.visibility='visible';">
+<div id="text3" style="visibility:hidden;">
+Sharks have an acute sense of directional smell. Studies indicate that sharks also have impeccable hearing that allows them to hear sounds from great distances, giving them the ability to track the distressed sounds of wounded prey for miles.
+<input type="button" value="Hide"
+onclick="document.getElementById('text3').style.visibility = 'hidden';">
+</div>
+</div>
+
+<div id="subMain_content4">
+<input type="button" value="Speed and Force"
+onclick="document.getElementById('text4').style.visibility='visible';">
+<div id="text4" style="visibility:hidden;">
+Great Whites will use muscular force and momentum to attack prey from behind or below with one lethal strike.  Most sharks of this species weigh between 1,500 and 2,400 pounds.
+<input type="button" value="Hide"
+onclick="document.getElementById('text4').style.visibility = 'hidden';">
+</div>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shark Attack</title>
+</head>
+<script type="text/javascript">
+	alert(navigator.userAgent);
+	
+	function isApple(){
+		if(/iPad;.U/.test(navigator.userAgent) || /iPod;.U/.test(navigator.userAgent) || /iPhone;.U/.test(navigator.userAgent)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	alert(isApple());
+	
+	if(isApple()){
+		window.location.replace("http://reesenews.org/files/2011/08/20110802_sharkAttack_kw/htdocs/sharkHome.html");
+	} else {
+		window.location.replace("http://reesenews.org/files/2011/08/20110802_sharkAttack_kw/htdocs/sharkFlash.html");
+	}
+</script>
+
+<body>
+</body>
+</html>

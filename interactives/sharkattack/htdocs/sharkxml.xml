@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<discuss>
+<entry>
+  <id>1</id>
+  <name>Kelley Wollman</name>
+  <comment>This is a practice comment.</comment>
+</entry>
+<entry>
+  <id>2</id>
+
+  <name>Sharky</name>
+  <comment>Here is another.</comment>
+</entry>
+<entry>
+  <id>3</id>
+  <name>Doug</name>
+  <comment>I'm a frat boy. I hope I get eaten by a shark soon!</comment>
+
+</entry>
+<entry>
+  <id>40</id>
+  <name>Rodarte</name>
+  <comment>I like tuna.</comment>
+</entry>
+<entry>
+  <id>49</id>
+  <name>asdads</name>
+
+  <comment>asdasd</comment>
+</entry>
+</discuss>

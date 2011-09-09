@@ -1,0 +1,547 @@
+# Translation of the WordPress plugin Effects for NextGEN Gallery 0.8.3 by fanningert.
+# Copyright (C) 2010 fanningert
+# This file is distributed under the same license as the Effects for NextGEN Gallery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Effects for NextGEN Gallery 0.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/effects-for-nextgen-gallery\n"
+"POT-Creation-Date: 2010-03-21 12:21+0000\n"
+"PO-Revision-Date: 2010-03-21 13:26+0100\n"
+"Last-Translator: Thomas Fanninger <thomas@fanninger.at>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/about.php:3
+#: admin/about.php:8
+#: admin/effectoptions.php:27
+#: admin/generaloptions.php:10
+msgid "About"
+msgstr "Über"
+
+#: admin/about.php:6
+#: admin/effectoptions.php:25
+#: admin/generaloptions.php:3
+#: admin/generaloptions.php:8
+msgid "General options"
+msgstr "Allgemeine Optionen"
+
+#: admin/about.php:7
+#: admin/effectoptions.php:22
+#: admin/effectoptions.php:26
+#: admin/generaloptions.php:9
+msgid "Effect options"
+msgstr "Effektoptionen"
+
+#: admin/effectoptions.php:49
+msgid "Highslide JS is licensed under a <a href=\"http://creativecommons.org/licenses/by-nc/2.5/\" target=\"_blank\">Creative Commons Attribution-NonCommercial 2.5 License</a>. This means you need the author's permission to use Highslide JS on commercial websites."
+msgstr ""
+
+#: admin/effectoptions.php:52
+msgid "Read more about on the <a href=\"http://highslide.com/#licence\" target=\"_blank\">license site</a> of Highslide JS."
+msgstr ""
+
+#: admin/effectoptions.php:59
+#: admin/effectoptions.php:176
+msgid "Homepage"
+msgstr "Homepage"
+
+#: admin/effectoptions.php:63
+#: admin/effectoptions.php:180
+msgid "Integrated Version"
+msgstr "Integrierte Version"
+
+#: admin/effectoptions.php:73
+msgid "I agree to the license condition"
+msgstr "Ich stimme den Lizenzbestimmungen zu"
+
+#: admin/effectoptions.php:79
+#: admin/effectoptions.php:187
+msgid "Supported config parameters"
+msgstr "Unterstützte Konfigurationsparameter"
+
+#: admin/effectoptions.php:83
+#: admin/effectoptions.php:191
+msgid "Theme"
+msgstr "Thema"
+
+#: admin/effectoptions.php:85
+#: admin/effectoptions.php:193
+msgid "Default"
+msgstr "Standard"
+
+#: admin/effectoptions.php:89
+msgid "Align"
+msgstr "Ausrichtung"
+
+#: admin/effectoptions.php:91
+msgid "Auto"
+msgstr "Automatisch"
+
+#: admin/effectoptions.php:92
+msgid "Center"
+msgstr "Zentriert"
+
+#: admin/effectoptions.php:96
+msgid "Show credits"
+msgstr "Zeige Titelnennung"
+
+#: admin/effectoptions.php:100
+msgid "Block right click"
+msgstr "Blockiere die rechte Maustaste"
+
+#: admin/effectoptions.php:104
+msgid "Page number"
+msgstr "Bildnummer"
+
+#: admin/effectoptions.php:106
+#: admin/effectoptions.php:114
+msgid "Disable"
+msgstr "Deaktiviert"
+
+#: admin/effectoptions.php:107
+msgid "Heading"
+msgstr "Titelkopf"
+
+#: admin/effectoptions.php:108
+msgid "Caption"
+msgstr "Beschriftung"
+
+#: admin/effectoptions.php:112
+msgid "Graphic outline"
+msgstr "Aussehen der Kontur"
+
+#: admin/effectoptions.php:115
+msgid "rounded-white"
+msgstr "weiß abgerundet"
+
+#: admin/effectoptions.php:116
+msgid "outer-glow"
+msgstr ""
+
+#: admin/effectoptions.php:120
+msgid "Expand effect"
+msgstr "Expandierungseffekt"
+
+#: admin/effectoptions.php:128
+#: admin/effectoptions.php:139
+msgid "Require <a href=\"http://www.robertpenner.com/easing/\" target=\"_blank\">Easing Equations</a>"
+msgstr "Benötigt <a href=\"http://www.robertpenner.com/easing/\" target=\"_blank\">Easing Equations</a>"
+
+#: admin/effectoptions.php:131
+msgid "Contract effect"
+msgstr "Kontrahierungseffekt"
+
+#: admin/effectoptions.php:142
+msgid "Opacity of the dimming"
+msgstr "Deckkraft der Verdunkelung"
+
+#: admin/effectoptions.php:144
+msgid "A float between 0 and 1"
+msgstr "Eine Gleitkommazahl zwischen 0 und 1"
+
+#: admin/effectoptions.php:147
+msgid "Duration of the dimming"
+msgstr "Dauer der Verdunkelung"
+
+#: admin/effectoptions.php:149
+msgid "milliseconds"
+msgstr "Millisekunden"
+
+#: admin/effectoptions.php:154
+#: admin/effectoptions.php:276
+msgid "Custom config file"
+msgstr "Eigene Konfigurationsdatei"
+
+#: admin/effectoptions.php:158
+#: admin/effectoptions.php:280
+msgid "Absolute file path"
+msgstr "Absoluter Pfad"
+
+#: admin/effectoptions.php:165
+#: admin/effectoptions.php:287
+#: admin/generaloptions.php:85
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: admin/effectoptions.php:197
+msgid "Loop Images"
+msgstr "Bilderschleife"
+
+#: admin/effectoptions.php:199
+msgid "If set to true, allows the user to navigate between the first and last images of a Slimbox gallery, when there is more than one image to display."
+msgstr "Wenn auf \"Wahr\" gesetzt, kann der Anwender zwischen dem ersten und letzten Bilder einer Slimbox Galerie navigieren, wenn es mehr als ein Bild angezeigt werden soll."
+
+#: admin/effectoptions.php:202
+msgid "Overlay Opacity"
+msgstr "Deckkraft der Verdunkelung"
+
+#: admin/effectoptions.php:204
+msgid "The level of opacity of the background overlay. 1 Is opaque, 0 is completely transparent. Default is 0.8."
+msgstr "Der Grad der Trübung der Hintergrund-Overlay. 1 ist undurchsichtig, 0 ist vollständig transparent. Der Standardwert ist 0.8."
+
+#: admin/effectoptions.php:207
+msgid "Overlay Fade Duration"
+msgstr "Dauer der Verdunkelung"
+
+#: admin/effectoptions.php:209
+msgid "The duration of the overlay fade-in and fade-out animations, in milliseconds. Set it to 1 to disable the overlay fade effects. Default is 400."
+msgstr "Die Dauer der Einblendungs- und Ausblendungsanimationen, in Millisekunden. Setzen Sie ihn auf 1 zu deaktivieren der Overlay-Überblendeffekte. Der Standardwert ist 400."
+
+#: admin/effectoptions.php:212
+msgid "Resize Duration"
+msgstr "Dauer der Größenanpassung"
+
+#: admin/effectoptions.php:214
+msgid "The duration of the resize animation for width and height, in milliseconds. Set it to 1 to disable resize animations. Default is 400."
+msgstr "Die Dauer der Animation für die Größe Breite und Höhe, in Millisekunden. Setzen Sie ihn auf 1 zu deaktivieren, die Größe Animationen. Der Standardwert ist 400."
+
+#: admin/effectoptions.php:217
+msgid "Resize Easing"
+msgstr "Größe wiederherstellen"
+
+#: admin/effectoptions.php:219
+msgid "jswing"
+msgstr ""
+
+#: admin/effectoptions.php:220
+msgid "easeInQuad"
+msgstr ""
+
+#: admin/effectoptions.php:221
+msgid "easeOutQuad"
+msgstr ""
+
+#: admin/effectoptions.php:222
+msgid "easeInOutQuad"
+msgstr ""
+
+#: admin/effectoptions.php:223
+msgid "easeInCubic"
+msgstr ""
+
+#: admin/effectoptions.php:224
+msgid "easeOutCubic"
+msgstr ""
+
+#: admin/effectoptions.php:225
+msgid "easeInOutCubic"
+msgstr ""
+
+#: admin/effectoptions.php:226
+msgid "easeInQuart"
+msgstr ""
+
+#: admin/effectoptions.php:227
+msgid "easeOutQuart"
+msgstr ""
+
+#: admin/effectoptions.php:228
+msgid "easeInOutQuart"
+msgstr ""
+
+#: admin/effectoptions.php:229
+msgid "easeInQuint"
+msgstr ""
+
+#: admin/effectoptions.php:230
+msgid "easeOutQuint"
+msgstr ""
+
+#: admin/effectoptions.php:231
+msgid "easeInOutQuint"
+msgstr ""
+
+#: admin/effectoptions.php:232
+msgid "easeInSine"
+msgstr ""
+
+#: admin/effectoptions.php:233
+msgid "easeOutSine"
+msgstr ""
+
+#: admin/effectoptions.php:234
+msgid "easeInOutSine"
+msgstr ""
+
+#: admin/effectoptions.php:235
+msgid "easeInExpo"
+msgstr ""
+
+#: admin/effectoptions.php:236
+msgid "easeOutExpo"
+msgstr ""
+
+#: admin/effectoptions.php:237
+msgid "easeInOutExpo"
+msgstr ""
+
+#: admin/effectoptions.php:238
+msgid "easeInCirc"
+msgstr ""
+
+#: admin/effectoptions.php:239
+msgid "easeOutCirc"
+msgstr ""
+
+#: admin/effectoptions.php:240
+msgid "easeInOutCirc"
+msgstr ""
+
+#: admin/effectoptions.php:241
+msgid "easeInElastic"
+msgstr ""
+
+#: admin/effectoptions.php:242
+msgid "easeOutElastic"
+msgstr ""
+
+#: admin/effectoptions.php:243
+msgid "easeInOutElastic"
+msgstr ""
+
+#: admin/effectoptions.php:244
+msgid "easeInBack"
+msgstr ""
+
+#: admin/effectoptions.php:245
+msgid "easeOutBack"
+msgstr ""
+
+#: admin/effectoptions.php:246
+msgid "easeInOutBack"
+msgstr ""
+
+#: admin/effectoptions.php:247
+msgid "easeInBounce"
+msgstr ""
+
+#: admin/effectoptions.php:248
+msgid "easeOutBounce"
+msgstr ""
+
+#: admin/effectoptions.php:249
+msgid "easeInOutBounce"
+msgstr ""
+
+#: admin/effectoptions.php:251
+msgid "Many easings require a longer execution time to look good, so you should adjust the resizeDuration option above as well. Default is jQuery’s built-in default easing, \"jswing\"."
+msgstr ""
+
+#: admin/effectoptions.php:254
+msgid "Initial Width"
+msgstr "Initialbreite"
+
+#: admin/effectoptions.php:256
+msgid "The initial width of the box, in pixels. Default is 250."
+msgstr "Die ursprüngliche Breite der Box in Pixel. Der Standardwert ist 250."
+
+#: admin/effectoptions.php:259
+msgid "Initial Height"
+msgstr "Initialhöhe"
+
+#: admin/effectoptions.php:261
+msgid "The initial height of the box, in pixels. Default is 250."
+msgstr "Die ursprüngliche Höhe der Box in Pixel. Der Standardwert ist 250."
+
+#: admin/effectoptions.php:264
+msgid "Image Fade Duration"
+msgstr "Dauer der Bildeinblendung"
+
+#: admin/effectoptions.php:266
+msgid "The duration of the image fade-in animation, in milliseconds. Set it to 1 to disable this effect and make the image appear instantly. Default is 400."
+msgstr ""
+
+#: admin/effectoptions.php:269
+msgid "Caption Animation Duration"
+msgstr "Dauer der Bildtitelanimation"
+
+#: admin/effectoptions.php:271
+msgid "The duration of the caption animation, in milliseconds. Set it to 1 to disable it and make the caption appear instantly. Default is 400."
+msgstr ""
+
+#: admin/generaloptions.php:17
+msgid "de-/activate effects"
+msgstr "de-/aktiviert Effekte"
+
+#: admin/generaloptions.php:22
+#: admin/generaloptions.php:71
+msgid "State"
+msgstr "Status"
+
+#: admin/generaloptions.php:23
+msgid "NGG active effect"
+msgstr "Aktiver NGG-Effekt"
+
+#: admin/generaloptions.php:29
+#: admin/generaloptions.php:77
+msgid "No effect"
+msgstr "Kein Effekt"
+
+#: admin/generaloptions.php:41
+msgid "Library: Slimbox 2"
+msgstr "Bibliothek: Slimbox 2"
+
+#: admin/generaloptions.php:59
+msgid "Custom"
+msgstr "Eigene"
+
+#: admin/generaloptions.php:66
+msgid "Custom effects"
+msgstr "Eigene Effekte"
+
+#. #-#-#-#-#  plugin.pot (Effects for NextGEN Gallery 0.8.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: effects-for-nextgen-gallery.php:40
+#: lib/OptionPage.php:17
+msgid "Effects for NextGEN Gallery"
+msgstr "Effects for NextGEN Gallery"
+
+#: effects/highslide/effect.php:41
+msgid "ltr"
+msgstr "ltr"
+
+#: effects/highslide/effect.php:42
+msgid "Loading.."
+msgstr "Lade..."
+
+#: effects/highslide/effect.php:43
+msgid "Click to cancel"
+msgstr "Klick zum Abbrechen"
+
+#: effects/highslide/effect.php:44
+msgid "Click to bring to front"
+msgstr "Klick um nach vorn zu bringen"
+
+#: effects/highslide/effect.php:45
+msgid "Expand to actual size (f)"
+msgstr "Zur Originalgröße erweitern (f)"
+
+#: effects/highslide/effect.php:46
+msgid "Full size"
+msgstr "Vollbild"
+
+#: effects/highslide/effect.php:47
+msgid "Powered by <i>Highslide JS</i>"
+msgstr "Powered by <i>Highslide JS</i>"
+
+#: effects/highslide/effect.php:48
+msgid "Go to the Highslide JS homepage"
+msgstr "Gehe zur Highslide JS Homepage"
+
+#: effects/highslide/effect.php:49
+msgid "Previous"
+msgstr "Voriges"
+
+#: effects/highslide/effect.php:50
+msgid "Previous (arrow left)"
+msgstr "Voriges (Pfeiltaste links)"
+
+#: effects/highslide/effect.php:51
+msgid "Next"
+msgstr "Nächstes"
+
+#: effects/highslide/effect.php:52
+msgid "Next (arrow right)"
+msgstr "Nächstes (Pfeiltaste rechts)"
+
+#: effects/highslide/effect.php:53
+#: effects/highslide/effect.php:54
+msgid "Move"
+msgstr "Verschieben"
+
+#: effects/highslide/effect.php:55
+msgid "Close"
+msgstr "Schließen"
+
+#: effects/highslide/effect.php:56
+msgid "Close (esc)"
+msgstr "Schließen (Esc)"
+
+#: effects/highslide/effect.php:57
+msgid "Resize"
+msgstr "Größe wiederherstellen"
+
+#: effects/highslide/effect.php:58
+msgid "Play"
+msgstr "Abspielen"
+
+#: effects/highslide/effect.php:59
+msgid "Play slideshow (spacebar)"
+msgstr "Slideshow abspielen (Leertaste)"
+
+#: effects/highslide/effect.php:60
+msgid "Pause"
+msgstr "Pause"
+
+#: effects/highslide/effect.php:61
+msgid "Pause slideshow (spacebar)"
+msgstr "Pausiere Slideshow (Leertaste)"
+
+#: effects/highslide/effect.php:62
+msgid "Image %1 of %2"
+msgstr "Bild %1 von %2"
+
+#: effects/highslide/effect.php:63
+msgid "Click to close image, click and drag to move. Use arrow keys for next and previous."
+msgstr "Klick um das Bild zu schließen, klick und ziehe um zu verschieben. Benutze Pfeiltasten für vor und zurück."
+
+#: effects/lightbox/effect.php:30
+msgid "Image {x} of {y}"
+msgstr "Bild {x} von {y}"
+
+#: lib/OptionPage.php:17
+msgid "Effects for NGG"
+msgstr "Effekte für NGG"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.fanninger.at/projects/wp-plugin-effects-for-nextgen-gallery/"
+msgstr "http://www.fanninger.at/projects/wp-plugin-effects-for-nextgen-gallery/"
+
+#. Description of the plugin/theme
+msgid "Advanced NextGen Gallery with some extra effects."
+msgstr "Erweitert NextGen Galerie um einige Effekte."
+
+#. Author of the plugin/theme
+msgid "fanningert"
+msgstr "fanningert"
+
+#. Author URI of the plugin/theme
+msgid "http://www.fanninger.at"
+msgstr "http://www.fanninger.at"
+
+#~ msgid "true"
+#~ msgstr "Wahr"
+
+#~ msgid "false"
+#~ msgstr "Falsch"
+
+#~ msgid "Highslide"
+#~ msgstr "Highslide"
+
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox"
+
+#~ msgid "Thickbox"
+#~ msgstr "Thickbox"
+
+#~ msgid "Shutter"
+#~ msgstr "Shutter"
+
+#~ msgid "ColorBox"
+#~ msgstr "ColorBox"
+
+#~ msgid "PiroBox"
+#~ msgstr "PiroBox"
+
+#~ msgid "Check Highslide libraries"
+#~ msgstr "Prüfe Highslide Bibliotheken"
+
+#~ msgid "de-/active effect"
+#~ msgstr "de-/aktivierte Effekte"
+
+#~ msgid "A brief description of the Plugin."
+#~ msgstr "A brief description of the Plugin."

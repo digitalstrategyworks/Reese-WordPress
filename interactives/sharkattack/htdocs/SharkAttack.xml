@@ -1,0 +1,55 @@
+<pages>
+	
+	<page nav="home">
+	
+		<intro>Summer vacation for many people means lemonade, lawn chairs sandals and beaches. For some, it also means the possibility of shark attacks. The International Shark Attack File reported 115 shark attacks worldwide in 2010, 79 of which were unprovoked. The number of unprovoked shark attacks has steadily risen each decade-—a growth that the ISAF attributes to greater numbers of humans spending more time in the ocean. 
+Although the chances of getting attacked by a shark are small, it is important to be informed before jumping into the ocean. This presentation provides information about the methods a shark uses to hunt prey, how to prevent shark attacks and what to do in the event of an attack. 
+Once you look over the information, take a quiz to determine whetheryou would survive. Then, join the shark discussion. Use the navigation on the left to get started.</intro>
+	
+	</page>
+	
+	<page nav="sharks on the hunt">
+	
+		<shark id="intro_hunt" title="Get started">The diagram above shows the basic anatomy of a great white. Click the red circles to view how different parts of a shark's anatomy can help it hunt for food.</shark>
+		
+		<shark id="teethJaws_btn" title="Teeth and jaws">A great white has rows of serrated teeth and uses them to bite and tear prey apart. Sharks, unlike other animals, also have the ability to move both the top and bottom jaws, which gives the beasts incredible power and force when devouring victims. </shark>
+		
+		<shark id="electrosense_btn" title="Lateral line">A shark's lateral line is a sense organ that allows it to easily detect prey through vibrations in the water. Special pores called ampullae of Lorenzini allow sharks to sense electromagnetic fields created by movements of their prey in the water. </shark>
+		
+		<shark id="smellHear_btn" title="Smelling and hearing">Sharks have an acute sense of directional smell. Studies indicate that sharks also have impeccable hearing that allows them to hear sounds from great distances, giving them the ability to track the distressed sounds of wounded prey for miles.</shark>
+		
+		<shark id="speedForce_btn" title="Speed and force">Great whites will use muscular force and momentum to attack prey from behind or below with one lethal strike. Most sharks of this species weigh between 1,500 and 2,400 pounds.</shark>
+		
+	</page>
+	
+	<page nav="how to protect yourself">
+		
+		<protect title="Prevent the attack">In order to reduce the chances of your becoming shark food, it is crucial that you take steps to deter sharks from attacking you. Remember that you put yourself at risk for a shark attack whenever you enter the ocean, even if the water is shallow.</protect>
+		<protect title="Before you swim">Look for signs indicating that sharks have been sighted or attacks reported. Ignoring these markers means swimming at your own risk.</protect>
+		<protect title="Always swim together">Swim in a group when at the beach. Individuals swimming alone may appear as wounded prey to sharks. In the event of an actual attack, groups have higher chances of survival and are more likely to make it to shore alive.</protect>
+		<protect title="Watch the clock">Avoid swimming during dawn, dusk and night. Many species of shark feed during these times and may move toward the shoreline to hunt for fish. </protect>
+		<protect title="No splashing">Try not to splash excessively when swimming in the ocean. Sharks interpret flailing and wild splashing as injured prey.</protect>
+		
+		<survive title="Survive the attack">Even after making all arrangements to prevent shark attacks while on vacation, the unexpected may still happen. If you get attacked, here's what you should do.</survive>
+		<survive title="Stay alert">Always remain aware of a nearby shark or a shark that has come into contact with you. Sharks sometimes 'test' their prey by bumping or biting once. Then, they sneak up on you for the kill.</survive>
+		<survive title="Make a quick exit">Attempt to exit the water immediately after bitten or wounded by the shark. Even if the one that attacked you has left, your blood is likely to attract others.
+</survive>
+		<survive title="Use force">Be aggressive towards sharks that show signs of interest in you. Hit the shark if it attacks by aiming for vulnerable areas like the eyes, gills and nose. It's important that you thrust in a straight line to reduce drag created by the water.</survive>
+		<survive title="Find help">Once you are out of the water, seek immediate medical attention. Suppress any bleeding as soon as possible. Many fatalities from shark attacks are a result of blood loss.</survive>
+		
+	</page>
+	
+	<page nav="take the survival quiz">
+		<intro>intro for 4 slide</intro>
+	</page>
+	
+	<page nav="join the discussion">
+		<intro>intro for 5 slide</intro>
+	</page>
+	
+	<page nav="credits">
+	</page>
+	
+</pages>
+	
+	

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=700,maximum-scale=1.0,user-scalable=yes">
+        <title>Vimeo Player API Playground</title>
+        <style>
+            body, html, dl, dd { margin: 0; padding: 0;}
+
+            body, html {
+                font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+                color: #343434;
+                background: #f7f7f7;
+            }
+
+            iframe {
+                display:block;
+                border:0;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-weight: normal;
+                text-align: center;
+            }
+
+            button {
+                background: #e9e9e9;
+                cursor: pointer;
+                border: 1px solid #ddd;
+                padding: 2px 13px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                margin: 0;
+                cursor: pointer;
+            }
+
+            .wrapper {
+                width: 600px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+
+            .wrapper .container > div {
+                background: #fff;
+                padding: 30px;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+                margin-top: 30px;
+            }
+
+            .wrapper .container:first-child {
+                margin-top: 0;
+            }
+
+            .wrapper .container h2 {
+                margin: 0 0 20px 0;
+            }
+
+            .wrapper .container button {
+                line-height: 19px;
+            }
+
+            .wrapper .container input[type="text"] {
+                font-size: 12px;
+            }
+
+            button input[type="text"] {
+                border: 1px solid #ddd;
+                text-align: center;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                margin: 0 -11px 0 5px;
+                padding: 2px;
+            }
+
+            .wrapper div dl {
+                margin-bottom: 15px;
+            }
+
+            .wrapper div dt {
+                margin-bottom: 5px;
+            }
+
+            .wrapper div dt span {
+                font-size: 0.9em;
+                color: #666;
+            }
+
+            .wrapper div dd {
+                display: inline-block;
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            .wrapper div dd label {
+                margin-right: 10px;
+            }
+
+            .wrapper div .output {
+                display: block;
+                width: 100%;
+                height: 100px;
+                border: 1px solid #ddd;
+                overflow-y: auto;
+                font-size: 13px;
+                padding: 5px;
+                box-sizing: border-box;
+                line-height: 1.4em;
+                resize: vertical;
+                font-family: Inconsolata, Monaco, monospace;
+            }
+
+            .wrapper .container > button {
+                border: 1px solid #ddd;
+                font-weight: bold;
+                font-size: 1.2em;
+                margin: -1px 0 0 0;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+
+            .wrapper > button input[type="text"] {
+                padding: 6px;
+            }
+
+            .console dd {
+                width: 100%;
+                white-space: nowrap;
+            }
+
+            .console .clear {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <hgroup>
+                <h1><img src="http://a.vimeocdn.com/images/vimeo_logo.png"> Player API Playground</h1>
+            </hgroup>
+            <div class="container">
+                <div>
+                    <h2>Vimeo Player 1</h2>
+                    <iframe id="player_1" src="http://player.vimeo.com/video/7100569?api=1&amp;player_id=player_1" width="540" height="304" frameborder="0" webkitallowfullscreen></iframe>
+
+                    <dl class="simple">
+                        <dt>Simple Buttons <span>(buttons with simple API calls)</span></dt>
+                        <dd><button class="play">Play</button></dd>
+                        <dd><button class="pause">Pause</button></dd>
+                        <dd><button class="unload">Unload</button></dd>
+                    </dl>
+
+                    <dl class="modifiers">
+                        <dt>Modifier Buttons <span>(buttons that modify the player)</span></dt>
+                        <dd><button class="seek">Seek <input type="text" value="30" size="3" maxlength="3" /></button></dd>
+                        <dd><button class="volume">Volume <input type="text" value="0.5" size="3" maxlength="3" /></button></dd>
+                        <dd><button class="loop">Loop <input type="text" value="0" size="3" maxlength="3" /></button></dd>
+                        <dd><button class="color">Color <input type="text" value="00adef" size="5" /></button></dd>
+
+                        <dd><button class="randomColor">Random Color</button></dd>
+                    </dl>
+                    <dl class="getters">
+                        <dt>Getters <span>(buttons that get back a value; logged out in the console)</span></dt>
+                        <dd><button class="time">Current Time</button></dd>
+                        <dd><button class="duration">Duration</button></dd>
+
+                        <dd><button class="color">Color</button></dd>
+                        <dd><button class="url">URL</button></dd>
+                        <dd><button class="embed">Embed Code</button></dd>
+                        <dd><button class="paused">Paused</button></dd>
+                        <dd><button class="getVolume">Volume</button></dd>
+                        <dd><button class="height">Video Height</button></dd>
+
+                        <dd><button class="width">Video Width</button></dd>
+                    </dl>
+                    <dl class="listeners">
+                        <dt>Event Listeners</dt>
+                        <dd><label><input class="loadProgress" type="checkbox" checked />loadProgress</label></dd>
+                        <dd><label><input class="playProgress" type="checkbox" checked />playProgress</label></dd>
+                        <dd><label><input class="play" type="checkbox" checked />play</label></dd>
+
+                        <dd><label><input class="pause" type="checkbox" checked />pause</label></dd>
+                        <dd><label><input class="finish" type="checkbox" checked />finish</label></dd>
+                        <dd><label><input class="seek" type="checkbox" checked />seek</label></dd>
+                    </dl>
+                    <dl class="console">
+                        <dt>Console</dt>
+                        <dd><textarea class="output" readonly="readonly"></textarea><button class="clear">Clear</button></dd>
+
+                    </dl>
+                </div>
+                <button class="addClip" title="Add a new clip.">+ <input type="text" value="3718294" size="8" /></button>
+            </div>
+
+        <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+        <script>
+            (function(){
+
+                // Listen for the ready event for any vimeo video players on the page
+                var vimeoPlayers = document.querySelectorAll('iframe'),
+                    player;
+
+                for (var i = 0, length = vimeoPlayers.length; i < length; i++) {
+                    player = vimeoPlayers[i];
+                    $f(player).addEvent('ready', ready);
+                }
+
+                /**
+                 * Utility function for adding an event. Handles the inconsistencies
+                 * between the W3C method for adding events (addEventListener) and
+                 * IE's (attachEvent).
+                 */
+                function addEvent(element, eventName, callback) {
+                    if (element.addEventListener) {
+                        element.addEventListener(eventName, callback, false);
+                    }
+                    else {
+                        element.attachEvent('on' + eventName, callback);
+                    }
+                }
+
+                /**
+                 * Called once a vimeo player is loaded and ready to receive
+                 * commands. You can add events and make api calls only after this
+                 * function has been called.
+                 */
+                function ready(player_id) {
+                    // Keep a reference to Froogaloop for this player
+                    var container = document.getElementById(player_id).parentNode.parentNode,
+                        froogaloop = $f(player_id),
+                        apiConsole = container.querySelector('.console .output');
+
+                    /**
+                     * Prepends log messages to the example console for you to see.
+                     */
+                    function apiLog(message) {
+                        apiConsole.innerHTML = message + '\n' + apiConsole.innerHTML;
+                    }
+
+
+                    /**
+                     * Adds listeners for the events that are checked. Adding an event
+                     * through Froogaloop requires the event name and the callback method
+                     * that is called once the event fires.
+                     */
+                    function setupEventListeners() {
+                        var checkboxes = container.querySelector('.listeners'),
+                            loadProgressChk = checkboxes.querySelector('.loadProgress'),
+                            playProgressChk = checkboxes.querySelector('.playProgress'),
+                            playChk = checkboxes.querySelector('.play'),
+                            pauseChk = checkboxes.querySelector('.pause'),
+                            finishChk = checkboxes.querySelector('.finish'),
+                            seekChk = checkboxes.querySelector('.seek');
+
+                        function onLoadProgress() {
+                                froogaloop.addEvent('loadProgress', function(data) {
+                                    apiLog('loadProgress event : ' + data.percent + ' : ' + data.bytesLoaded + ' : ' + data.bytesTotal + ' : ' + data.duration);
+                                });
+                        }
+
+                        function onPlayProgress() {
+                                froogaloop.addEvent('playProgress', function(data) {
+                                    apiLog('playProgress event : ' + data.seconds + ' : ' + data.percent + ' : ' + data.duration);
+                                });
+                        }
+
+                        function onPlay() {
+                                froogaloop.addEvent('play', function(data) {
+                                    apiLog('play event');
+                                    alert('playing video');
+                                });
+                        }
+
+                        function onPause() {
+                                froogaloop.addEvent('pause', function(data) {
+                                    apiLog('pause event');
+                                    alert('pausing video');
+                                });
+                        }
+
+                        function onFinish() {
+                                froogaloop.addEvent('finish', function(data) {
+                                    apiLog('finish');
+                                    alert('finished video');
+                                });
+                        }
+
+                        function onSeek() {
+                                froogaloop.addEvent('seek', function(data) {
+                                    apiLog('seek event : ' + data.seconds + ' : ' + data.percent + ' : ' + data.duration);
+                                    alert('seeking video');
+                                });
+                        }
+
+
+                        // Calls the change event if the option is checked
+                        // (this makes sure the checked events get attached on page load as well as on changed)
+                        onLoadProgress();
+                        onPlayProgress();
+                        onPlay();
+                        onPause();
+                        onFinish();
+                        onSeek();
+                    }
+
+                    /**
+                     * Sets up actions for adding a new clip window to the page.
+                     */
+
+                    /**
+                    *setupSimpleButtons();
+                    *setupModifierButtons();
+                    *setupGetterButtons();
+                    *setupEventListeners();
+                    *setupAddClip();
+                    */
+
+                    setupEventListeners();
+
+                    // Setup clear console button
+                    var clearBtn = container.querySelector('.console button');
+                    addEvent(clearBtn, 'click', function(e) {
+                        apiConsole.innerHTML = '';
+                    }, false);
+
+                    apiLog(player_id + ' ready!');
+                }
+            })();
+        </script>
+    </body>
+
+</html>

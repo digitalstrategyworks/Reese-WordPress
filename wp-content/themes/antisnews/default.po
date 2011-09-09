@@ -1,0 +1,1311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Antisnews Version 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-30 07:58-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Antisocial Media <asmediallc@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:25
+msgid "The page you were trying to reach could not be found."
+msgstr ""
+
+#: 404.php:27
+#: search.php:84
+msgid "Maybe you might be interested in one of the topics below"
+msgstr ""
+
+#: 404.php:39
+#: search.php:96
+msgid "Or you might prefer to browse by photo?"
+msgstr ""
+
+#: 404.php:49
+#: archive-excerpt.php:14
+#: search.php:38
+#: search.php:105
+msgid "Permanent Link to"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:11
+msgid "Page Body CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:12
+msgid "Date Search Row CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:13
+msgid "Site title/Tagline Row CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:14
+msgid "Tagline CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:15
+msgid "Horizontal Navigation Menu CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:16
+msgid "Leaderboard Ad Row CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:17
+msgid "Footer CSS Settings"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:18
+msgid "Select Option"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:20
+msgid "Load Color Picker"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:31
+msgid "Page Background Color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:32
+msgid "The background color for your website pages.  Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:33
+msgid "Page Background Image"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:34
+msgid "Full location of background image if using an image as background for your website pages.  Include http://."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:35
+#: antisnews_css_styling_tool.php:88
+#: antisnews_css_styling_tool.php:131
+msgid "Background Image Repeat Status"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:36
+msgid "If using image as background for your pages select image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:37
+msgid "Background Image top/bottom align"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:38
+msgid "If using image as background for your pages select the top/bottom alignment if needed."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:39
+msgid "Background Image left/right/center align"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:40
+msgid "If using image as background for your pages select the left/right/center alignment if needed."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:41
+msgid "Background Attachment"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:42
+msgid "If using image as background for your pages select the background attachment setting if needed."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:43
+msgid "Main font color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:44
+msgid "The font color for your website pages.  Must be visible on page background color. Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:45
+msgid "Main font size."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:46
+msgid "The font size for your website pages.  Include numerical value and font type. Example 10px, 10pt, 1.1em, 75%. "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:47
+msgid "First Font Style."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:48
+msgid "The font you want to use as your main font. Example: Arial "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:49
+msgid "Second Font Style."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:50
+msgid "The font you want to use as your first backup in case user does not have main font installed. Example: Tahoma "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:51
+msgid "Third Font Style."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:52
+msgid "The font you want to use as your second backup in case user does not have main or first backup font installed. Example: Verdana "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:53
+msgid "Fourth Font Style."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:54
+msgid "The font you want to use as your third backup in case user does not have main, first or second backup font installed. Example: Georgia "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:55
+msgid "Main link color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:56
+msgid "The font you want to use for all standard links that do not have their own class definitions. Hex value only. Example #0000ff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:57
+msgid "Main link hover color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:58
+msgid "The font you want to use for all standard links when mouse hovers over link. Hex value only. Example #0000ff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:59
+msgid "Main link visited color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:60
+msgid "The font you want to use for all standard links that have already been visited. Hex value only. Example #0000ff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:61
+msgid "Link text decoration."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:62
+msgid "Select underline to use underlined links or none to remove underline from links "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:65
+msgid "Date/Search row background color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:66
+msgid "This is the section with the date and search box. Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:67
+msgid "Date/Search row background image"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:68
+msgid "Full location of background image if using an image as background for the Date/Search row.  Include http://."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:69
+msgid "Date/Search row background Image Repeat Status"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:70
+msgid "If using image as background for Date/Search row select image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:71
+#: antisnews_css_styling_tool.php:182
+msgid "Row height/Background Image Height"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:72
+msgid "Height for Date/Search row or Date/Search background image if using image for the Date/Search row. Example 150,200"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:73
+msgid "Date font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:74
+msgid "The color for the date shown in the Date/Search row. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:75
+msgid "Date font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:76
+msgid "The font size for the date shown in the Date/Search row. Example 12px, 12pt, .5em, 80%. "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:77
+msgid "Date font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:78
+msgid "The font weight for the date shown in the Date/Search row. Example normal,bold,200%. "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:79
+msgid "Date text transform"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:80
+msgid "Select uppercase, lowercase etc"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:81
+msgid "Date/Search row top margin"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:82
+msgid "If you need to adjust the top margin for the search box enter the new value. Example 10,15,20"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:84
+msgid "Background Color for title/tagline row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:85
+msgid "This is the section containing logo and tagline. Hex value only. Example #000000.For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:86
+msgid "Background Image for title/tagline row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:87
+msgid "If using a background image for the title/tagline row enter full url to image."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:89
+msgid "If using background image for the title/tagline row select image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:90
+msgid "Background Image Height/Row height"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:91
+msgid "Height for background image if using image for the title/tagline row. Example 150,200"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:92
+msgid "Site title top margin"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:93
+msgid "Top margin defaults to 20 pixels. If you want to move the top blog name and tagline row closer to the top of the page enter your preferred top margin. Enter the word [none] to remove the top margin altogether."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:95
+msgid "Title H1 color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:96
+msgid "Font color to use for the site title H1 text. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:97
+msgid "Title H1 hover color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:98
+msgid "Font color to use for the site title H1 text when mouse hovers over H1 header title. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:99
+msgid "Top padding for title/tagline row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:100
+msgid "If you need more space above the site title enter padding value. Example 10,15,20."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:101
+msgid "Title H1 header text transform style"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:102
+#: antisnews_css_styling_tool.php:114
+#: antisnews_css_styling_tool.php:146
+msgid "Select uppercase, lowercase or none"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:103
+msgid "Title H1 header font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:104
+msgid "The font size for your website title.  Include numerical value and font type. Example 20px, 20pt, 1.9em, 150%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:105
+msgid "Turn on/off logo title text shadow."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:106
+msgid "If you want/do not want to use a shadow behind the site title turn on/off depending on preference."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:107
+msgid "Site title text shadow color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:108
+msgid "If using a shadow behind site title set the shadow color. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:111
+msgid "Tagline font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:112
+msgid "Font color to use for site tagline. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:113
+msgid "Tagline text transformation"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:115
+msgid "Tagline font style"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:116
+msgid "Select italic,normal or oblique"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:117
+msgid "Tagline font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:118
+#: antisnews_css_styling_tool.php:150
+msgid "The font weight for nav menu links.  Examples bold,normal,500%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:119
+msgid "Tagline top padding"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:120
+msgid "If you need more space above the tagline enter padding value. Example 10,15,20."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:121
+msgid "Tagline left padding"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:122
+msgid "If you need more space on the left edge of the tagline enter padding value. Example 10,15,20."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:123
+msgid "Tagline font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:124
+msgid "The tagline font size. Include numerical value and font type. Example 10px, 10pt, 1.1em, 75%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:127
+msgid "Background Color for navigation bar"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:128
+msgid "The background color for the naviation bar. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:129
+msgid "Background Image for navigation bar"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:130
+msgid "If using a background image behind navigation bar put full url to image."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:132
+msgid "If using background image behind navigation bar select image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:133
+msgid "Color For horizontal menu links"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:134
+msgid "Font color to use for horizontal menu links. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:135
+msgid "Nav menu in-focus background"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:136
+msgid "The background color for the in-focus menu list item. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:137
+msgid "Nav menu in-focus link color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:138
+msgid "The link color for the in-focus menu list item. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:139
+msgid "Drop-down nav menu in-focus background color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:140
+msgid "The background color for the in-focus drop-down menu list item. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:141
+msgid "Drop-down nav menu in-focus link color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:142
+msgid "The link color for the in-focus drop down menu list item. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:143
+msgid "Drop-down nav menu border color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:144
+msgid "The drop-down menu border color. Hex value only. Example #ffffff."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:145
+msgid "Navigation text transform"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:147
+msgid "Navigation links font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:148
+msgid "The font size for the navigation link text.  Include numerical value and font type. Example 10px, 10pt, .9em, 75%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:149
+msgid "Navigation links font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:151
+msgid "Navigation bar bottom border"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:152
+msgid "Select off or on to hide or display a bottom border under the navigation menu"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:153
+msgid "Navigation bar bottom border style"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:154
+msgid "Select a style for the navigation bar bottom border"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:155
+msgid "Navigation bar bottom border width"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:156
+msgid "Select a width for the navigation bar bottom border"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:157
+msgid "Navigation bar bottom border color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:158
+msgid "Select a color for the navigation bar bottom border"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:159
+msgid "Navigtion row height"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:160
+msgid "Adjust the height setting for the navigation row as needed"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:162
+msgid "Background Color for leaderboard row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:163
+msgid "The background color for the row containing leaderboard ad content.  Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:164
+msgid "Font color for leaderboard row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:165
+msgid "The font color for leaderboard row text.  Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:166
+msgid "Link color for leaderboard row"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:167
+msgid "The link color for leaderboard row links.  Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:170
+msgid "Background Color for footer"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:171
+msgid "The background color for the page footer.  Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:172
+msgid "Font Color for text"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:173
+msgid "The font color for the page footer text.  Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:174
+msgid "Font size for footer text"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:175
+msgid "The font size for the page footer text.  Include numerical value and font type. Example 10px, 10pt, .9em, 75%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:176
+msgid "Font weight for footer text"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:177
+msgid "The font weight for the page footer text.  Examples bold,normal,500%."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:178
+msgid "Footer row background image"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:179
+msgid "Full location of background image if using an image as background for the footer row.  Include http://."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:180
+msgid "Footer row background Image Repeat Status"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:181
+msgid "If using image as background for footer row select image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:183
+msgid "Height for footer row or background image if using image for the footer row. Example 150,200"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:186
+msgid "Breaking News row background color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:187
+msgid "The background color for the breaking news row. Hex value only. Example #000000. Enter none if no background color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:188
+msgid "Breaking News row background image"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:189
+msgid "If using a background image for the breaking news row, enter the full URL to the image."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:190
+msgid "Breaking News row background image height"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:191
+msgid "If using a background image or if you need to force a height value for the featured category #8 content block. Numerical value only. Example 150, 375, 595"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:192
+msgid "Breaking News row background image repeat"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:193
+msgid "If using a background image for the breaking news row select the image repeat status."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:194
+msgid "Breaking News row font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:195
+msgid "The font color for featured category #8. Hex value only. Example #000000"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:196
+msgid "Breaking News row H2 font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:197
+msgid "The color for H2 headings used in the breaking news row. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:198
+msgid "Breaking News row H2 hover font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:199
+msgid "The hover font color for H2 headings used in the breaking news row. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:200
+msgid "Breaking News row H2 font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:201
+msgid "The breaking news H2 font weight. Example normal, bold."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:202
+msgid "Breaking News row H2 font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:203
+msgid "The breaking news H2 font size. Example 15px 14pt."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:204
+msgid "H2 left padding"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:205
+msgid "Enter value if you need padding on the left of the breaking news headline text. Example 5, 10, 20, 100"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:206
+msgid "H2 top padding"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:207
+msgid "Enter value if you need padding above breaking news headline text. Example 5, 10, 20, 100"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:210
+msgid "Post area H1 font color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:211
+msgid "The font color for post area H1 headers. Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:212
+msgid "Post area H2 background color"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:213
+msgid "Hex value only. Example #000000. Enter none if no background color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:214
+msgid "Post area H2 font color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:215
+#: antisnews_css_styling_tool.php:217
+msgid "Hex value only. Example #000000."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:216
+msgid "Post area H2 link hover color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:218
+msgid "Post area H3 font color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:219
+#: antisnews_css_styling_tool.php:221
+msgid "Hex value only. Example #000000. For no background color enter the word [none] without brackets."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:220
+msgid "Post area H3 link hover color."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:222
+msgid "Rounded Corners"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:223
+msgid "If you have a background color set for your H2 background color you can create rounded corners (limited browser compatibility)"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:224
+msgid "Rounded corners border radius"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:225
+msgid "The higher the value the rounder the corners."
+msgstr ""
+
+#: antisnews_css_styling_tool.php:226
+msgid "H1 font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:227
+#: antisnews_css_styling_tool.php:231
+msgid "Example 10px, 10pt, 1.1em, 75%"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:228
+msgid "H1 font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:229
+#: antisnews_css_styling_tool.php:233
+msgid "Examples bold,normal,500%"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:230
+msgid "H2 font size"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:232
+msgid "H2 font weight"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:235
+msgid "Background color even comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:236
+msgid "Background color for even numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:237
+msgid "Font color even comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:238
+msgid "Font color for even numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:239
+msgid "Link color even comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:240
+msgid "Link color for even numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:241
+msgid "Hover color even comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:242
+msgid "Link hover color for even numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:243
+msgid "Background color odd comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:244
+msgid "Background color for odd numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:245
+msgid "Font color odd comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:246
+msgid "Font color for odd numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:247
+msgid "Link color odd comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:248
+msgid "Link color for odd numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:249
+msgid "Hover color odd comments"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:250
+msgid "Link hover color for odd numbered comments in list"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1071
+#: antisnews_css_styling_tool.php:1159
+msgid " Antisnews CSS Styling Tool"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1072
+msgid "Need to reset all your CSS Styling Tool Settings in one click? Clicking the reset all link will reset all the CSS Styling Tool Options to the default settings. If you only want to reset the options for one set click the manage options button and use the reset link on that specific page. "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1073
+msgid "Reset All CSS Styling Tool Options"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1074
+#: functions.php:1582
+msgid "The options have been saved"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1074
+#: functions.php:1582
+msgid "The options have been reset"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1161
+msgid "Settings saved"
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1162
+msgid "Need to clear your settings and start over? All current settings on this page will be lost "
+msgstr ""
+
+#: antisnews_css_styling_tool.php:1280
+msgid "Update Options"
+msgstr ""
+
+#: archive-excerpt.php:7
+#: archive-full.php:7
+#: index-nonmag.php:18
+#: search.php:32
+msgid "Author"
+msgstr ""
+
+#: archive-excerpt.php:7
+#: archive-full.php:7
+#: search.php:32
+msgid "Published"
+msgstr ""
+
+#: archive-excerpt.php:41
+#: search.php:58
+msgid "Read More"
+msgstr ""
+
+#: archive-full.php:10
+#: index-nonmag.php:24
+msgid "Category"
+msgstr ""
+
+#: archive.php:15
+msgid "Archives"
+msgstr ""
+
+#: archive.php:30
+msgid "Posts Tagged"
+msgstr ""
+
+#: archive.php:32
+#: archive.php:34
+#: archive.php:36
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:38
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:40
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:65
+msgid "Not Found"
+msgstr ""
+
+#: comments.php:20
+msgid "Reader Feedback"
+msgstr ""
+
+#: comments.php:21
+msgid "No Responses "
+msgstr ""
+
+#: comments.php:21
+msgid "One Response "
+msgstr ""
+
+#: comments.php:21
+msgid " Responses"
+msgstr ""
+
+#: comments.php:21
+msgid "to"
+msgstr ""
+
+#: comments.php:40
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:50
+msgid "Leave a Reply "
+msgstr ""
+
+#: comments.php:50
+msgid "Leave a Reply to "
+msgstr ""
+
+#: comments.php:53
+msgid "You must be"
+msgstr ""
+
+#: comments.php:53
+msgid "logged in"
+msgstr ""
+
+#: comments.php:53
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:60
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:60
+msgid "Log out"
+msgstr ""
+
+#: comments.php:65
+msgid "Name"
+msgstr ""
+
+#: comments.php:65
+#: comments.php:68
+msgid "required"
+msgstr ""
+
+#: comments.php:68
+msgid "Mail"
+msgstr ""
+
+#: comments.php:68
+msgid "will not be published"
+msgstr ""
+
+#: comments.php:71
+msgid "Website"
+msgstr ""
+
+#: comments.php:78
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:20
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:20
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:21
+msgid "designed by"
+msgstr ""
+
+#: functions.php:55
+msgid "Page Meta Settings"
+msgstr ""
+
+#: functions.php:56
+msgid "Google Analytics Settings"
+msgstr ""
+
+#: functions.php:57
+msgid "Blog Name and Tagline Settings"
+msgstr ""
+
+#: functions.php:58
+msgid "Ads Settings"
+msgstr ""
+
+#: functions.php:59
+msgid "Miscellaneous Sidebar Settings"
+msgstr ""
+
+#: functions.php:60
+msgid "Sticky Post Settings"
+msgstr ""
+
+#: functions.php:61
+msgid "Horizontal Navigation Menu Settings"
+msgstr ""
+
+#: functions.php:62
+msgid "Featured Category 1 Slider Settings"
+msgstr ""
+
+#: functions.php:63
+msgid "Featured Category 2 Options"
+msgstr ""
+
+#: functions.php:64
+msgid "Custom Latest Posts and Recent Comments Settings"
+msgstr ""
+
+#: functions.php:65
+msgid "Featured Category 3 Options"
+msgstr ""
+
+#: functions.php:66
+msgid "Featured Category 4 Options"
+msgstr ""
+
+#: functions.php:67
+msgid "Featured Category 5 Options"
+msgstr ""
+
+#: functions.php:68
+msgid "Featured Category 6 Options"
+msgstr ""
+
+#: functions.php:69
+msgid "Featured Category 7 Options"
+msgstr ""
+
+#: functions.php:70
+msgid "Standard Thumbnail Settings"
+msgstr ""
+
+#: functions.php:71
+msgid "Comment Form Settings"
+msgstr ""
+
+#: functions.php:72
+msgid "Standard Configuration Options"
+msgstr ""
+
+#: functions.php:1579
+msgid " Antisnews Theme Options"
+msgstr ""
+
+#: functions.php:1580
+msgid "Need to reset all your standard options in one click? Clicking the reset all link will reset all standard options to the default settings. If you only want to reset the options for one set click the manage options button and use the reset link on that specific page. "
+msgstr ""
+
+#: functions.php:1581
+msgid "Reset All Standard Options"
+msgstr ""
+
+#: functions.php:1904
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:1907
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1911
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:1911
+msgid "(Edit)"
+msgstr ""
+
+#: header.php:7
+#: search.php:24
+#, php-format
+msgid "'%s'"
+msgstr ""
+
+#: header.php:69
+msgid "Home"
+msgstr ""
+
+#: header.php:70
+msgid "Add Post"
+msgstr ""
+
+#: header.php:98
+msgid "Clear breaking headline"
+msgstr ""
+
+#: index-live.php:48
+msgid "Categories"
+msgstr ""
+
+#: index-live.php:58
+#: page.php:18
+#: page_no_sidebar.php:17
+msgid "Pages"
+msgstr ""
+
+#: page.php:18
+#: page_no_sidebar.php:17
+msgid "Previous Topic"
+msgstr ""
+
+#: page.php:18
+#: page_no_sidebar.php:17
+msgid "Next Topic"
+msgstr ""
+
+#: page.php:19
+#: page_no_sidebar.php:18
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: page.php:20
+#: page_no_sidebar.php:19
+msgid "Edit this entry."
+msgstr ""
+
+#: search.php:24
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:78
+msgid "No posts found"
+msgstr ""
+
+#: search.php:80
+msgid "You searched for"
+msgstr ""
+
+#: search.php:80
+msgid "Unfortunately there were no posts found that match what you are looking for. Please try a different search."
+msgstr ""
+
+#: searchform.php:1
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:15
+msgid "Interesting Sites"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Insider"
+msgstr ""
+
+#: sidebar.php:33
+msgid "Select Month"
+msgstr ""
+
+#: single.php:22
+msgid "Permanent link to"
+msgstr ""
+
+#: single.php:55
+msgid "Related Tags"
+msgstr ""
+
+#: single.php:88
+msgid "Sorry, but the page you requested cannot be found."
+msgstr ""
+
+#: tutorial-mode.php:92
+msgid "Recent Posts"
+msgstr ""
+
+#: wp-pagenavi.php:52
+msgid "PageNavi"
+msgstr ""
+
+#: wp-pagenavi.php:215
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: wp-pagenavi.php:218
+msgid "&laquo; First"
+msgstr ""
+
+#: wp-pagenavi.php:219
+msgid "Last &raquo;"
+msgstr ""
+
+#: wp-pagenavi.php:220
+msgid "&raquo;"
+msgstr ""
+
+#: wp-pagenavi.php:221
+msgid "&laquo;"
+msgstr ""
+
+#: wp-pagenavi.php:222
+#: wp-pagenavi.php:223
+msgid "..."
+msgstr ""
+
+#: includes/feedservetopnews.php:26
+#, php-format
+msgid "<strong>RSS Error</strong>: %s"
+msgstr ""
+
+#: includes/hottopics.php:30
+msgid "No hot topics found"
+msgstr ""
+
+#: includes/latestcomments.php:14
+msgid "Comments"
+msgstr ""
+
+#: includes/latestcomments.php:15
+msgid "had this to say"
+msgstr ""
+
+#: includes/latestcomments.php:16
+msgid "Read the post"
+msgstr ""
+
+#: includes/morefromcategory.php:13
+msgid "More from this category"
+msgstr ""
+
+#: includes/newthisweek.php:20
+msgid "New This Week"
+msgstr ""
+
+#: includes/postsidebar.php:8
+msgid "Added"
+msgstr ""
+
+#: includes/postsidebar.php:11
+msgid "Edit this post"
+msgstr ""
+
+#: includes/recenttopics.php:14
+msgid "Latest Topics"
+msgstr ""
+
+#: includes/sidebar2.php:32
+msgid "Popular Topics"
+msgstr ""
+
+#: includes/sticky.php:11
+msgid "Sticky"
+msgstr ""
+

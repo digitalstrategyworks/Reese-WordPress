@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Javascript Adder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-02 20:02+0530\n"
+"PO-Revision-Date: 2011-01-02 20:04+0530\n"
+"Last-Translator: Aakash Chakravarthy <aakash.19493@gmail.com>\n"
+"Language-Team: Aakash Chakravarthy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../html-javascript-adder.php:54
+msgid "Used to add HTML, javascripts, Flash embed codes to sidebar"
+msgstr "تضمين يستخدم لإضافة أتش تي أم أل ، جافاسكريبتس ، فلاش لرموز الشريط الجانبي"
+
+#: ../html-javascript-adder.php:56
+msgid "HTML Javascript Adder"
+msgstr "HTML Javascript Adder"
+
+#: ../html-javascript-adder.php:197
+msgid "Title :"
+msgstr "العنوان :"
+
+#: ../html-javascript-adder.php:203
+msgid "Content :"
+msgstr "المحتوى :"
+
+#: ../html-javascript-adder.php:204
+msgid "Link"
+msgstr "رابط"
+
+#: ../html-javascript-adder.php:204
+msgid "Image"
+msgstr "صورة"
+
+#: ../html-javascript-adder.php:204
+msgid "Code"
+msgstr "رمز"
+
+#: ../html-javascript-adder.php:204
+msgid "Preview"
+msgstr "معاينة"
+
+#: ../html-javascript-adder.php:209
+msgid "Settings"
+msgstr "إعدادات"
+
+#: ../html-javascript-adder.php:212
+msgid "Don't display in Posts page"
+msgstr "لا يتم عرض في صفحة المشاركات"
+
+#: ../html-javascript-adder.php:214
+msgid "Don't display in Archive or Tag page"
+msgstr "لا تعرض في الأرشيف أو العلامة الصفحة"
+
+#: ../html-javascript-adder.php:216
+msgid "Don't display in Home page"
+msgstr "لا تعرض في الصفحة الرئيسية"
+
+#: ../html-javascript-adder.php:218
+msgid "Don't display in Pages"
+msgstr "لا تعرض في صفحات"
+
+#: ../html-javascript-adder.php:220
+msgid "Don't display in Search page"
+msgstr "لا يتم عرض في صفحة البحث"
+
+#: ../html-javascript-adder.php:222
+msgid "Automatically add paragraphs"
+msgstr "أضف الفقرات تلقائيا"
+
+#: ../html-javascript-adder.php:228
+msgid "Don't display to admin"
+msgstr "لا تعرض على الادارة"
+
+#: ../html-javascript-adder.php:230
+msgid "Don't show in posts"
+msgstr "لا تظهر في وظائف"
+
+#: ../html-javascript-adder.php:232
+msgid "Post ID's / name / title seperated by comma"
+msgstr "آخر للمعرف / اسم / عنوان مفصولة فاصلة"
+
+#: ../html-javascript-adder.php:240
+#: ../html-javascript-adder.php:282
+msgid "Make Donations"
+msgstr "التبرع"
+
+#: ../html-javascript-adder.php:240
+msgid "Documentation"
+msgstr "توثيق"
+
+#: ../html-javascript-adder.php:240
+msgid "Visit Author site"
+msgstr "زيارة موقع المؤلف"
+
+#: ../html-javascript-adder.php:240
+msgid "Support Forum"
+msgstr "دعم المنتدى"
+
+#: ../html-javascript-adder.php:240
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: ../html-javascript-adder.php:240
+msgid "Promote"
+msgstr "تعزيز"
+
+#: ../html-javascript-adder.php:249
+msgid "Added with HTML Javascript Adder Wordpress plugin"
+msgstr "واضاف مع الأفعى أتش تي أم أل جافا سكريبت وورد البرنامج المساعد"
+
+#: ../html-javascript-adder.php:302
+msgid "Disable HTML Javascript Adder link back"
+msgstr "تعطيل HTML Javascript Adder ربط العودة"
+
+#: ../html-javascript-adder.php:303
+msgid "Save"
+msgstr "التحديث"
+
+#: ../html-javascript-adder.php:322
+msgid "Subscribe to Updates"
+msgstr "اشترك في المستجدات"
+
+#: ../html-javascript-adder.php:322
+msgid "Follow on Twitter"
+msgstr "اتبع على Twitter"
+
+#: ../html-javascript-adder.php:322
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: ../html-javascript-adder.php:327
+msgid "AW Latest Updates"
+msgstr "AW  ʼĀkhr at-Tḩdythāt"
+

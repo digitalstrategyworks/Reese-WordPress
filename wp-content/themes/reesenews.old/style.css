@@ -1,0 +1,814 @@
+/* @override 
+	http://localhost/wp-content/themes/reesenews/style.css
+	http://dev.reesenews.org/wp-content/themes/reesenews/style.css
+	http://reesenews.org/wp-content/themes/reesenews/style.css
+*/
+
+/*
+Theme Name: ReeseNews
+Theme URI: http://reesenews.org/
+Description: An experimental online news theme
+Author: Seth Wright et. al
+Version: 1.0
+Tags: black, blue, white
+*/
+
+body {
+	font-family: "AntennaRE";
+}
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #F7941E;
+	text-decoration: none;
+}
+
+div.blogs h3 {
+	font-size: 38px;
+	font-weight: lighter;
+	font-family: AntennaExtraCond;
+	line-height: 38px;
+	margin-bottom: 20px;
+}
+
+div.blogs h5 {
+	font-family: "Antenna Medium";
+	font-weight: bolder;
+	padding-bottom: 8px;
+	font-size: 24px;
+}
+
+div.blogs h3 span.curly {
+	font-size: 60px;
+	color: #759EC7;
+	position: relative;
+	top: 5px;
+	font-family: "AntennaExtraCond Medium";	
+}
+
+div.blogs img {
+	float: left;
+	margin-right: 10px;
+}
+
+div.blogs div.blog-area {
+	height: 80px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+div.blogs {
+	margin-bottom: 20px;
+}
+
+div.blogs span.blog-title {
+	color: #A44F2B;
+	font-family: AntennaRE;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div.blogs p {
+	font-size: 14px;
+}
+
+div.blogs h3 a {
+	color: inherit;
+	font-family: "Antenna Medium";
+}
+
+div.blogs h3 a:hover {
+	color: #F7941E;
+}
+
+div.blogs div.blog-area a:hover{
+	color: inherit;
+}
+
+div.blogs div.blog-area a:hover li h5 {
+	color: #F7941E;
+}
+
+#toolbar p{
+	font-size: 12px;
+	text-align: center;
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:1px;
+}
+
+#header h1 {
+	font-size: 90px;
+	letter-spacing:-1px;
+}
+
+#mission p {
+	font-style: italic;
+	font-size: 10px;
+	color: #939598;
+	font-family: "AntennaRE";
+}
+
+#mission p img {
+	vertical-align: text-top;
+}
+
+#date{
+	font-family: "Antenna Medium";
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing:0px;
+}
+
+#time{
+	font-family: "Antenna Medium";
+	padding-top: 3px;
+	font-size: 24px;
+}
+
+#search input.search_btn{
+	color:#fff;  
+	background-color:#00649E; 
+	border: 1px solid #000; 
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+	height: 20px;
+}
+
+#search input.search_field{
+	border: 1px solid #B1B3B6;
+	height: 16px;
+}
+
+#headerLogo a:link, #headerLogo a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+#headerLogo a:hover span.black, #headerLogo a:active span.black{
+	color: #F7941E;
+}
+
+#headerResources p, #current_conditions {
+	font-size: 24px;
+	color: #759EC7;
+	font-family: "Antenna Medium";
+}
+
+div.reese {
+	width: 241px;
+	float: left;
+	height: 90px;
+	background-image: url('images/reese-black.png');
+	background-repeat:no-repeat;
+}
+
+#headerLogo:hover > a div.reese {
+	background-image: url('images/reese-orange.png');
+	background-repeat:no-repeat;
+}
+
+div.category-label {
+	width: 241px;
+	float: left;	
+}
+
+
+#reeseNav {
+	position:relative;
+	width: 50px;
+	float:left;
+	top: 5px;
+}
+
+#navOverlay {
+	width: 50px;
+	height: 21px;
+	background-color:#000;
+	position:absolute;
+	opacity:0.1;
+	filter: alpha(opacity=10); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=10)"; /* IE 8 */
+	-khtml-opacity: .10; /* Safari 1.x */
+	-moz-opacity: .10; /* FF lt 1.5, Netscape */ 
+	opacity: .10; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	top:5px;
+	cursor: pointer;
+}
+
+#forecastOverlay {
+	width: 50px;
+	height: 21px;
+	background-color:#000;
+	position:absolute;
+	opacity:0.1;
+	filter: alpha(opacity=10); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=10)"; /* IE 8 */
+	-khtml-opacity: .10; /* Safari 1.x */
+	-moz-opacity: .10; /* FF lt 1.5, Netscape */ 
+	opacity: .10; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	bottom: 10px;
+	left: 7px;
+	cursor: pointer;
+}
+
+#topNavDrawer {
+	position:absolute;
+	z-index: 2147483647;
+}
+
+#drawerTop {
+	height:92px;
+	width:260px;
+	background-image: url('images/drawer-top.png');
+	background-repeat: no-repeat;
+}
+
+#drawerMiddle {
+	width:260px;
+	height:auto;
+	background-image: url('images/drawer-middle.png');
+	background-repeat: repeat-y;
+}
+
+#drawerBottom {
+	width:260px;
+	height: 37px;
+	background-image: url('images/drawer-bottom.png');
+}
+
+#drawerMiddle ul.navLinks {
+	margin: 0px 0px 0px 0px;
+	padding:0px 8px 0px 8px;
+}
+
+#drawerMiddle div {
+	border-top: 1px solid #ccc !important;
+	padding: 10px 15px 10px 15px;
+	list-style:none;
+	font-family: "Antenna Medium";
+	font-size: 16px;
+}
+
+#drawerMiddle ul.navLinks a:hover div  {
+	background-color: #f5f5f5;
+}
+
+span.lower {
+	text-transform: none;
+	font-weight: normal;
+}
+
+span.upper {
+	text-transform: uppercase;
+}
+
+#slider ul#excerpt li.selected:hover a > p.head, #featuredContent a:hover > p.head{
+	color: #F7941E;
+}
+
+#slider ul#excerpt li a, #featuredCaption a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#featured_text li{
+	margin-left:15px;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	font-size: 30px;
+	font-weight:medium;
+	border-bottom: 1px solid #B1B3B6;
+	font-family: "Antenna Medium";
+	letter-spacing:-1px;
+	height: 30px;
+}
+
+#featured_text li a{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+#featured_text li a:hover{
+	color: #F7941E;
+}
+
+#featured_text ul {
+	border-left: 10px solid #759EC7;
+}
+
+#content div.text-stories li h5 {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	color: #759EC7;
+	font-family: "Antenna Medium";
+	font-weight: normal;
+}
+
+div.text-stories li p {
+	font-size: 20px;
+	line-height: 22px;
+	font-family: "Antenna Medium";
+}
+
+#featured_text li.last{
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	border:none;
+}
+
+span.white {
+	color: #fff;
+}
+
+span.black{
+	color: #000;
+}
+
+#forecast div.weather span.black, #forecast div.weather {
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:2px;
+}
+
+span.raq {
+	font-size: 14px;
+}
+
+span.red{
+	color: #A44F2B;
+}
+
+span.blue {
+	color: #759EC7;
+}
+
+span.orange {
+	color: #F7941E;
+}
+
+#mask-excerpt ul#excerpt li {
+	font-family: "Antenna";
+}
+
+#mask-excerpt ul#excerpt p.head, #featuredCaption p.head {
+	font-size: 35px;
+	line-height: 37px;
+	margin-bottom: 10px;
+	font-family: "Antenna Medium";
+}
+
+#mask-excerpt ul#excerpt p.subhead, #featuredCaption p.subhead {
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	font-family: "Antenna Medium";
+}
+
+#rightContent div.storyElement.sources ul.sources li {
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+
+#rightContent div.storyElement.sources ul.sources {
+	padding-left: 16px;
+	margin: 0;
+}
+
+img.alignright {
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+img.alignleft {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.rss_button span, .rss_button a:link, .rss_button a:visited{
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:1px;
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.rss_button a:hover, .rss_button a:active {
+	color: #F7941E;
+}
+
+span.arrows {
+	color: #F7941E;
+	font-family: "Antenna Medium";
+	font-size: 12px;
+	letter-spacing: -2px;
+}
+
+span.featured-more, span.excerpt-more {
+	font-family: "Antenna Black";
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+span.excerpt-more {
+	margin-top: 10px;
+	display: block;
+}
+
+#featuredCaption span.arrows {
+	margin-left:20px;
+	margin-right: 5px;
+}
+
+.topGutter p.head{
+	color: #000;
+	font-family: "Antenna Medium";
+	font-size: 22px !important;
+	line-height:24px;
+	letter-spacing:px;
+}
+
+.topGutter p.subhead{
+	color: #fff;
+	font-family: "Antenna Medium";
+	font-size: 16px !important;
+	line-height: 18px;
+}
+
+.topGutter a:hover p.head {
+	color: #000;
+}
+
+div.showAllButton{
+	font-family: "Antenna Medium";
+	font-size: 12px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+div.showAllButton.orange {
+	color: #F7941E;
+}
+
+.quote p {
+	line-height: 36px;
+	font-family: "AntennaExtraCond Medium";
+	font-size: 24px;
+}
+
+.quote .quote-source-area p.quote-name {
+	font-family: "AntennaRE Bold";
+	font-size: 15px;
+	line-height: 16px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.quote .quote-source-area {
+	margin-top: 10px;
+}
+
+.quote p.source-line {
+	font-size: 13px;
+	line-height: 14px;
+	margin-top: 0px;
+	font-family: "AntennaRE";
+	font-style: italic;
+	letter-spacing:-1px;
+}
+
+a:hover div.cover.boxcaption, a:active div.cover.boxcaption {
+	color: #000;
+}
+
+.captionfull p {
+	font-size: 12px;
+	font-family: "Antenna Medium";
+	line-height:15px;
+}
+
+.navGutter {
+	background-color: #b9cfe1;
+}
+
+.navGutter li {
+	list-style-type: disc;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	font-family: "Antenna Medium";
+}
+
+.navGutter li a:link, .navGutter li a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.navGutter li a:hover, .navGutter li a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+#rightBar {
+	border-left: 1px solid #ccc;
+}
+
+h3.widget-title {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "Antenna Medium";
+	margin-bottom: 10px;
+}
+
+li.widget-container {
+	font-size: 13px;
+}
+
+ul#twitter_update_list li {
+	max-width: 200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#singleContent #rightContent{
+	padding: 10px 0px;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+/* make sure these styles are in em or percent because they are going to be resized using javascript later */
+
+#leftContent p, #pageContent p {
+	font-size: 0.80em;
+	padding: 10px 0px 10px 0px;
+	line-height: 1.45em;
+	font-family: "AntennaRE";
+	letter-spacing:0px;
+}
+
+#byline_info ul li.author a {
+	font-family: "AntennaRE Bold";
+	font-size: 13px;
+}
+
+#singleContent h2.page-head, #pageContent h2, h2.page-head {
+	font-family: "Antenna Medium";
+	font-size: 36px;
+	line-height: 38px;
+	margin: 0px 0px 5px 0px;
+}
+
+#singleContent h3.page-subhead, #pageContent h3.page-subhead {
+	font-family: "Antenna Medium";
+	margin: 0px 0px 10px 0px;
+	color: #759EC7;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 18px;
+}
+
+#author-meta img.avatar {
+	float: left;
+}
+
+#author-posts h2.head {
+	font-size: 1.6em;
+	margin-bottom: 3px;
+}
+
+#author-posts h3.subhead {
+	font-size: 1.2 em;
+	margin-bottom: 5px;
+}
+
+#author-posts li a:link, #author-posts li a:visited {
+	color: #759EC7;
+	text-decoration:none;
+}
+
+#author-posts li a:hover, #author-posts li a:active{
+	color: #F7941E;
+}
+
+#author-posts ul li{
+	margin-bottom: 35px;
+}
+
+#author-posts ul li p {
+	line-height: 1.2em;
+}
+
+#author-meta li{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#byline_info ul li.job-desc {
+	font-family: "AntennaRE Italic";
+	font-style: italic;
+	color: #666;
+}
+
+#entry-content a:link, #entry-content a:visited {
+	color:#759EC7;
+}
+
+#entry-content a:hover, #entry-content a:active {
+	color:#759EC7;
+	text-decoration:underline;
+}
+
+#entry-content h1 {
+	font-family:"Antenna Medium";
+	font-size: 36px;
+	line-height:38px;
+}
+
+#entry-content h2 {
+	font-family:"Antenna Medium";
+	font-size: 30px;
+	line-height: 32px;
+}
+
+#entry-content h3 {
+	font-family:"Antenna Medium";
+	font-size: 24px;
+	line-height: 26px;
+}
+
+#entry-content h4 {
+	font-family:"Antenna Medium";
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#entry-content h5 {
+	font-family:"Antenna Medium";
+	font-size: 15px;
+	line-height: 17px;
+}
+
+#entry-content h6 {
+	font-family:"AntennaRE Bold";
+	font-size: 16px;
+	line-height: 14px;
+	text-transform:uppercase;
+}
+
+#entry-content ul li, #sidebar li.widget-container ul li {
+	list-style-type: disc;
+	font-family: "AntennaRE";
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+	color: #444;
+}
+
+#entry-content ol li {
+	list-style-type: decimal;
+	font-family: "AntennaRE";
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: -1px;
+	color: #444;
+}
+
+div#rateInfo_0_bottom {
+	font-size: 14px;
+}
+
+#idc-commentcount_label {
+	font-family: "Antenna Medium";
+}
+
+#IDCommentsNewThreadCover h3 {
+	font-family: "Antenna Medium";	
+}
+
+#entry-content ul, #entry-content ol, #sidebar li.widget-container ul {
+	margin-left: 20px;
+}
+
+#byline_info li.author {
+	margin-bottom: 0px;
+}
+
+#author-info li {
+	font-size: 12px;
+}
+
+#author-info li.position {
+	font-size: 18px;
+}
+
+#author-info p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#featuredCaption {
+	color: #fff;
+}
+
+#rightContent .storyElement h3 {
+	text-align: left;
+	font-weight: lighter;
+	font-size: 11px;
+	margin-bottom: 8px;
+	color: #759EC7;
+	text-transform: uppercase;
+}
+
+ul.descriptors li {
+	font-size: 12px;
+	text-transform: uppercase;
+	list-style-type: disc;
+	margin-bottom: 4px;
+}
+
+#crumbs a.crumbs-home {
+	color: #000;
+}
+
+#crumbs span.crumbs-delemit {
+	font-size: 14px;
+	font-family: "Antenna Medium";
+	color: #A44F2B;
+}
+
+#crumbs a {
+	color: #000;
+}
+
+ul.descriptors {
+	margin-bottom: 10px;
+	margin-left: 16px;
+}
+
+#rightContent div.storyElement p, #rightContent div.storyElement li, #rightContent div.storyElement ul, #rightContent div.storyElement a {
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.2em;
+}
+
+div.storyDescription p {
+	font-family: "AntennaRE";
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#featuredCaption span.arrows, #featuredCaption span.more, span.category-more {
+	font-family: "Antenna Black";
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+#featuredCaption a span.head {
+	font-size: 30px;
+	font-family: "Antenna Medium";
+	line-height: 32px;
+}
+
+#featuredCaption a:hover span.head {
+	color: #F7941E;
+}
+
+#featuredCaption a span.subhead {
+	line-height: 20px;
+}
+
+#forecast div.weather span.red {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Antenna Black";
+	letter-spacing:1px;
+}
+
+#video-1 {
+	height: 400px;
+	width: 600px;
+}
+
+.hide {
+	display:none;
+}
+

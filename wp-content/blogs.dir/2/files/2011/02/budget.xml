@@ -1,0 +1,819 @@
+<budgetInfo>
+
+<!--num year="" is the year after 2000. i.e. 1 is 2001. The year 2001 represents the 2001-2002 school year. the 2011-2012 school year will be added as 
+<num year="12">
+</num>
+-->
+
+<stat name="Number of faculty" abr="numFac" multiplier=".01" equalizer="100" unit="Faculty" percent="no" money="no">
+<num year="1">
+2920
+</num>
+<num year="2">
+3008
+</num>
+<num year="3">
+3057
+</num>
+<num year="4">
+3174
+</num>
+<num year="5">
+3208
+</num>
+<num year="6">
+3222
+</num>
+<num year="7">
+3295
+</num>
+<num year="8">
+3450
+</num>
+<num year="9">
+3506
+</num>
+<num year="10">
+3518
+</num>
+</stat>
+
+<stat name="Average professor salary" abr="facSal" multiplier=".01" equalizer="100" unit="Average Salary" percent="no" money="yes">
+<num year="1">
+103400
+</num>
+<num year="2">
+105200
+</num>
+<num year="3">
+106300
+</num>
+<num year="4">
+112700
+</num>
+<num year="5">
+115300
+</num>
+<num year="6">
+126800
+</num>
+<num year="7">
+138500
+</num>
+<num year="8">
+142700
+</num>
+<num year="9">
+143000
+</num>
+</stat>
+
+<stat name="Number of students" abr="numStu" multiplier=".01" equalizer="100" unit="Students" percent="no" money="no">
+<num year="1">
+25264
+</num>
+<num year="2">
+26028
+</num>
+<num year="3">
+26359
+</num>
+<num year="4">
+26878
+</num>
+<num year="5">
+27276
+</num>
+<num year="6">
+27727
+</num>
+<num year="7">
+28136
+</num>
+<num year="8">
+28567
+</num>
+<num year="9">
+28916
+</num>
+</stat>
+
+<stat name="In-state tuition and fees" abr="inTui" multiplier=".01" equalizer="100" unit="Tuition and Fees" percent="no" money="yes">
+<num year="1">
+3277
+</num>
+<num year="2">
+3856
+</num>
+<num year="3">
+4072
+</num>
+<num year="4">
+4451
+</num>
+<num year="5">
+4613
+</num>
+<num year="6">
+4613
+</num>
+<num year="7">
+5340
+</num>
+<num year="8">
+5397
+</num>
+<num year="9">
+5625
+</num>
+<num year="10">
+6665
+</num>
+</stat>
+
+<stat name="Out-of-state tuition and fees" abr="outTui" multiplier=".01" equalizer="100" unit="Tuition and Fees" percent="no" money="yes">
+<num year="1">
+13269
+</num>
+<num year="2">
+15140
+</num>
+<num year="3">
+15920
+</num>
+<num year="4">
+17549
+</num>
+<num year="5">
+18411
+</num>
+<num year="6">
+18411
+</num>
+<num year="7">
+20988
+</num>
+<num year="8">
+22295
+</num>
+<num year="9">
+23513
+</num>
+<num year="10">
+25280
+</num>
+</stat>
+
+<stat name="Tuition and fees revenue" abr="TFRev" multiplier=".0000001" equalizer="10" unit="Revenue/Million Dollars" percent="no" money="yes">
+<num year="1">
+139319000
+</num>
+<num year="2">
+124661145
+</num>
+<num year="3">
+146961417
+</num>
+<num year="4">
+153943215
+</num>
+<num year="5">
+164456925
+</num>
+<num year="6">
+195882460
+</num>
+<num year="7">
+210651518
+</num>
+<num year="8">
+218763485
+</num>
+<num year="9">
+236960221
+</num>
+<num year="10">
+249082638
+</num>
+</stat>
+
+<!--<stat name="Average Classroom Size" abr="crSize" multiplier="" equalizer="" unit="" percent="" money="">
+<num year="1">
+</num>
+<num year="2">
+</num>
+<num year="3">
+</num>
+<num year="4">
+</num>
+<num year="5">
+</num>
+<num year="6">
+</num>
+<num year="7">
+</num>
+<num year="8">
+</num>
+<num year="9">
+</num>
+<num year="10">
+</num>
+</stat>
+
+<stat name="Number of Courses Offered" abr="couOff" multiplier="" equalizer="" unit="" percent="" money="">
+<num year="1">
+</num>
+<num year="2">
+</num>
+<num year="3">
+</num>
+<num year="4">
+</num>
+<num year="5">
+</num>
+<num year="6">
+</num>
+<num year="7">
+</num>
+<num year="8">
+</num>
+<num year="9">
+</num>
+<num year="10">
+</num>
+</stat>-->
+
+<stat name="Number of first year applications recieved" abr="appFY" multiplier=".01" equalizer="100" unit="Applicants" percent="no" money="no">
+<num year="1">
+15946
+</num>
+<num year="2">
+17141
+</num>
+<num year="3">
+17591
+</num>
+<num year="4">
+18850
+</num>
+<num year="5">
+18414
+</num>
+<num year="6">
+19728
+</num>
+<num year="7">
+20090
+</num>
+<num year="8">
+21543
+</num>
+<num year="9">
+23224
+</num>
+</stat>
+
+<!--<stat name="Number of first year applicants accepted" abr="accFY" multiplier=".01" equalizer="100" unit="Applicants Accepted" percent="no" money="no">
+<num year="1">
+6339
+</num>
+<num year="2">
+6073
+</num>
+<num year="3">
+6441
+</num>
+<num year="4">
+6741
+</num>
+<num year="5">
+6736
+</num>
+<num year="6">
+6737
+</num>
+<num year="7">
+6999
+</num>
+<num year="8">
+7316
+</num>
+<num year="9">
+7346
+</num>
+</stat>-->
+
+<stat name="Number of first year applications enrolled" abr="enrFY" multiplier=".01" equalizer="100" unit="First Year Students" percent="no" money="no">
+<num year="1">
+3687
+</num>
+<num year="2">
+3480
+</num>
+<num year="3">
+3516
+</num>
+<num year="4">
+3589
+</num>
+<num year="5">
+3751
+</num>
+<num year="6">
+3807
+</num>
+<num year="7">
+3893
+</num>
+<num year="8">
+3865
+</num>
+<num year="9">
+3960
+</num>
+</stat>
+
+<stat name="Number of financial aid recipients" abr="FARec" multiplier=".01" equalizer="100" unit="Aid Recipients" percent="no" money="no">
+<num year="1">
+12687
+</num>
+<num year="2">
+13552
+</num>
+<num year="3">
+14396
+</num>
+<num year="4">
+14872
+</num>
+<num year="5">
+15120
+</num>
+<num year="6">
+15327
+</num>
+<num year="7">
+15517
+</num>
+<num year="8">
+15871
+</num>
+<num year="9">
+16751
+</num>
+</stat>
+
+<stat name="Average financial aid award" abr="FARew" multiplier=".01" equalizer="100" unit="Average Award" percent="no" money="yes">
+<num year="1">
+10633
+</num>
+<num year="2">
+12081
+</num>
+<num year="3">
+13117
+</num>
+<num year="4">
+13508
+</num>
+<num year="5">
+13942
+</num>
+<num year="6">
+14287
+</num>
+<num year="7">
+14513
+</num>
+<num year="8">
+14693
+</num>
+<num year="9">
+15357 
+</num>
+</stat>
+
+<stat name="Number of financial aid applicants" abr="FAApp" multiplier=".01" equalizer="100" unit="Applicants" percent="no" money="no">
+<num year="1">
+21552
+</num>
+<num year="2">
+24226
+</num>
+<num year="3">
+25600
+</num>
+<num year="4">
+26265
+</num>
+<num year="5">
+27383
+</num>
+<num year="6">
+27016
+</num>
+<num year="7">
+25947
+</num>
+<num year="8">
+28125
+</num>
+<num year="9">
+32870
+</num>
+</stat>
+
+<stat name="University endowment" abr="end" multiplier=".00000001" equalizer=".1" unit="Endowment/Billion Dollars" percent="no" money="yes">
+<num year="1">
+785935000
+</num>
+<num year="2">
+747012209
+</num>
+<num year="3">
+741043194
+</num>
+<num year="4">
+836435458
+</num>
+<num year="5">
+973920197
+</num>
+<num year="6">
+1149222715
+</num>
+<num year="7">
+1394207443
+</num>
+<num year="8">
+1492247204
+</num>
+<num year="9">
+1903574557
+</num>
+</stat>
+
+<stat name="Spendable endowment" abr="EED" multiplier=".0000001" equalizer="10" unit="Revenue/Million Dollars" percent="no" money="yes">
+<num year="1">
+37172515
+</num>
+<num year="2">
+37892502
+</num>
+<num year="3">
+39899834
+</num>
+<num year="4">
+39890865
+</num>
+<num year="5">
+43201682
+</num>
+<num year="6">
+48053848
+</num>
+<num year="7">
+52631679
+</num>
+<num year="8">
+56927036
+</num>
+<num year="9">
+62371250
+</num>
+<num year="10">
+60032032
+</num>
+</stat>
+
+<stat name="Total expenditures" abr="totExp" multiplier=".00000001" equalizer=".1" unit="Expenditures/Billion Dollars" percent="no" money="yes">
+<num year="1">
+1367794000
+</num>
+<num year="2">
+1477012999
+</num>
+<num year="3">
+1543716589
+</num>
+<num year="4">
+1603385712
+</num>
+<num year="5">
+1681900696
+</num>
+<num year="6">
+1802432000
+</num>
+<num year="7">
+1948282000
+</num>
+<num year="8">
+2089290000
+</num>
+<num year="9">
+2224326000
+</num>
+<num year="10">
+2277091000
+</num>
+</stat>
+
+<stat name="Total revenue" abr="totRev" multiplier=".00000001" equalizer=".1" unit="Revenue/Billion Dollars" percent="no" money="yes">
+<num year="1">
+1102936000
+</num>
+<num year="2">
+1487434908
+</num>
+<num year="3">
+1520872424
+</num>
+<num year="4">
+1740123779
+</num>
+<num year="5">
+1863185319
+</num>
+<num year="6">
+2025216000
+</num>
+<num year="7">
+2252317000
+</num>
+<num year="8">
+2311071000
+</num>
+<num year="9">
+2211415000
+</num>
+<num year="10">
+2436757000
+</num>
+</stat>
+
+<stat name="Percent state appropriations contribute to revenue" abr="appPer" multiplier="1" equalizer="1" unit="State Appropriations" percent="yes" money="no">
+<num year="1">
+36
+</num>
+<num year="2">
+25
+</num>
+<num year="3">
+25
+</num>
+<num year="4">
+22
+</num>
+<num year="5">
+22
+</num>
+<num year="6">
+22
+</num>
+<num year="7">
+22
+</num>
+<num year="8">
+24
+</num>
+<num year="9">
+24
+</num>
+<num year="10">
+22
+</num>
+</stat>
+
+<stat name="State appropriations" abr="staApp" multiplier=".0000001" equalizer="10" unit="State Appropriations/Million Dollars" percent="no" money="yes">
+<num year="1">
+402205000
+</num>
+<num year="2">
+368504553
+</num>
+<num year="3">
+368024036
+</num>
+<num year="4">
+380446327
+</num>
+<num year="5">
+406672962
+</num>
+<num year="6">
+440070000
+</num>
+<num year="7">
+492471000
+</num>
+<num year="8">
+543292000
+</num>
+<num year="9">
+538327000
+</num>
+<num year="10">
+541753000
+</num>
+</stat>
+
+<stat name="In-state UNC student's family income that goes to tuition" abr="staPer" multiplier="10" equalizer=".1" unit="Percent of Median Income to Tuition and Fees" percent="yes" money="no">
+<num year="1">
+4
+</num>
+<num year="2">
+4.4
+</num>
+<num year="3">
+4.5
+</num>
+<num year="4">
+4.8
+</num>
+<num year="5">
+4.9
+</num>
+<num year="6">
+5.2
+</num>
+<num year="7">
+5.3
+</num>
+<num year="8">
+5.3
+</num>
+<num year="9">
+5.5
+</num>
+<num year="10">
+6.4
+</num>
+</stat>
+
+<stat name="Average in-state UNC student's family income" abr="staInc" multiplier=".01" equalizer="100" unit="Median Income" percent="no" money="yes">
+<num year="1">
+81125
+</num>
+<num year="2">
+88177
+</num>
+<num year="3">
+90571
+</num>
+<num year="4">
+93600
+</num>
+<num year="5">
+94476
+</num>
+<num year="6">
+96241
+</num>
+<num year="7">
+100988
+</num>
+<num year="8">
+102558
+</num>
+<num year="9">
+101972
+</num>
+<num year="10">
+104113
+</num>
+</stat>
+
+<!--<stat name="Average NC family income that would go to tuition" abr="ncPer" multiplier="10" equalizer=".1" unit="Percent of Median Income to Tuition and Fees" percent="yes" money="no">
+<num year="1">
+5.8
+</num>
+<num year="2">
+6.6
+</num>
+<num year="3">
+7.2
+</num>
+<num year="4">
+7.4
+</num>
+<num year="5">
+7.8
+</num>
+<num year="6">
+8.3
+</num>
+<num year="7">
+8.4
+</num>
+<num year="8">
+8.5
+</num>
+<num year="9">
+8.6
+</num>
+<num year="10">
+10.1
+</num>
+</stat>-->
+
+<stat name="Average out-of-state UNC student's family income" abr="outInc" multiplier=".01" equalizer="100" unit="Median Income" percent="no" money="yes">
+<num year="1">
+121292
+</num>
+<num year="2">
+132455
+</num>
+<num year="3">
+125999
+</num>
+<num year="4">
+138551
+</num>
+<num year="5">
+133095
+</num>
+<num year="6">
+129201
+</num>
+<num year="7">
+142187
+</num>
+<num year="8">
+147629
+</num>
+<num year="9">
+142171
+</num>
+<num year="10">
+145156
+</num>
+</stat>
+
+<stat name="North Carolina median family income" abr="ncInc" multiplier=".01" equalizer="100" unit="Median Income" percent="no" money="yes">
+<num year="1">
+56500
+</num>
+<num year="2">
+58227
+</num>
+<num year="3">
+56712
+</num>
+<num year="4">
+60303
+</num>
+<num year="5">
+59481
+</num>
+<num year="6">
+60968
+</num>
+<num year="7">
+63468
+</num>
+<num year="8">
+63531
+</num>
+<num year="9">
+65247
+</num>
+<num year="10">
+65834
+</num>
+</stat>
+
+<stat name="Out-of-state UNC student's family income that goes to tuition" abr="outPer" multiplier="1" equalizer="1" unit="Percent of Median Income to Tuition and Fees" percent="yes" money="no">
+<num year="1">
+10.9
+</num>
+<num year="2">
+11.4
+</num>
+<num year="3">
+12.6
+</num>
+<num year="4">
+12.7
+</num>
+<num year="5">
+13.8
+</num>
+<num year="6">
+15.2
+</num>
+<num year="7">
+14.8
+</num>
+<num year="8">
+15.1
+</num>
+<num year="9">
+16.5
+</num>
+<num year="10">
+17.4
+</num>
+</stat>
+
+</budgetInfo>

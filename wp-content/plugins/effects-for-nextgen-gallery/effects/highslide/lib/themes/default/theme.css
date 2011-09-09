@@ -1,0 +1,56 @@
+a.highslide-full-expand {
+	background: url(graphics/fullexpand.gif) no-repeat;
+}
+.highslide-loading {
+	background-image: url(graphics/loader.white.gif);
+}
+.closebutton {
+	background: url(graphics/close.png);
+}
+.highslide-controls {
+	background: url(graphics/controlbar-white.gif) 0 -90px no-repeat;
+}
+.highslide-controls ul {
+	background: url(graphics/controlbar-white.gif) right -90px no-repeat;
+}
+.highslide-controls a {
+	background-image: url(graphics/controlbar-white.gif);
+}
+.highslide-footer .highslide-resize {
+	background: url(graphics/resize.gif) no-repeat;
+}
+.draggable-header .highslide-header .highslide-close a {
+	background-image: url(graphics/closeX.png);
+}
+.dark .highslide-controls,
+.dark .highslide-controls ul,
+.dark .highslide-controls a {
+	background-image: url(graphics/controlbar-black-border.gif);
+}
+.controls-in-heading .highslide-heading {
+	background: url(graphics/icon.gif) no-repeat 0 1px;
+}
+.controls-in-heading .highslide-controls a {
+	background-image: url(graphics/controlbar-white-small.gif);
+}
+.text-controls li {
+    background-image: url(graphics/controlbar-text-buttons.png);
+}
+.text-controls a {
+    background: url(graphics/controlbar-text-buttons.png) no-repeat;
+}
+.text-controls a span {
+	background: url(graphics/controlbar-text-buttons.png) no-repeat;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-up div {
+	background: url(graphics/scrollarrows.png) left center no-repeat;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down div {
+	background: url(graphics/scrollarrows.png) center right no-repeat;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-up div {
+	background: url(graphics/scrollarrows.png) top center no-repeat;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-down div {
+	background: url(graphics/scrollarrows.png) bottom center no-repeat;
+}

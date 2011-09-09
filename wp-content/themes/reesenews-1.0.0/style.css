@@ -1,0 +1,945 @@
+/*
+Theme Name: ReeseNews
+Theme URI: http://reesenews.org/
+Description: An experimental online news theme
+Author: Seth Wright et. al
+Version: 1.0
+Tags: black, blue, white
+*/
+
+/* SLIDER CONTAINER */
+div.orbit { width: 1px; height: 1px; position: relative; -moz-box-shadow: 0 0 10px rgba(0,0,0,.25); -webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);  overflow: hidden; margin-left: 10px; margin-bottom: 20px; }
+div.orbit img { position: absolute; top: 0; left: 0; }
+div.orbit a img { border: none; }
+
+/* TIMER */
+div.timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right:10px; opacity: .6; cursor: pointer; z-index: 1001; }
+span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('images/orbit/rotator-black.png') no-repeat; z-index: 3; }
+span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+span.rotator.move { left: 0; }
+span.mask.move { width: 40px; left: 0; background: url('images/orbit/timer-black.png') repeat 0px 0px;  }
+span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0px; background: url('images/orbit/pause-black.png') no-repeat; z-index: 4; opacity: 0; }
+div.timer:hover span.pause,
+span.pause.active, 
+div.timer:hover span.pause.active { opacity: 1; }
+
+/* CAPTIONS */
+#featured-noslide span.orbit-caption, div.caption { background: #000; background: rgba(0,0,0,.6); width: 100%; z-index: 1000; position: absolute; left: 15px; top:30px; color: #fff; padding: 15px; width: 260px; height: 240px;
+}
+
+span.orbit-caption span.arrows, div.caption span.arrows { padding: 0px 10px 0px 0px; margin: 0; }
+.orbit-caption { display: none; }
+
+/* DIRECTIONAL NAV */
+div.orbit:hover div.slider-nav { display: block; }
+div.slider-nav { display: none; }
+div.slider-nav span { width: 33px; height: 33px; text-indent: -9999px; position: absolute; z-index: 1000; top: 43%; cursor: pointer; }
+div.slider-nav span.right { background: url('images/orbit/right-arrow.png'); right: 10px; }
+div.slider-nav span.left { background: url('images/orbit/left-arrow.png'); left: 10px; }   
+
+/* BULLET NAV */
+.orbit-bullets { position: absolute; z-index: 1000; list-style: none; bottom: 10px; left: 25px; margin: 0; padding: 0; }
+.orbit-bullets li {float: left; margin-left: 5px; cursor: pointer; color: #999; text-indent: -9999px; background: url('images/orbit/bullets.png') no-repeat 0 0; width: 12px; height: 12px; overflow: hidden; }
+.orbit-bullets li.active { color: #222; background-position: -12px 0; }
+
+/* REESE SPECIFIC */
+#featured-noslide {
+	width: 940px;
+	height: 293px;
+	overflow: hidden;
+	margin-left: 10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.25); 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#featured-noslide .orbit-caption {
+	display: block;
+}
+
+.orbit-caption p.head, div.caption p.head {
+	font-size: 35px;
+	line-height: 37px;
+	margin-bottom: 10px;
+	font-family: "Antenna Medium";
+	color:#fff;
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.orbit-caption p.subhead, div.caption p.subhead {
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	font-family: Verdana, "Antenna Medium", sans-serif;
+	color:#fff;
+}
+
+#slider-blue {
+	position: absolute;
+	height: 70px;
+	width: 15px;
+	background-color: #759EC7;
+	z-index: 2000;
+	top: 30px;
+}
+
+.orbit-caption a:hover p.head, .orbit-caption a:active p.head {
+	color: #F7941E;
+}
+
+.orbit-caption a:link, .orbit-caption a:visited {
+	text-decoration:none;
+}
+
+#featured .photo-credit {
+	font-family: "AntennaRE";
+	font-weight: normal;
+	font-size: 7px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+	z-index: -1;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	background: #000;
+	background: rgba(0,0,0,.3);
+	padding: 5px;
+}
+
+#featured .photo-credit.active {
+	z-index: 5;
+}
+
+p.pp_description {
+	font-size: 12px;
+}
+
+#rightContent div.storyElement h3 img {
+	padding-right: 2px;
+	vertical-align: text-bottom;
+}
+
+body {
+	font-family: verdana, "AntennaRE", sans-serif;
+}
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #F7941E;
+	text-decoration: none;
+}
+
+#IE7nav
+{
+	display:none;
+}
+
+#beta {
+	width: 60px;
+	position: absolute;
+	top: 83px;
+	left: 80px;
+	font-size: 16px;
+	color: #939598;
+	font-family: "AntennaRE";
+}
+
+div.blogs h3 {
+	font-size: 38px;
+	font-weight: lighter;
+	font-family: AntennaExtraCond;
+	line-height: 38px;
+	margin-bottom: 20px;
+}
+
+div.blogs h5 {
+	font-family: "Antenna Medium";
+	font-weight: bolder;
+	padding-bottom: 8px;
+	font-size: 24px;
+}
+
+div.blogs h3 span.curly {
+	font-size: 60px;
+	color: #759EC7;
+	position: relative;
+	top: 5px;
+	font-family: "AntennaExtraCond Medium";	
+}
+
+div.blogs img {
+	float: left;
+	margin-right: 10px;
+}
+
+div.blogs div.blog-area {
+	height: 80px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+div.blogs {
+	margin-bottom: 20px;
+}
+
+div.blogs span.blog-title {
+	color: #A44F2B;
+	font-family: AntennaRE;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div.blogs p {
+	font-size: 14px;
+}
+
+div.blogs h3 a {
+	color: inherit;
+	font-family: "Antenna Medium";
+}
+
+div.blogs h3 a:hover {
+	color: #F7941E;
+}
+
+div.blogs div.blog-area a:hover{
+	color: inherit;
+}
+
+div.blogs div.blog-area a:hover li h5 {
+	color: #F7941E;
+}
+
+#toolbar p{
+	font-size: 12px;
+	text-align: center;
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:1px;
+}
+
+#header h1 {
+	font-size: 90px;
+	letter-spacing:-1px;
+}
+
+#mission p {
+	font-style: italic;
+	font-size: 10px;
+	color: #939598;
+	font-family: "AntennaRE";
+}
+
+#mission p img {
+	vertical-align: text-top;
+}
+
+#date{
+	font-family: "Antenna Medium";
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing:0px;
+}
+
+#time{
+	font-family: "Antenna Medium";
+	padding-top: 3px;
+	font-size: 24px;
+}
+
+#search input.search_btn{
+	color:#fff;  
+	background-color:#00649E; 
+	border: 1px solid #000; 
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+	height: 20px;
+}
+
+#search input.search_field{
+	border: 1px solid #B1B3B6;
+	height: 16px;
+}
+
+#headerLogo a:link, #headerLogo a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+#headerLogo a:hover span.black, #headerLogo a:active span.black{
+	color: #F7941E;
+}
+
+#headerResources p, #current_conditions {
+	font-size: 24px;
+	color: #759EC7;
+	font-family: "Antenna Medium";
+	cursor: pointer;
+}
+
+div.reese {
+	width: 241px;
+	float: left;
+	height: 90px;
+	background-image: url('images/reese-black.png');
+	background-repeat:no-repeat;
+}
+
+#headerLogo:hover > a div.reese {
+	background-image: url('images/reese-orange.png');
+	background-repeat:no-repeat;
+}
+
+div.category-label {
+	width: 241px;
+	float: left;	
+}
+
+
+#forecastOverlay {
+	width: 50px;
+	height: 21px;
+	background-color:#000;
+	position:absolute;
+	opacity:0.1;
+	filter: alpha(opacity=10); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=10)"; /* IE 8 */
+	-khtml-opacity: .10; /* Safari 1.x */
+	-moz-opacity: .10; /* FF lt 1.5, Netscape */ 
+	opacity: .10; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	bottom: 10px;
+	left: 7px;
+	cursor: pointer;
+}
+
+span.lower {
+	text-transform: none;
+	font-weight: normal;
+}
+
+span.upper {
+	text-transform: uppercase;
+}
+
+#slider ul#excerpt li a, #featuredCaption a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#featured_text li{
+	margin-left:15px;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	font-size: 30px;
+	font-weight:medium;
+	border-bottom: 1px solid #B1B3B6;
+	font-family: "Antenna Medium";
+	letter-spacing:-1px;
+	height: 30px;
+}
+
+#featured_text li a{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+#featured_text li a:hover{
+	color: #F7941E;
+}
+
+#featured_text ul {
+	border-left: 10px solid #759EC7;
+}
+
+#content div.text-stories li h5 {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	color: #759EC7;
+	font-family: "Antenna Medium";
+	font-weight: normal;
+}
+
+div.text-stories li p {
+	font-size: 20px;
+	line-height: 22px;
+	font-family: "Antenna Medium";
+}
+
+#featured_text li.last{
+	padding-bottom:0px;
+	margin-bottom: 0px;
+	border:none;
+}
+
+span.white {
+	color: #fff;
+}
+
+span.black{
+	color: #000;
+}
+
+#forecast div.weather span.black, #forecast div.weather {
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:2px;
+}
+
+span.raq {
+	font-size: 14px;
+}
+
+span.red{
+	color: #A44F2B;
+}
+
+span.blue {
+	color: #759EC7;
+}
+
+span.orange {
+	color: #F7941E;
+}
+
+#fouroh p.huge {
+	font-size: 200px;
+	font-family: "AntennaExtraCond Medium";
+	float: left;
+	padding: 0;
+	margin-left: 40px;
+}
+
+#fouroh {
+	margin: 60px 0px 60px 0px;
+}
+
+#fouroh p {
+	padding-top: 70px;
+	padding-left: 160px;
+	font-size: 40px;
+}
+
+#mask-excerpt ul#excerpt li {
+	font-family: "Antenna";
+}
+
+#mask-excerpt ul#excerpt p.subhead, #featuredCaption p.subhead {
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	font-family: "Antenna Medium";
+}
+
+#rightContent div.storyElement.sources ul.sources li {
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+
+#rightContent div.storyElement.sources ul.sources {
+	padding-left: 16px;
+	margin: 0;
+}
+
+#entry-content blockquote p {
+	margin-left: 10px;
+	border-left: 5px solid #759EC7;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+img.alignright {
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+img.alignleft {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.rss_button span {
+	font-family: "AntennaExtraCond Medium";
+	letter-spacing:1px;
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.topGutter a:link > .rss_button, .topGutter a:visited > .rss_button {
+	background-color: #759EC7;
+}
+
+.topGutter a:hover > .rss_button, .topGutter a:active > .rss_button {
+	background-color: #253d55;
+}
+
+span.arrows {
+	color: #F7941E;
+	font-family: "Antenna Black";
+	font-size: 12px;
+	letter-spacing: -2px;
+}
+
+span.featured-more, span.excerpt-more {
+	font-family: "Antenna Black";
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #fff;
+}
+
+span.excerpt-more {
+	margin-top: 10px;
+	display: block;
+}
+
+#featuredCaption span.arrows {
+	margin-left:20px;
+	margin-right: 5px;
+}
+
+.topGutter p.head{
+	color: #000;
+	font-family: "Antenna Medium";
+	font-size: 22px !important;
+	line-height:24px;
+	letter-spacing:px;
+}
+
+.topGutter p.subhead{
+	color: #fff;
+	font-family: Verdana, "Antenna Medium", sans-serif;
+	font-size: 16px !important;
+	line-height: 18px;
+}
+
+.topGutter a:hover p.head {
+	color: #F7941E;
+}
+
+div.showAllButton{
+	font-family: "Antenna Medium";
+	font-size: 12px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+div.showAllButton.orange {
+	color: #F7941E;
+}
+
+.quote p {
+	line-height: 36px;
+	font-family: "AntennaExtraCond Medium";
+	font-size: 24px;
+}
+
+.quote .quote-source-area p.quote-name {
+	font-family: "AntennaRE Bold";
+	font-size: 15px;
+	line-height: 16px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.quote .quote-source-area {
+	margin-top: 10px;
+}
+
+.quote p.source-line {
+	font-size: 13px;
+	line-height: 14px;
+	margin-top: 0px;
+	font-family: "AntennaRE";
+	font-style: italic;
+	letter-spacing:-1px;
+}
+
+a:hover div.cover.boxcaption, a:active div.cover.boxcaption {
+	color: #000;
+}
+
+.captionfull p {
+	font-size: 12px;
+	font-family: "Antenna Medium";
+	line-height:15px;
+}
+
+.navGutter {
+	background-color: #b9cfe1;
+}
+
+.navGutter li {
+	list-style-type: disc;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	font-family: Verdana, "Antenna Medium", sans-serif;
+}
+
+.navGutter li a:link, .navGutter li a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.navGutter li a:hover, .navGutter li a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+#rightBar {
+	border-left: 1px solid #ccc;
+}
+
+h3.widget-title, .idw-container h2 {
+	font-size: 14px;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-family: "Antenna Medium";
+	margin-bottom: 10px;
+}
+
+p span.wpcf7-form-control-wrap.your-message textarea {
+	border: 1px solid #ccc;
+	width: 178px;
+	display: block;
+}
+
+li.widget-container {
+	font-size: 13px;
+	font-family: verdana, "AntennaRE", sans-serif;
+}
+
+ul#twitter_update_list li {
+	max-width: 200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#singleContent #rightContent{
+	padding: 10px 0px;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+#rightContent .storyElement.custom {
+	text-align: left;
+}
+
+/* make sure these styles are in em or percent because they are going to be resized using javascript later */
+
+#leftContent p, #pageContent p, #entry-content address {
+	font-size: 0.79em;
+	padding: 10px 0px 10px 0px;
+	line-height: 1.45em;
+	font-family: Verdana, "AntennaRE", sans-serif;
+	letter-spacing:0px;
+}
+
+#byline_info ul li.author a {
+	font-family: "AntennaRE Bold";
+	font-size: 13px;
+}
+
+#singleContent h2.page-head, #pageContent h2, h2.page-head {
+	font-family: "Antenna Medium";
+	font-size: 36px;
+	line-height: 38px;
+	margin: 0px 0px 5px 0px;
+}
+
+#singleContent h3.page-subhead, #pageContent h3.page-subhead {
+	font-family: Verdana, "Antenna Medium", sans-serif;
+	margin: 0px 0px 10px 0px;
+	color: #759EC7;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 18px;
+}
+
+#author-meta img.avatar {
+	float: left;
+}
+
+#author-posts h2.head {
+	font-size: 1.6em;
+	margin-bottom: 3px;
+}
+
+#author-posts h3.subhead {
+	font-size: 1.2 em;
+	margin-bottom: 5px;
+}
+
+#author-posts li a:link, #author-posts li a:visited {
+	color: #759EC7;
+	text-decoration:none;
+}
+
+#author-posts li a:hover, #author-posts li a:active{
+	color: #F7941E;
+}
+
+#author-posts ul li{
+	margin-bottom: 35px;
+}
+
+#author-posts ul li p {
+	line-height: 1.2em;
+}
+
+#author-meta li{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#byline_info ul li.job-desc {
+	font-family: "AntennaRE Italic";
+	font-style: italic;
+	color: #666;
+}
+
+#entry-content a:link, #entry-content a:visited {
+	color:#26466D;
+}
+
+#entry-content a:hover, #entry-content a:active {
+	color:#26466D;
+	text-decoration:underline;
+}
+
+#entry-content h1 {
+	font-family:"Antenna Medium";
+	font-size: 36px;
+	line-height:38px;
+}
+
+#entry-content h2 {
+	font-family:"Antenna Medium";
+	font-size: 30px;
+	line-height: 32px;
+}
+
+#entry-content h3 {
+	font-family:"Antenna Medium";
+	font-size: 24px;
+	line-height: 26px;
+}
+
+#entry-content h4 {
+	font-family:"Antenna Medium";
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#entry-content h5 {
+	font-family:"Antenna Medium";
+	font-size: 15px;
+	line-height: 17px;
+}
+
+#entry-content h6 {
+	font-family:"AntennaRE Bold";
+	font-size: 16px;
+	line-height: 14px;
+	text-transform:uppercase;
+}
+
+#IDWidget6 p.idw-big a strong {
+	font-size: 12px;
+	font-family: verdana, "AntennaRE", sans-serif;
+	font-weight: normal;
+	line-height: 17px;
+}
+
+#polls_form_5 p strong {
+	font-family: "AntennaRE Bold";
+	letter-spacing: 0px;
+}
+
+li#tag_cloud-3.widget-container.widget_tag_cloud {
+	font-family: "AntennaRE", verdana, sans-serif;	
+}
+
+#entry-content ul li, #sidebar li.widget-container ul li, #pageContent ul li {
+	list-style-type: disc;
+	font-family: verdana, "AntennaRE", sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	letter-spacing: 0px;
+	color: #444;
+}
+
+#entry-content ol li, #sidebar li.widget-container ol li {
+	list-style-type: decimal;
+	font-family: verdana, "AntennaRE", sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	letter-spacing: 0px;
+	color: #444;
+}
+
+div#rateInfo_0_bottom {
+	font-size: 14px;
+}
+
+#idc-commentcount_label {
+	font-family: "Antenna Medium";
+}
+
+#IDCommentsNewThreadCover h3 {
+	font-family: "Antenna Medium";	
+}
+
+#entry-content ul, #entry-content ol, #sidebar li.widget-container ul, #pageContent ul {
+	margin-left: 20px;
+}
+
+#byline_info li.author {
+	margin-bottom: 0px;
+}
+
+#author-info li {
+	font-size: 12px;
+}
+
+#author-info li.position {
+	font-size: 18px;
+}
+
+#author-info p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#featuredCaption {
+	color: #fff;
+}
+
+#rightContent .storyElement h3 {
+	text-align: left;
+	font-weight: lighter;
+	font-size: 11px;
+	margin-bottom: 8px;
+	color: #759EC7;
+	text-transform: uppercase;
+	font-family: "AntennaRE", verdana, sans-serif;
+}
+
+ul.descriptors li {
+	font-size: 12px;
+	text-transform: uppercase;
+	list-style-type: disc;
+	margin-bottom: 4px;
+	font-family: "AntennaRE", verdana, sans-serif;
+}
+
+#crumbs span.crumbs-delemit {
+	font-size: 14px;
+	font-family: "Antenna Medium";
+	color: #A44F2B;
+}
+
+ul.descriptors {
+	margin-bottom: 10px;
+	margin-left: 16px;
+}
+
+#rightContent div.storyElement p, #rightContent div.storyElement li, #rightContent div.storyElement ul, #rightContent div.storyElement a {
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.2em;
+}
+
+div.storyDescription p {
+	font-family: "AntennaRE";
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#featuredCaption span.arrows, #featuredCaption span.more, span.category-more {
+	font-family: "Antenna Black";
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+#featuredCaption a span.head {
+	font-size: 30px;
+	font-family: "Antenna Medium";
+	line-height: 32px;
+}
+
+#featuredCaption a:hover span.head {
+	color: #F7941E;
+}
+
+#featuredCaption a span.subhead {
+	line-height: 20px;
+}
+
+#forecast div.weather span.red {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Antenna Black";
+	letter-spacing:1px;
+}
+
+#IEFix {
+	height: 0px;
+	visibility: hidden;
+}
+
+.icon-video {
+	height: 400px;
+	width: 600px;
+}
+
+.hide {
+	display:none;
+}
+
+/* jeff's styles */
+div.wp-caption {
+	background-color:#eee; 
+	padding:5px; 
+	margin:5px;
+}
+
+div.alignright {
+	float:right;
+}
+
+div.alignleft {
+	float:left;
+}
+
+.socialmediapagebox { 
+	width: 250px; float: left
+}
+
+#box-point img {
+	position: absolute;
+	top: 18px;
+	right: -8px;
+}
+
+

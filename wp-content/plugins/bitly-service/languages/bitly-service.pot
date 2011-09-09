@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bit.ly Service\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-18 20:19-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Luis Alberto Ochoa Esparza <soy@luisalberto.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bitly-service.php:142
+msgid "Share on Twitter"
+msgstr ""
+
+#: bitly-service.php:146
+msgid "Status"
+msgstr ""
+
+#: bitly-service.php:237
+#: bitly-service.php:257
+msgid "Bit.ly Service Settings"
+msgstr ""
+
+#: bitly-service.php:265
+msgid "Login Name"
+msgstr ""
+
+#: bitly-service.php:268
+#, php-format
+msgid "Enter your %s Login Name."
+msgstr ""
+
+#: bitly-service.php:272
+msgid "API Key"
+msgstr ""
+
+#: bitly-service.php:275
+#, php-format
+msgid "Enter your %s API Key."
+msgstr ""
+
+#: bitly-service.php:279
+msgid "Domain"
+msgstr ""
+
+#: bitly-service.php:281
+msgid "Select a domain you would  like to use."
+msgstr ""
+
+#: bitly-service.php:289
+#, php-format
+msgid "You can also use your own short domain with %s."
+msgstr ""
+
+#: bitly-service.php:340
+msgid "Settings"
+msgstr ""
+

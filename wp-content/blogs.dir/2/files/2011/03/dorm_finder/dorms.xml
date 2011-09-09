@@ -1,0 +1,286 @@
+<housing>
+
+<dorm name="Alderman" abr="ald" sqft="192" year="1937" pitDis=".5" time="10" resNum="102" floors="3" web="http://housing.unc.edu/residence-halls/alderman">
+</dorm>
+<dorm name="Alexander" abr="ale" sqft="180" year="1939" pitDis=".4" time="8" resNum="103" floors="3" web="http://housing.unc.edu/residence-halls/alexander">
+</dorm>
+<dorm name="Avery" abr="ave" sqft="150" year="1958" pitDis=".7" time="16" resNum="226" floors="4" web="http://housing.unc.edu/residence-halls/avery">
+</dorm>
+<dorm name="Aycock" abr="ayc" sqft="156" year="1924" pitDis=".5" time="10" resNum="99" floors="3" web="http://housing.unc.edu/residence-halls/aycock">
+</dorm>
+<dorm name="Carmichael" abr="car" sqft="169" year="1986" pitDis=".3" time="7" resNum="485" floors="6" web="http://housing.unc.edu/residence-halls/carmichael">
+</dorm>
+<dorm name="Cobb" abr="cob" sqft="168" year="1952" pitDis=".6" time="12" resNum="400" floors="4" web="http://housing.unc.edu/residence-halls/cobb">
+</dorm>
+<dorm name="Connor" abr="con" sqft="168" year="1948" pitDis=".5" time="9" resNum="175" floors="4" web="http://housing.unc.edu/residence-halls/connor">
+</dorm>
+<dorm name="Craige" abr="cra" sqft="156" year="1962" pitDis="1.1" time="23" resNum="636" floors="6" web="http://housing.unc.edu/residence-halls/craige">
+</dorm>
+<dorm name="Craige North" abr="cno" sqft="216" year="2002" pitDis="1" time="21" resNum="231" floors="4" web="http://housing.unc.edu/residence-halls/craige-north">
+</dorm>
+<dorm name="Ehringhaus" abr="ehr" sqft="156" year="1962" pitDis="1" time="21" resNum="640" floors="6" web="http://housing.unc.edu/residence-halls/ehringhaus">
+</dorm>
+<dorm name="Everett" abr="eve" sqft="180" year="1928" pitDis=".4" time="9" resNum="96" floors="3" web="http://housing.unc.edu/residence-halls/everett">
+</dorm>
+<dorm name="Graham" abr="gra" sqft="180" year="1924" pitDis=".5" time="10" resNum="93" floors="3" web="http://housing.unc.edu/residence-halls/graham">
+</dorm>
+<dorm name="Grimes" abr="gri" sqft="195" year="1992" pitDis=".4" time="7" resNum="88" floors="4" web="http://housing.unc.edu/residence-halls/grimes">
+</dorm>
+<dorm name="Hardin" abr="har" sqft="216" year="2002" pitDis="1" time="20" resNum="190" floors="4" web="http://housing.unc.edu/residence-halls/hardin">
+</dorm>
+<dorm name="Hinton James" abr="hin" sqft="156" year="1967" pitDis="1" time="21" resNum="850" floors="10" web="http://housing.unc.edu/residence-halls/hinton-james">
+</dorm>
+<dorm name="Horton" abr="hor" sqft="216" year="2002" pitDis=".9" time="19" resNum="276" floors="4" web="http://housing.unc.edu/residence-halls/horton">
+</dorm>
+<dorm name="Joyner" abr="joy" sqft="180" year="1947" pitDis=".4" time="8" resNum="168" floors="4" web="http://housing.unc.edu/residence-halls/joyner">
+</dorm>
+<dorm name="Kenan" abr="ken" sqft="192" year="1939" pitDis=".6" time="12" resNum="120" floors="3" web="http://housing.unc.edu/residence-halls/kenan">
+</dorm>
+<dorm name="Koury" abr="kou" sqft="216" year="2002" pitDis=".9" time="19" resNum="263" floors="4" web="http://housing.unc.edu/residence-halls/koury">
+</dorm>
+<dorm name="Lewis" abr="lew" sqft="180" year="1924" pitDis=".4" time="8" resNum="95" floors="3" web="http://housing.unc.edu/residence-halls/lewis">
+</dorm>
+<dorm name="Mangum" abr="mng" sqft="195" year="1922" pitDis=".4" time="8" resNum="90" floors="4" web="http://housing.unc.edu/residence-halls/mangum">
+</dorm>
+<dorm name="Manly" abr="mnl" sqft="195" year="1922" pitDis=".4" time="8" resNum="92" floors="4" web="http://housing.unc.edu/residence-halls/manly">
+</dorm>
+<dorm name="McIver" abr="mci" sqft="192" year="1939" pitDis=".4" time="9" resNum="105" floors="3" web="http://housing.unc.edu/residence-halls/mciver">
+</dorm>
+<dorm name="Morrison" abr="mor" sqft="169" year="1965" pitDis="1" time="21" resNum="860" floors="10" web="http://housing.unc.edu/residence-halls/morrison">
+</dorm>
+<dorm name="Old East" abr="oea" sqft="168" year="1795" pitDis=".3" time="5" resNum="67" floors="3" web="http://housing.unc.edu/residence-halls/old-east">
+</dorm>
+<dorm name="Old West" abr="owe" sqft="168" year="1823" pitDis=".3" time="6" resNum="69" floors="3" web="http://housing.unc.edu/residence-halls/old-west">
+</dorm>
+<dorm name="Parker" abr="par" sqft="169" year="1958" pitDis=".6" time="12" resNum="167" floors="3" web="http://housing.unc.edu/residence-halls/parker">
+</dorm>
+<dorm name="Ruffin" abr="ruf" sqft="195" year="1922" pitDis=".4" time="7" resNum="95" floors="4" web="http://housing.unc.edu/residence-halls/ruffin">
+</dorm>
+<dorm name="Spencer" abr="spe" sqft="150" year="1924" pitDis=".6" time="11" resNum="148" floors="4" web="http://housing.unc.edu/residence-halls/spencer">
+</dorm>
+<dorm name="Stacy" abr="sta" sqft="180" year="1938" pitDis=".5" time="10" resNum="93" floors="3" web="http://housing.unc.edu/residence-halls/stacy">
+</dorm>
+<dorm name="Teague" abr="tea" sqft="169" year="1958" pitDis=".3" time="7" resNum="173" floors="3" web="http://housing.unc.edu/residence-halls/teague">
+</dorm>
+<dorm name="Winston" abr="win" sqft="168" year="1948" pitDis=".4" time="9" resNum="168" floors="4" web="http://housing.unc.edu/residence-halls/winston">
+</dorm>
+<dorm name="Ram Village" abr="ram" sqft="0" year="2006" pitDis="1" time="22" resNum="917" floors="0" web="http://housing.unc.edu/residence-halls/ram-village-apartments">
+</dorm>
+<dorm name="Odum Village" abr="odu" sqft="0" year="1963" pitDis="1.4" time="28" resNum="492" floors="0" web="http://housing.unc.edu/residence-halls/odum-village-apartments">
+</dorm>
+
+<array name="start">
+ald ale ave ayc car cob con cra cno ehr eve gra gri har hin hor joy ken kou lew mng mnl mci mor oea owe par ruf spe sta tea win ram odu
+</array>
+<array name="closetDoor">
+ald ale ayc cob con cno eve gra gri har hor joy ken kou lew mng mnl mci odu oea owe ram ruf spe sta win
+</array>
+<array name="wardrobe">
+car mor ald ale ayc cob con cno eve gra gri har hor joy ken kou lew mng mnl mci odu oea owe ram ruf spe sta win
+</array>
+<array name="guy">
+gra mng
+</array>
+<array name="girl">
+ayc ken mnl par
+</array>
+<array name="coed">
+ald ale ave car cob con cra cno ehr eve gri har hin joy kou lew mci mor odu oea owe ram ruf spe sta tea win 
+</array>
+<array name="grt170">
+ale cno eve gra gri har hor joy ken kou lew mng mnl mci ruf sta ram odu
+</array>
+<array name="grt200">
+ram odu kou hor har cno
+</array>
+<array name="triple">
+
+</array>
+<array name="double">
+
+</array>
+<array name="single">
+
+</array>
+<array name="suite">
+ave car cra ehr hin mor par tea kou hor har cno
+</array>
+<array name="suite4">
+kou hor har cno
+</array>
+<array name="suite8">
+ave car cra ehr hin mor par tea
+</array>
+<array name="apartment">
+odu ram
+</array>
+<array name="hall">
+ald ale ayc cob con eve gra gri joy ken lew mng mnl mci oea owe ruf spe sta win
+</array>
+<array name="supperSuite">
+mor
+</array>
+<array name="tvRoom">
+ald ale ave ayc car cob con cra cno ehr eve gra gri har hin hor ken kou lew mng mnl mci mor oea owe par ram ruf spe sta tea win
+</array>
+<array name="laundry">
+ald ale ave ayc car cob con cra cno ehr gra gri har hin hor joy ken kou lew mng mnl mci mor odu oea owe par ram ruf spe sta tea win
+</array> 
+<array name="recroom">
+ald ale ayc car cob con cra cno ehr eve gra gri har hin hor ken kou lew mng mnl mci mor ram ruf sta tea win
+</array>
+<array name="subFree">
+ale joy
+</array>
+<array name="notSubFree">
+ald ave ayc car cob con cra cno ehr eve gra gri har hin hor ken kou lew mng mnl mci mor oea owe par ruf spe sta tea win ram odu
+</array>
+<array name="piano">
+cob mci
+</array>
+<array name="hasCourt">
+ave odu tea hin mor cob eve lew joy ale cra sta gra ayc con win ale erh
+</array>
+<array name="bball">
+ave odu tea hin mor cob eve lew joy ale cra
+</array>
+<array name="vball">
+odu hin eve lew sta gra ayc con win ale ehr cra
+</array>
+<array name="tennis">
+cob ale joy cob eve
+</array>
+<array name="north">
+ald ale ayc cob con eve gra gri joy ken lew mng mnl mci oea owe ruf spe sta win
+</array>
+<array name="south">
+cra cno ehr har hin hor kou mor odu ram
+</array>
+<array name="middle">
+ave car par tea
+</array>
+<array name="windowAll">
+ald ayc car cob cno eve gra har hor ken kou lew mci mor ram sta ale ave con cra gri hin joy mng mnl oea owe par odu ruf spe tea win
+</array>
+<array name="central">
+ald ayc car cob cno eve gra har hor ken kou lew mci mor ram sta
+</array>
+<array name="printing">
+car cob cno cra ehr har hin hor joy ken kou mng mor odu par ram sta
+</array>
+
+<question>
+<answer loop="suite">I want to live in a suite.
+</answer>
+<answer loop="hall">Hall style, please!
+</answer>
+<answer loop="apartment">Get me an on-campus apartment with the upperclassmen and grad students.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="suite4">I want to live in a suite with two rooms and a bathroom even though I'd have to clean my own bathroom.
+</answer>
+<answer loop="supperSuite">I want to live in a super suite with a living room but again, I'd have to clean my bathroom.
+</answer>
+<answer loop="suite8">I want to live in a suite with four rooms and a bathroom.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="north">I want to live on North Campus where I can roll out of bed and into class.
+</answer>
+<answer loop="middle">Middle, it's close to the football stadium! Go Heels!
+</answer>
+<answer loop="south">South Campus is for me. It's where the party's at!
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="girl">I want to live in an all girls dorm, please.
+</answer>
+<answer loop="guy">All guys dorm for me. It'll be one giant man cave!
+</answer>
+<answer loop="coed">I want to live in a coed dorm.
+</answer>
+</question>
+<question>
+<answer loop="subFree">I want to live in a dorm that's substance free.
+</answer>
+<answer loop="notSubFree">College without beer? I don't think so.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="central">My dorm must have central air.
+</answer>
+<answer loop="windowAll">Central air would be nice, but window units are ok.
+</answer>
+<answer loop="none" next="">Who cares? I'll sweat it out if I have to.
+</answer>
+</question>
+<question>
+<answer loop="laundry">My dorm should have a laundry room.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="tvRoom">My dorm should have a TV room. I've got to have a place to watch Jersey Shore with all my friends!
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="printing">My dorm NEEDS to have a CCI printer. I'm not going to have time to run to one of the labs to print my paper before my 8 a.m. Why do they have classes at 8 a.m. anyway?
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="recroom">My dorm should have a recreation room. I love pingpong, foosball and pool!
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="hasCourt">My dorm should be near volleyball, basketball or tennis courts.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="vball">I dig volleyball courts.
+</answer>
+<answer loop="bball">Basketball is what I care about. There are other sports? Not at Carolina!
+</answer>
+<answer loop="tennis">Tennis all the way.
+</answer>
+<answer loop="none">I don't care. I like all sports.
+</answer>
+</question>
+<question>
+<answer loop="piano">My dorm should have a piano.
+</answer>
+<answer loop="none">I don't care.
+</answer>
+</question>
+<question>
+<answer loop="closetDoor">I need a normal closet with a door to store all my stuff.
+</answer>
+<answer loop="wardrobe">I'd be ok with a wardrobe or closet even though the wardrobe will take up part of our precious floor space.
+</answer>
+<answer loop="none">Built-in wall unit with no doors, a normal closet or wardrobe? Who cares?
+</answer>
+</question>
+<!--<question>
+<answer loop="biggest">Show me the dorm with the biggest rooms that meets all my other specifications.
+</answer>
+<answer loop="none">Let me see all the results.
+</answer>
+</question>-->
+</housing>

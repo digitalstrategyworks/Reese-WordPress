@@ -1,0 +1,33 @@
+﻿@CHARSET "UTF-8";
+
+.icon_tool,
+.icon_cross,
+.icon_check {
+	display: block;
+	float: left;
+	width: 18px;
+	height: 16px;
+	background-image: url(../img/icons.png);
+	background-repeat: no-repeat;
+}
+
+.icon_tool {
+	background-position: 0px 0px;
+}
+a .icon_tool:hover {
+	background-position: -18px 0px;
+}
+
+.icon_cross {
+	background-position: 0px -16px;
+}
+a .icon_cross:hover {
+	background-position: -18px -16px;
+}
+
+.icon_check {
+	background-position: 0px -32px;
+}
+a .icon_check:hover{
+	background-position: -18px -32px;
+}

@@ -1,0 +1,9 @@
+<Files ~ "\.(php)$">
+AuthUserFile /etc/httpd/htpasswd
+AuthType Basic
+AuthName "restricted"
+Order Deny,Allow
+Deny from all
+Require valid-user
+Satisfy any
+</Files>

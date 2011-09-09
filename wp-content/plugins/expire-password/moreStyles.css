@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* 
+
+Styles here are linked for
+the PassExpire plugin.
+
+By: Dylan Derr
+URL: http://dylan.homeip.net
+
+*/
+
+.useLockImage{background: url("../../../wp-content/plugins/expire-password/lock.png") no-repeat scroll -1px -2px #F9F9F9 !important;color: transparent !important;height: 21px;width: 22px;text-indent:-9999px;
+}
+.wrap{margin:0 20px 0 0 !important;}
+.useDisableImage{background: url("../../../wp-content/plugins/expire-password/disable.png") no-repeat scroll -1px -2px #F9F9F9 !important;color: transparent !important;height: 21px;width: 22px;text-indent:-9999px;
+}
+.useDeleteImage{background: url("../../../wp-content/plugins/expire-password/delete.png") no-repeat scroll -1px -2px #F9F9F9 !important;color: transparent !important;height: 21px;width: 22px;text-indent:-9999px;
+}
+.deleteSingleLog{background: url("../../../wp-content/plugins/expire-password/deleteSingleLog.png") no-repeat scroll -1px -2px #F9F9F9 !important;color: transparent !important;height: 21px;width: 22px;text-indent:-9999px;
+}
+#expirePassOverlay{background: url("../../../wp-content/plugins/expire-password/overlay.png") repeat scroll 0 0;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index:100000;}
+#expirePassContent{background: url("../../../wp-content/plugins/expire-password/formPanel.png") no-repeat scroll 0 0 transparent;
+    height: 200px;
+    left: 30%;
+    padding: 53px 0 31px 47px;
+    position: absolute;
+    top: 25%;
+    width: 614px}
+#expirePassContent table{bottom: 34px;position: absolute;left:45px;}
+#expirePassContent label {color:#fff;font-size:14px;}
+#expirePassContent h2{color:#fff !important;font-size:18px;padding:0;margin:0;position:absolute;top:82px;}
+#expirePassContent p{color: #FFFFFF !important;font-family: verdana;font-size: 13px;margin: 0 !important;padding: 0;width: 516px;}
+#expirePassContent p span{color:#FF0000;}
+#expirePassContent #defaultMSG{display:block;position:absolute;top:115px;}
+#expirePassContent #errorMSG1{display:none;position:absolute;top:115px;}
+#expirePassContent #errorMSG2{display:none;position:absolute;top:115px;}
+#expirePassContent table .input{border: 1px solid #AACCEE;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    font-size: 13px;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 203px;}
+#expirePassContent table #customChangePassword{background: none repeat scroll 0 0 #FE4E00;
+    border: 0 none;
+    width:80px;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 12px 0 0 0;
+    padding: 5px 10px 6px 10px;}
+#nagDIV{background: none repeat scroll 0 0 #ffffe0;border: 1px solid #ffff00;padding: 5px 20px;margin:35px 0 15px 0;}
+#nagDIV span{float:right;}
+#whatHappened span{float:right;}
+#ifFailed{background: none repeat scroll 0 0 #FFE0E0;border: 1px solid #FF0000;margin: 0 0 10px;padding: 0 10px;width: 430px;}
+
+#whatHappened{background: none repeat scroll 0 0 #e0ffe1;border: 1px solid #00FF00;margin: 35px 0 10px 0;padding: 0 10px;width: 430px;}
+ul.tabs {
+margin: 0;
+padding: 0;
+float: left;
+list-style: none;
+height: 32px; /*--Set height of tabs--*/
+border-bottom: 1px solid #999;
+border-left: 1px solid #999;
+width: 100%;
+}
+ul.tabs li {
+float: left;
+margin: 0;
+padding: 0;
+height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+line-height: 31px; /*--Vertically aligns the text within the tab--*/
+border: 1px solid #999;
+border-left: none;
+margin-bottom: -1px; /*--Pull the list item down 1px--*/
+overflow: hidden;
+position: relative;
+background: #e0e0e0;
+}
+ul.tabs li a {
+text-decoration: none;
+color: #000;
+display: block;
+font-size: 1.2em;
+padding: 0 20px;
+border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+outline: none;
+}
+ul.tabs li a:hover {
+background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover { /*--Makes sure that the active tab does not listen to the hover properties--*/
+background: #fff;
+border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+border: 1px solid #999;
+border-top: none;
+overflow: hidden;
+clear: both;
+float: left; width: 100%;
+background: #fff;
+}
+.tab_content {
+padding: 0px;
+font-size: 1.2em;
+} 

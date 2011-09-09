@@ -1,0 +1,213 @@
+<investigation>
+	<question>
+		<character des="Your high school football coach" img="ximage1.png">Coach Stirling "Bubba" Wadsworth III</character>
+		<q>We love all the stats you’ve racked up as a college player. It’s great to tell people that the leading starter for a prestigious university is from Backwoods, N.C. We want to put you in the high school Hall of Fame. Come on home: we’ll have a special ceremony to give you the award, and we’ll pay for your entire trip home.  Will you take us up on the offer?</q>
+		<a cor="true" val="0" res="You had a great trip home. Coach Bubba was so glad to see you, and your high school’s Hall of Fame ceremony was a nice ego boost. You even talked a couple of players into coming to visit your college.">Go home.</a>
+		<a cor="false" val="0" res="You didn’t go home. Now Bubba’s mad. You missed out on the Hall of Fame ceremony, and you didn’t get to talk to some of the standouts from your high school that could be great college players.">Stay put.</a>
+		<rule right="You accepted a free trip home to be honored by your high school, and that’s fine." wrong="MISSED OPPORTUNITY! You didn’t accept a free trip home to be honored at your high school and you missed a great event for no reason!" alt="You can be recognized by your high school, and they can pay for your trip home. That’s in compliance with NCAA rules.">16.1.7.1 Hometown Awards. A hometown group may pay reasonable and necessary expenses of a student- athlete returning home to receive an award for athletics accomplishments.</rule>
+		<background>xbackground1.jpg</background>
+		<sound>sound.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>One of my former players is with the Jets and he gave me two tickets to their first game of the season — on the 50-yard line. I’ll give you the tickets if you want them. Just say the word, and you could be living it up in New York this weekend. You want them?</q>
+		<a cor="false" val="2" res="You took the tickets, and you flew up to New York for the weekend with a buddy. The Jets played one of their best games of the season, and you got to see it from the 50-yard line.">I'll take them.</a>
+		<a cor="true" val="0" res="You didn’t take the tickets. Instead of partying in New York, you did homework. All. Weekend. Long.">I'm busy this weekend.</a>
+		<rule right="You turned down tickets from your coach to watch the Jets play — smart thinking." wrong="VIOLATION! Uh oh. You accepted tickets from your coach to watch the Jets play, and that’s a violation of NCAA rules." alt="Taking the tickets violates NCAA rules because it’s an extra benefit.">16.2.2.5 Professional Sports Tickets. An institution or any representative of its athletics interests may not purchase or otherwise obtain tickets to a professional sports event and make these tickets available to student-athletes enrolled in an NCAA member institution. Such a gift of tickets would represent an unacceptable extra benefit.</rule>
+		<background>xbackground1.jpg</background>
+		<sound>sound.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>We’re traveling out of town for a bowl game, and I’m booking and paying for hotel rooms for your family. We’ll put up your mama, your daddy, Great-Aunt Mabel: anybody you want. Don’t worry about paying me back. Want me to make the reservation?</q>
+		<a cor="false" val="1" res="Mama, Daddy, Great-Aunt Mabel and several other family members stayed for free and watched you win a bowl game.">Book the hotel.</a>
+		<a cor="true" val="0" res="You won the bowl game. Too bad Mama and Daddy and Great-Aunt Mabel didn’t get to see you do it.">They'll take care of themselves.</a>
+		<rule right="You turned down your coach’s offer to book and pay for your family’s hotel rooms during a bowl game. Good move. You stayed within NCAA boundaries. It’s fine if your coach books the hotel rooms, but paying for them isn’t OK." wrong="VIOLATION! You had your coach book and pay for your family’s hotel rooms during a bowl game. There’s nothing wrong with having someone book hotel rooms for your family members, and that person can even secure the rooms at a special rate. But that person cannot pay for the rooms. That violates NCAA rules." alt="">16.6.1.2 Family Lodging at Postseason Events. An institution may reserve or secure lodging at any post-season event (other than a conference event) at a reduced or special rate for the parents (or legal guardians) and immediate family of a student-athlete who is a participant. It is not permissible for an institution to cover any portion of the cost of lodging, including any cost associated with reserving or securing lodging.</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+
+<question>
+		<character des="An old family friend" img="ximage3.png">Warren Buffett</character>
+		<q>I’d like to loan you some money to cover whatever expenses your scholarship doesn’t cover. Books, meals, clothes — use it to pay for whatever you need. It’s on me. Should I write the check?</q>
+		<a cor="true" val="0" res="Having a wealthy family friend is never a bad thing. You’ll be eating steak dinners for the rest of the year.">I could use the money.</a>
+		<a cor="false" val="0" res="You take the high ground and pass on the loan. Hope you like Hot Pockets.">I can take care of my finances.</a>
+		<rule right="You accepted a loan from an old family friend. Good for you! As long as the relationship was established before you were recruited to play college ball, and the loan isn’t dependent on your athletic ability, and the friend doesn’t represent your college, that’s permissible by the NCAA." wrong="MISSED OPPORTUNITY! You turned down a loan from an old family friend. What a mistake! The NCAA says there’s nothing wrong with that as long as you knew the person before you started to play college ball." alt="">16.11.1.3 Loan from Established Family Friend. A student-athlete may receive a loan from an established family friend without such arrangement constituting an extra benefit, provided: 
+		(a) The loan is not offered to the student-athlete based in any degree on his or her athletics ability or reputation;
+		(b) The individual providing the loan is not considered a representative of the institution’s athletics interests; and
+		(c)	The relationship between the individual providing the loan and the student-athlete existed prior to the initiation of the student-athlete’s recruitment by the member institution.
+</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>My wife cooks dinner at our house for several players on the team every Wednesday, and I’m inviting you to come eat with us. She’s a real good cook, too. How often do you get to eat a homecooked meal as a college student? Can we expect you there each week?</q>
+		<a cor="true" val="0" res="Back to the Hot Pockets. Week after week after week.">Sorry, I can't make it.</a>
+		<a cor="false" val="1" res="Mrs. Flake gave you second and third helpings, made a chocolate cake for dessert, and sent you home with leftovers. You went back every week.">I'll be there!</a>
+		<rule right="You didn’t attend weekly dinners held at a staff member’s home. Sure, you had to eat Hot Pockets, but you also didn’t violate NCAA rules. It’s OK for a staff member to provide an occasional meal for athletes, but it can’t happen with any frequency." wrong="VIOLATION! You went to dinners at a staff member’s home every week, and that’s a violation. While it’s OK for a staff member to provide an occasional meal for athletes, it can’t happen with any frequency — so it definitely can’t happen weekly." alt="">16.11.1.5 Occasional Meals. A student-athlete or the entire team in a sport may receive an occasional meal in the locale of the institution on infrequent and special occasions from an institutional staff member. An institutional staff member may provide reasonable local transportation to student-athletes to attend such meals. A student-athlete or the entire team in a sport may receive an occasional meal from a representative of athletics interests on infrequent and special occasions under the following conditions: (a) The meal may only be provided in an individual’s home, on campus or at a facility that is regularly used for home competition and may be catered.
+</rule>
+		<background>xbackground1.jpg</background>
+		<sound>sound.mp3</sound>
+	</question>
+	<question>
+		<character des="A professor at your college" img="ximage5.png">Professor Thurston Howell</character>
+		<q>Aside from my teaching duties, I own a swanky upscale clothing store on Main Street. Since you need to look sharp when you’re representing our school, I’ll give you a 20% discount on anything you buy in my store. Will you take the discount?</q>
+		<a cor="false" val="1" res="Ladies love a well-dressed man — especially when he’s a bargain hunter.">I'll take the discount.</a>
+		<a cor="true" val="0" res="Head-to-toe ... Goodwill?">No, thanks.</a>
+		<rule right="Your professor offered you a discount on clothing, but you turned it down. That was a good decision — taking the special discount would have violated NCAA rules because professor Howell also works for your school." wrong="VIOLATION! Your professor offered you a discount on clothing and you took him up on it. Since Professor Howell also works for your university, he can’t give you a special discount just because you’re an athlete. You violated NCAA rules." alt="">16.11.2.2 Discounts and Credits. A student-athlete may not receive a special discount, payment arrangement or credit on a purchase (e.g., airline ticket, clothing) or a service (e.g., laundry, dry cleaning) from an institutional employee or a representative of its athletics interests.
+</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="A movie theater owner in your college town" img="ximage5.png">Roger Ebert</character>
+		<q>I’m offering buy-one, get-one free movie tickets to all college students for Friday night movies. I know having the football team at the theater will bring in more business, so I’m asking you and your teammates to take advantage of the special admission. Will we see you at the movie?</q>
+		<a cor="false" val="0" res="A marathon of chick flicks in your girlfriend’s dorm room isn’t quite the same.">I'll rent a DVD.</a>
+		<a cor="true" val="0" res="Taking your girlfriend to the movies without having to pay for her ticket? Pass the popcorn!">Sure thing. I'll bring my girlfriend.</a>
+		<rule right="Score! You accepted movie tickets under the buy-one, get-one deal that was offered to all students. Since the service is being offered to the entire student body, it’s fine to take Ebert up on his offer. That’s within NCAA rules." wrong="MISSED OPPORTUNITY! You turned down an offer of discounted movie tickets that was extended to all students. Since the deal was extended to everyone and was not a special benefit, it would have been fine to use the offer. You would have been able to afford popcorn!" alt="">16.11.2.2.3 Entertainment Services. A student-athlete may not receive services (e.g., movie tickets, dinners, use of car) from commercial agencies (e.g., movie theaters, restaurants, car dealers) without charge or at reduced rates, or free or reduced-cost admission to professional athletics contests from professional sports organizations, unless such services also are available to the student body in general.
+</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="A mother of two aspiring football players" img="ximage6.png">Jane Bankroll</character>
+		<q>My sons are trying out for their high school’s football team, and I’m not so sure they’re going to make it. Would you be able to give them lessons? We’d pay you, of course.  I know the boys would love to play with a real football player. Will you teach the boys?</q>
+		<a cor="false" val="0" res="You lose out on the money, but you don’t have to deal with two wannabe football players.">I don't have time.</a>
+		<a cor="true" val="0" res="Hanging out with two bratty kids a couple of times a week isn’t so bad when you’re getting paid.">I'll get them ready for tryouts.</a>
+		<rule right="You coached two aspiring football players and got paid for it. Under NCAA rules, that’s OK. Coaching is fine, and getting paid for coaching is fine. Now you have something to fall back on if the NFL doesn’t recognize your true potential!" wrong="MISSED OPPORTUNITY! You turned down the opportunity to coach two aspiring football players and get paid for it. That’s a shame because this is not a violation. Sounds like someone needs to coach you on NCAA rules!" alt="">12.4.2.1 Fee-for-Lesson Instruction. A student athlete may receive compensation for teaching or coaching sport skills or techniques in his or her sport on a fee-for-lesson basis.
+</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="A financial officer at your college" img="ximage4.png">Bobby Moneypenny</character>
+		<q>Your coaches told me that you want to move off campus this year. Since we’d pay for your housing if you lived on campus, we’ll give you a stipend to help cover your off-campus rent. Since you’ll probably be eating off-campus, too, we’ll give you a little bit of money to help pay for that. Sound good?</q>
+		<a cor="false" val="0" res="Hmmm. Aren’t there always strings attached when someone’s giving you money?">I'll pay my own rent.</a>
+		<a cor="true" val="0" res="Money for rent and food — who would turn that down?">Free rent? Yes, please.</a>
+		<rule right="You accepted money for your off-campus apartment’s rent and off-campus meals. This is totally fine with the NCAA, as long as the amount you get is equal to what it would cost you on campus." wrong="MISSED OPPORTUNITY! You turned down money for your off-campus apartment’s rent and off-campus meals. You missed out — accepting that money is within NCAA boundaries as long as the amount you get is equal to what it would cost you on campus." alt="">15.2.2.1 Off-Campus Room and Board Stipend. If a student-athlete lives and eats in noninstitutional facilities, the institution may provide the student-athlete an amount equal to the institution’s official on-campus room allowance as listed in its catalog, the average of the room costs of all of its students living on campus or the cost of room as calculated based on its policies and procedures for calculating the cost of attendance for all students. The institution also may provide the student-athlete an amount that is equivalent to an on-campus 7-day or 21-meal board plan or the cost of meals as calculated based on its policies and procedures for calculating the cost of attendance for all students, excluding those meals provided as part of the training table. Meals provided on the training table shall be deducted at the regular cost figure from such a student-athlete’s board allowance.
+</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="A local lawyer" img="ximage3.png">John Sokolove</character>
+		<q>I’ve been following your college career, and I know you’re going to be getting offers from tons of agents and professional sports teams. To keep you from getting in trouble for having contact with agents, I can talk to them for you. It’s just networking. Need my help?</q>
+		<a cor="false" val="15" res="You’ll make some great connections this way, and you won’t have to do any work.">I'd love your help.</a>
+		<a cor="true" val="0" res="Can you really trust this guy? Better safe than sorry.">Not right now.</a>
+		<rule right="You turned down an offer from a lawyer to represent you to agents. Smart move. Having a lawyer represent you like this would have been the same thing as having an agent represent you, and that’s not in compliance with the NCAA." wrong="VIOLATION! You had a lawyer represent you to agents. Not good. Having a lawyer represent you like this is the same thing as having an agent represent you. That’s not in compliance with the NCAA." alt="">12.3.2.1 Presence of a Lawyer at Negotiations. A lawyer may not be present during discussions of a contract offer with a professional organization or have any direct contact (in person, by telephone or by mail) with a professional sports organization on behalf of the individual. A lawyer’s presence during such discussions is considered representation by an agent.
+</rule>
+		<background>xbackground3.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="An academic adviser at your college" img="ximage5.png">Professor James Faulkner</character>
+		<q>I’m helping you plan your classes for your second semester of freshman year. I saw that you struggled with a 12-hour load your first semester. Let’s lessen your load and give you nine hours this semester so your grades won’t suffer as much. Should we make the change?</q>
+		<a cor="false" val="1" res="Fewer classes means more time for football.">Lessen my load.</a>
+		<a cor="true" val="0" res="You take a full load, and it sucks. Pick Rocks for Jocks next time.">I'll work harder.</a>
+		<rule right="You took 12 hours instead of just nine during your second semester of freshman year, giving you a total of 24 hours when you finished the year. That’s enough hours to keep you eligible with the NCAA." wrong="VIOLATION! You took a lower credit load during your second semester of freshman year, giving you a total of 21 hours when you finished the year. According the NCAA, that’s not enough to stay eligible as a student-athlete." alt="">14.4.3.1 Fulfillment of Credit-Hour Requirements. Eligibility for competition shall be determined based on satisfactory completion of at least: (a) Twenty-four-semester or 36-quarter hours of academic credit prior to start of the student-athlete’s second year of collegiate enrollment (third semester, fourth quarter)</rule>
+		<background>xbackground3.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>It’s the night before a big game, and I know you guys need to relax. Watch a movie on pay-per-view in your hotel room, and don’t worry about paying for it — we’ve got you covered. Up for a movie?</q>
+		<a cor="false" val="0" res="Jeopardy reruns, anyone?">Better watch TV.</a>
+		<a cor="true" val="0" res="You’ve been dying to see the latest Twilight movie. Here’s your chance to watch it without anyone knowing.">Watch the movie.</a>
+		<rule right="You accepted your coach’s offer to watch a pay-per-view movie for free in your hotel room before a game. As far as the NCAA is concerned, that’s not an extra benefit, so it’s OK." wrong="MISSED OPPORTUNITY! You turned down your coach’s offer to watch a pay-per-view movie for free in your hotel room before a game. You missed out! As far as the NCAA is concerned, that’s not an extra benefit, so it’s OK." alt="">16.7.2 Movies in Conjunction with a Home Contest. The institution may rent a film or movie, provide pay-per-view movies in the student-athletes’ hotel rooms or take its intercollegiate team to the movies the night before a home contest without the film or movie being considered an extra benefit.
+</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>We’ve got a big game coming up in New York City. I know you’ve never been to the city — why don’t you go up three days early and see the city? We’ll pay for the trip, and we’ll just meet you there before the game. Want to go up early?</q>
+		<a cor="false" val="2" res="How can you turn this down? Jay-Z says it best: The streets will make you feel brand new, big lights will inspire you.">Explore NY for the first time.</a>
+		<a cor="true" val="0" res="Going up with the rest of the team right before the game isn’t nearly as fun as having a couple of days to be in an Empire state of mind all by yourself.">Wait and go with the team.</a>
+		<rule right="You turned down your coach’s offer to go up to New York three days before a game for free. Smart move. Going up three days before for free goes beyond the 48-hour limit set by the NCAA." wrong="VIOLATION! You accepted your coach’s offer to go up to New York three days before a game for free. Bad move — going up 48 hours before for free is fine with the NCAA, but anything beyond that isn’t." alt="">16.8.1.2.1 Departure/Return Expense Restrictions. An eligible student-athlete may receive actual and necessary travel expenses to represent the institution in athletics competition, provided the student-athlete departs for the competition not earlier than 48 hours prior to the start of the actual competition and remains not more than 36 hours (24 hours in men’s basketball) following the conclusion of the actual competition even if the student-athlete does not return with the team.
+</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>You need to look your best when you’re representing our school. I’m giving you a navy blazer, two pairs of khakis and a few dress shirts. Put these on and stop looking so sloppy. Want the new duds?</q>
+		<a cor="false" val="1" res="Free clothes and pleasing your coach — why not?">Yes, I need to look fly.</a>
+		<a cor="true" val="0" res="You’re left wearing a dingy undershirt and ratty blue jeans. Never appropriate.">I'll wear my hand-me-downs.</a>
+		<rule right="You turned down your coach’s offer of free clothes. You may still look homeless, but that’s OK — you stayed in compliance with NCAA rules." wrong="VIOLATION! You accepted your coach’s offer of free clothes, but you violated NCAA rules. Even though you no longer look homeless, the NCAA says you can’t do that." alt="">16.8.1.9 Apparel for Community Service or Team Travel. An institution may provide a student-athlete with one shirt (e.g., polo, oxford style) bearing the institution’s logo to be used for team travel or other events at which he or she is representing the institution. The shirt may bear a single manufacturer’s or distributor’s normal trademark or logo not to exceed 2 1/4 square inches in area, including any additional materials surrounding the normal trademark or logo.
+16.8.2.1 Travel Apparel. Except as permitted in Bylaw 16.8.1.9, an institution may not provide to student-athletes team travel outfits, blazers or other items of clothing that are not sports-related practice or competition apparel.</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="A car dealer in your college town" img="ximage5.png">Larry Lawless</character>
+		<q>I’m running a contest at my car dealership where customers win prizes if they can match the players with the correct schools. Can I use your name in the game? It’s just a little advertising scheme I’ve dreamed up. Can we use your name?</q>
+		<a cor="false" val="1" res="Sure. It’s for a local business, and it’ll bring attention to your school.">Sure, use my name.</a>
+		<a cor="true" val="0" res="Car dealers are notoriously sleazy. No way you’re trusting this guy.">My name is not for sale (yet).</a>
+		<rule right="You didn’t let a car dealer use your name in his promotional contest. Smart — even though it seems harmless, the NCAA prohibits this specifically." wrong="VIOLATION! You let a car dealer use your name in his promotional contest. Seems harmless, but surprisingly, the NCAA prohibits this specifically." alt="">112.5.2.3 Specifically Restricted Activities. A student-athlete’s involvement in promotional activities specified in this section is prohibited. 12.5.2.3.1 Name-the-Player Contest. A student-athlete may not permit use of his or her name or picture in a “name-the-player” contest conducted by a commercial business for the purpose of promoting that business.
+</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>We’re leaving practice, and I know you live a long way from the fields. Want me to take you home? It’s on my way so no big deal. Need the ride?</q>
+		<a cor="false" val="1" res="You’re tired after practice. What’s one ride going to hurt?">Phew. I am so tired.</a>
+		<a cor="true" val="0" res="It’s a long walk home.">I'll walk, coach.</a>
+		<rule right="You turned down your coach’s offer of a ride home. Good thinking — the NCAA defines that as an extra benefit. And walking is good for you!" wrong="VIOLATION! You accepted your coach’s offer of a ride home. Not OK — the NCAA defines that as an extra benefit. It goes against the rules." alt="">16.11.2.3 Other Prohibited Benefits. An institutional employee or representative of the institution’s athletics interests may not provide a student-athlete with extra benefits or services, including, but not limited to: (d) Transportation (e.g., a ride home with a coach), even if the student-athlete reimburses the institution or the staff member for the appropriate amount of the gas or expense.
+</rule>
+		<background>xbackground1.jpg</background>
+		<sound>sound.mp3</sound>
+	</question>
+	<question>
+		<character des="A Nike representative" img="ximage3.png">Bob Waffle</character>
+		<q>We’ve got several footballs and practice jerseys left over from an order that was too big. Do you want some? We won’t be able to use them, so you might as well take them off our hands. Will you take the equipment?</q>
+		<a cor="false" val="1" res="Free stuff is just another perk of being a student-athlete.">They'd make great gifts.</a>
+		<a cor="true" val="0" res="You’ll have to make do with your own stuff.">No need for that stuff.</a>
+		<rule right="You turned down equipment from Nike. Good thinking. If you had taken it, you would have broken NCAA rules." wrong="VIOLATION! You accepted equipment from Nike. Come on, you had to know that’s not in compliance with NCAA rules! They can give equipment to your college, but not to you." alt="">16.11.2.5 Athletics Equipment. A student-athlete may not accept athletics equipment, supplies or clothing (e.g., tennis racquets, golf clubs, hockey sticks, balls, shirts) from a manufacturer or commercial enterprise. Such items may be provided to the student-athlete’s institution, to be used by the institution’s team in accordance with accepted practices for issuance and retrieval of athletics equipment.
+</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="A sorority sister at your college" img="ximage7.png">Mary Catherine Robertson-Morehead</character>
+		<q>My sorority is having a 5K to raise money for the local children’s hospital, and we’d like to use photos of you on our promotional posters. Would that be OK? It’s for the kids! Will you let us use your photo?</q>
+		<a cor="false" val="0" res="500 sorority girls wearing Nike shorts, Ugg boots and a T-shirt with your face on it? No thanks.">Sorry. Can't do it.</a>
+		<a cor="true" val="0" res="You like kids. You like sorority girls. Sounds good.">Sure. I'm all about helping the kids.</a>
+		<rule right="You let the sorority girls use your photo for their 5K. It was for the kids! And according to the NCAA, that’s fine. No violation here." wrong="MISSED OPPORTUNITY! You didn’t let the sorority girls use your photo for their 5K. While it’s probably better that you’re not on the T-shirts of a million Deltas and Zetas, it would have been fine with the NCAA." alt="">12.5.1.1 Institutional, Charitable, Education or Nonprofit Promotions. A member institution or recognized entity thereof (e.g., fraternity, sorority or student government organization), a member conference or a non-institutional charitable, educational or nonprofit agency may use a student-athlete’s name, picture or appearance to support its charitable or educational activities or to support activities considered incidental to the student-athlete’s participation in intercollegiate athletics.</rule>
+		<background>xbackground4.jpg</background>
+		<sound>sound3.mp3</sound>
+	</question>
+	<question>
+		<character des="An assistant coach at your college" img="ximage2.png">Coach Ron Flake</character>
+		<q>We’ve got a potential recruit coming in soon, and I want you to be his host. We’ll pay for both of your meals and tickets to any games on campus you want to go to, and I’ll give you $30 a day for any other costs. Can you be a host for us?</q>
+		<a cor="false" val="0" res="What other costs will you rack up besides food and games? You don’t need that $30.">I have too much homework.</a>
+		<a cor="true" val="0" res="Driving around campus gets expensive, especially when you’re having to show someone every part of it. That’ll be gas money for you.">I'd be glad to show him around.</a>
+		<rule right="You accepted $30 from your coach to cover extra costs coming from showing around a potential recruit. No problem. The NCAA says that’s fine (as long as you didn’t use it to buy souvenirs)." wrong="MISSED OPPORTUNITY! You turned down $30 from your coach to cover extra costs coming from showing around a potential recruit. Too bad — the NCAA rules say taking that money is OK, as long as you don’t use it to buy souvenirs." alt="">13.6.7.5 Student Host. The student host must be either a current student-athlete or a student designated in a manner consistent with the institution’s policy for providing campus visits or tours to prospective students in general. The institution may provide the following to a student host entertaining a prospective student-athlete: (a) A maximum of $30 for each day of the visit to cover all actual costs of entertaining the student host(s) and the prospective student-athlete (and the prospective student-athlete’s parents, legal guardians or spouse), excluding the cost of meals and admission to campus athletics events. The cost of entertainment of the institution’s athletics department staff members who accompany the prospective student-athlete is also excluded. If an athletics department staff member serves as the prospective student-athlete’s host, his or her entertainment costs must be included in the entertainment allowance. The entertainment allowance may not be used for the purchase of souvenirs, such as T-shirts or other institutional mementos. It is permissible to provide the student host with an additional $15 per day for each additional prospective student-athlete the host entertains.</rule>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</question>
+	<question>
+		<character des="Your high school football coach" img="ximage1.png">Coach Stirling “Bubba” Wadsworth III</character>
+		<q>We’re going to have an alumni game starring all the best players that graduated in the last five years, and we want you to come play in it. It’ll be during one of your breaks so you won’t have to worry about missing practice (and class). What do you say? Want to play?</q>
+		<a cor="false" val="0" res="You missed out on the opportunity to brag to all your high school buddies about how much better your team is than theirs.">Sorry, I better stay at school.</a>
+		<a cor="true" val="0" res="You just can’t say no to Bubba.">I'll come play with my old teammates.</a>
+		<rule right="You went home during a school break to play in an alumni game at your high school. Since this took place over break, the NCAA says it’s fine." wrong="MISSED OPPORTUNITY! You didn’t go home during a school break to play in an alumni game at your high school. You made Bubba mad for no good reason, and it’s not smart to make Bubba mad. The NCAA says this is fine, as long as it’s during a school break." alt="">14.7.3 exceptions—All sports. The following exceptions to the outside-competition regulations are permitted: (a) High School Alumni Game. A student-athlete may compete in one game a year involving participants from the student-athlete’s former high school and its alumni team. In sports other than basketball, this game must take place during an official vacation period of the institution’s academic year.</rule>
+		<background>xbackground1.jpg</background>
+		<sound>sound.mp3</sound>
+	</question>
+	<ncaa>
+		<character des="An NCAA investigator" img="ximage3.png">James Newton</character>
+		<q>I’m going to ask you several questions, and I want you to answer to the best of your ability. Remember everything you can, and tell the truth. Being honest will benefit you in the long run, I promise.</q>
+		<a cor="true" val="-2" res="Because you were honest about your violations, the NCAA investigators didn’t add any additional penalties.">I'll be honest about everything.</a>
+		<a cor="false" val="2" res="Because you were dishonest about your violations, the NCAA investigators added additional penalties.">I can get away with some things.</a>
+		<a cor="false" val="4" res="Because you were dishonest about your violations, the NCAA investigators added additional penalties.">Lie, lie, lie!</a>
+		<background>xbackground2.jpg</background>
+		<sound>sound2.mp3</sound>
+	</ncaa>
+	<score type="lowest">Congratulations! You walked the straight and narrow, NCAA-style. Combine that compliance with your talents, and you’re a first-round draft pick in the NFL. Nicely done.</score>
+	<score type="low">Not too shabby. You made a couple of mistakes, so you’ll have to sit out one game while the NCAA works on your case. Ultimately, you’re fine.</score>
+	<score type="mid">You strayed a little. You’ll have to sit out four games and repay everything you took. It’ll total up to  $1,000. Steep punishment for what seemed like harmless fun.</score>
+	<score type="high">What were you thinking? You have too many violations, and you’re going to miss the season. Fortunately, you can redshirt it and come back next year.</score>
+	<score type="highest">The temptations proved irresistible. Hope it was fun while it lasted, because you’re no longer eligible to play college football.</score>
+</investigation>

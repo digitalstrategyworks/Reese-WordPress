@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://carolinaconnection.org/wp-content/plugins/google-xml-sitemaps-with-multisite-support/sitemap.xsl"?><!-- generator="wordpress/3.0.4" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.2" -->
+<!-- generated-on="February 2, 2011 6:49 pm" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://carolinaconnection.org/</loc>
+		<lastmod>2011-02-02T18:48:51+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 1555: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/30/entire-program-january-29-2011/</loc>
+		<lastmod>2011-02-02T18:48:51+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1524: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/college-officials-work-to-prevent-violence/</loc>
+		<lastmod>2011-01-29T18:52:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1510: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/justin-page-talks-sports/</loc>
+		<lastmod>2011-01-29T18:13:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1450: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/blue-steel-meet-the-mens-basketball-walk-ons/</loc>
+		<lastmod>2011-01-29T14:03:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1404: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/unc-prepares-for-drastic-budget-cuts/</loc>
+		<lastmod>2011-01-29T14:00:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1417: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/students-work-out-with-videogames/</loc>
+		<lastmod>2011-01-29T13:50:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1477: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/smartphones-accessory-or-necessity/</loc>
+		<lastmod>2011-01-29T13:45:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1398: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/republicans-fight-to-repeal-fee/</loc>
+		<lastmod>2011-01-29T13:44:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1435: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2011/01/29/student-union-pushes-for-fee-increase/</loc>
+		<lastmod>2011-01-29T13:40:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 15: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/september-11-2010/</loc>
+		<lastmod>2010-09-22T15:35:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 34: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/silly-bandz-fever/</loc>
+		<lastmod>2010-09-22T15:34:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 22: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/young-team-keeps-top-ranking/</loc>
+		<lastmod>2010-09-22T15:33:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 20: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/students-have-mixed-reactions-to-football-scandal/</loc>
+		<lastmod>2010-09-22T15:32:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 26: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/varsity-projectionist-keeps-things-rolling/</loc>
+		<lastmod>2010-09-22T15:31:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 29: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/mopeds-a-practical-thrill-ride/</loc>
+		<lastmod>2010-09-22T15:30:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 31: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/exclusive-bruce-carter-audio-diary/</loc>
+		<lastmod>2010-09-22T15:29:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 230: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/remembering-9-11/</loc>
+		<lastmod>2010-09-22T15:29:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 170: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/september-18-2010/</loc>
+		<lastmod>2010-09-22T15:27:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 125: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/125/</loc>
+		<lastmod>2010-09-21T23:07:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 178: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/hard-hitting-mens-rugby/</loc>
+		<lastmod>2010-09-21T23:06:23+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 155: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/first-mosque-comes-to-chapel-hill/</loc>
+		<lastmod>2010-09-21T23:05:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 175: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/football-team-adjusts-to-coaching-changes/</loc>
+		<lastmod>2010-09-21T23:04:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 162: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/sitting-on-the-job/</loc>
+		<lastmod>2010-09-21T23:03:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 136: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/new-rush-regulations/</loc>
+		<lastmod>2010-09-21T23:01:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 246: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/18/ongoing-investigation-into-sports-tutoring/</loc>
+		<lastmod>2010-09-21T19:19:05+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 44: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/11/making-music-despite-practice-room-madness/</loc>
+		<lastmod>2010-09-17T18:24:51+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 10: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://carolinaconnection.org/2010/09/10/about/</loc>
+		<lastmod>2010-09-10T17:26:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://carolinaconnection.org/about/</loc>
+		<lastmod>2010-09-03T17:36:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

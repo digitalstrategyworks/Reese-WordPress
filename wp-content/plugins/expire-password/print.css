@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 
+
+Add styles here to creat a style
+that will only display when printing.
+
+To preview do a "Print Preview".
+
+Ex. >>
+
+.widefat {position:absolute;top:10px;left:0px;width:100%;}
+#wphead{display:none;}
+#menu {display:none;}
+#adminmenu{display:none;}
+input{display:none;}
+
+*/
+
+#footer{display:none;}

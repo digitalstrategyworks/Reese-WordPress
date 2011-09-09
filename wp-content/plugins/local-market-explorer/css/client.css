@@ -1,0 +1,262 @@
+.lme-module-heading {
+	background-color: #eee;
+	display: block;
+	padding-left: 10px;
+	margin-bottom: 0 !important;
+}
+.lme-module {
+	border: 1px solid #eee;
+	padding: 10px;
+	overflow: auto;
+	margin-bottom: 30px;
+	position: relative;
+}
+.lme-module th {
+	text-align: left;
+}
+.lme-module table {
+	width: 100%;
+}
+.lme-module label {
+	cursor: pointer;
+}
+
+.lme-zhvi {
+	text-align: center;
+}
+.lme-market-charts-container {
+	margin: 0 auto 20px;
+	width: 470px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.lme-zhvi-chart {
+	float: left;
+	width: 235px;
+}
+.lme-market-charts {
+	float: left;
+	width: 220px;
+	margin-left: 15px;
+	text-align: center;
+}
+.lme-market-chart-supplemental {
+	float: left;
+	width: 225px;
+	margin-top: 20px;
+	text-align: center;
+}
+.lme-market-location-url {
+	width: 350px;
+	float: left;
+	text-align: center;
+}
+.lme-market-logo {
+	float: right;
+}
+
+.lme-neighborhoods .lme-neighborhood {
+	width: 33%;
+	float: left;
+}
+
+.lme-recently-sold {
+	clear: both;
+	overflow: auto;
+}
+.lme-recently-sold img {
+	float: left;
+	margin: 5px 10px 5px 0 !important;
+	border: 1px solid #999;
+}
+.lme-recently-sold .lme-data {
+	float: left;
+}
+
+.lme-schools .lme-left, .lme-schools .lme-right {
+	height: 400px;
+	overflow: auto;
+	margin-bottom: 15px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.lme-schools .lme-left {
+	border-left: 1px solid #eee;
+	float: left;
+	width: 66%;
+}
+.lme-school {
+	margin-bottom: 25px;
+}
+.lme-school h4 {
+	font-weight: bold;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.lme-schools .lme-right {
+	background-color: #eee;
+	border-right: 1px solid #eee;
+	float: right;
+	width: 33%;
+	overflow: hidden;
+}
+.lme-schools .lme-filter {
+	margin: 15px auto;
+	width: 160px;
+}
+.lme-schools .lme-right input {
+	margin: 0 0 0 15px;
+	padding: 0;
+	width: auto;
+}
+
+.lme-yelp-logo {
+	vertical-align: middle !important;
+	margin: 3px 0 !important;
+	padding: 0 !important;
+	border-style: none !important;
+	background-color: transparent !important;
+}
+.lme-yelp .lme-map {
+	height: 300px;
+	border: 1px solid #eee;
+	margin-bottom: 15px;
+}
+.lme-yelp .lme-businesses {
+	height: 325px;
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.lme-yelp .lme-review {
+	clear: both;
+}
+.lme-yelp .lme-photo {
+	float: left;
+	margin: 5px 15px 5px 0 !important;
+	border: 1px solid #999;
+}
+.lme-yelp img.lme-rating {
+	vertical-align: middle !important;
+}
+
+.lme-walk-score-iframe {
+	width: 100%;
+	height: 310px;
+	border-style: none;
+}
+
+.lme-teachstreet .lme-classes {
+	margin-bottom: 15px;
+}
+.lme-teachstreet .lme-class {
+	clear: both;
+}
+.lme-teachstreet .lme-photo {
+	float: left;
+	margin: 5px 15px 5px 0 !important;
+	border: 1px solid #999;
+}
+.lme-teachstreet .lme-branding {
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+.lme-teachstreet .lme-logo {
+	float: right;
+}
+
+.lme-nileguide .lme-seedo {
+	margin-bottom: 15px;
+	overflow: auto;
+}
+.lme-nileguide .lme-seedo-map {
+	height: 300px;
+}
+.lme-nileguide .lme-entry {
+	clear: both;
+	margin-bottom: 20px;
+}
+.lme-nileguide .lme-photo {
+	float: left;
+	margin: 5px 15px 5px 0 !important;
+	border: 1px solid #999;
+}
+.lme-nileguide .lme-trips {
+	overflow: auto;
+}
+.lme-nileguide .lme-logo {
+	float: right;
+}
+
+.lme-colleges .lme-left, .lme-colleges .lme-right {
+	height: 400px;
+	overflow: auto;
+	margin-bottom: 15px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.lme-colleges .lme-left {
+	border-left: 1px solid #eee;
+	float: left;
+	padding: 0 2%;
+	width: 29%;
+}
+.lme-college {
+	margin-bottom: 25px;
+	display: none;
+}
+.lme-public-4-year {
+	display: block;
+}
+.lme-college h3 {
+	font-weight: bold;
+}
+.lme-college h4 {
+	font-weight: bold;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.lme-colleges .lme-right {
+	border-right: 1px solid #eee;
+	float: right;
+	overflow: hidden;
+	width: 66%;
+}
+.lme-colleges-container {
+	background-color: #eee;
+	height: 330px;
+	overflow: auto;
+	padding: 10px;
+}
+.lme-colleges .lme-filter {
+	margin: 15px auto;
+}
+.lme-colleges .lme-left input {
+	margin: 0 0 0 15px;
+	padding: 0;
+	width: auto;
+}
+.lme-matchcollege-logo {
+	display: block;
+	height: 50px;
+	margin: 100px auto 0 auto;
+	width: 120px;
+}
+
+.lme-homethinking .lme-realtor {
+	border-bottom: 1px solid #EEE;
+	clear: both;
+	padding: 20px inherit;
+	overflow: auto;
+}
+.lme-homethinking .lme-photo {
+	float: left;
+	margin: 5px 15px 5px 0 !important;
+	border: 1px solid #999;
+}
+.lme-homethinking .lme-data {
+	float: left;
+}
+.lme-homethinking-find-more {
+	padding: 15px 2px 10px;
+}

@@ -1,0 +1,143 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#5e5e5e;
+}
+
+body {
+	font-family: verdana, arial, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#fff;
+}
+
+	a:hover {
+		text-decoration:none;
+	}
+	
+	a.add_new {
+		display:block;
+		margin: 10px 0px 10px 0px;
+		font-size: 12px;
+	}
+	
+	a.logout {
+		float:right;
+		padding:20px;
+	}
+
+#header {
+	height: 10%;
+	background-color: #000;
+	padding: 15px;
+}
+
+	#header h1 {
+		padding: 10px 0px 10px 10px;
+		margin-left: 10px;
+		float:left;
+		color: #fff;
+	}
+	
+	#header img {
+		margin-top: 3px;
+		float:left;
+	}
+
+#left {
+	float: left;
+	width: 200px;
+	background-color: #5e5e5e;
+	padding: 20px;
+	color:#fff;
+}
+
+	#left ul {
+		margin-left: 15px;
+	}
+	
+	#left ul li {
+		font-size: 0.9em;
+	}
+
+#content {
+	float:right;
+	background-color: #f1f1f1;
+	padding: 20px;
+	width: 680px;
+	text-align:left;
+}
+	
+	#content p {
+		padding: 10px 0px 10px 0px;
+		font-size: 0.9em;
+	}
+	
+	#content a {
+		display:block;
+		padding:0px;
+		margin: 10px 0px 0px 0px;
+		font-size: 0.7em;
+		color: #ff0000;
+	}
+	
+	#content h3.coupons {
+		margin: 30px 0px 10px 0px;
+	}
+	
+	#content ul.coupons {
+		margin-left: 15px;
+	}
+	
+		#content ul.coupons li a {
+			font-size: 0.9em;
+			color: #000;
+		}
+	
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	display:inline-block;
+}
+
+html[xmlns] .clear {
+	display: block;
+}
+ 
+* html .clear {
+	height: 1%;
+}
+
+#footer {
+	padding: 10px;
+	clear:both;
+	background-color:#000;
+	text-align:right;
+	font-size: 0.7em;
+	color:#fff;
+}
+
+span.plus_link, span.plus_menu {
+	display: inline;
+	cursor: pointer;
+}
+
+span.minus_link, span.minus_menu {
+	display: inline;
+	cursor: pointer;
+}

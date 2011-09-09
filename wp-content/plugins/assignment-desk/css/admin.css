@@ -1,0 +1,118 @@
+/* Right-side */
+.ad-module { margin-bottom: 10px; }
+.ad-module h2 { margin: 2px; font-size: 16px; font-weight: 900;}
+
+.avatar { float:left; padding-right: 10px; }
+
+/* Settings */
+ul.ad_elements span.field { width: 120px; display: inline-block;}
+ul.ad_elements span.copy.hidden { display: none; }
+ul.ad_elements span.copy label { margin-right: 5px; }
+ul.ad_elements span.copy input { margin-right: 10px; }
+
+/* Dashboard */
+
+div#ad_assignments .inside {
+
+}
+
+div#ad_assignments .historical {
+	font-size: 11px;
+}
+
+div#ad_assignments .historical .textright {
+	float: right;
+	margin-top: -8px;
+}
+
+div#assignment-desk-post-list {
+	margin-top: -10px;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item {
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	border-top: 1px solid #DFDFDF;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item:first-child {
+	border-top: none;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item h4 {
+	font-weight: normal;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item h4 span {
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:10px;
+	font-style:italic;
+	color: #999999;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.meta {
+	color: #999999;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.meta span.ad-role {
+	color: #333333;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.row-actions {
+	visibility: visible;
+	margin-bottom: 5px;
+	font-size: 10px;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.post-details {
+	display: none;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.post-details span.label {
+	color: #999999;	
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.row-actions a.assignment_desk_accept {
+	color: #006505;
+}
+
+div#assignment-desk-post-list div.assignment-desk-item p.row-actions a.assignment_desk_decline {
+	color: #BC0B0B;
+}
+div#assignment-desk-post-list div.assignment-desk-item p.row-actions a.assignment_desk_view_details {
+	color: #21759B;
+}
+
+div#assignment-desk-post-list .pending {
+	background-color: #FFFFE0;
+}
+
+div#assignment-desk-post-list .declined {
+	background-color: #F4F4F4;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+/* Manage Posts */
+th.column-title { width: 10% !important; }
+th.column-tags, th.column-categories { width: 8% !important; }
+th.column-date { width: 7% !important; }
+th.column-status { width: 6% !important; }
+th.column-_ad_assignment_status { word-wrap: normal; width: 5%; }
+th.column-_ef_location { word-wrap: normal; width: 5%; }
+th.column-_ad_participants { word-wrap: normal; }
+th.column-_ad_user_type { word-wrap: normal; }
+th.column-_ad_volunteers { word-wrap: normal; }
+

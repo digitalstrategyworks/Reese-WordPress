@@ -1,0 +1,657 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thesis OpenHook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-12 00:35-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rick Beckman <rick.beckman@gmail.com>\n"
+"Language-Team: Rick Beckman <rick.beckman@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: css-edit.php:27
+#: options.php:27
+#: php-edit.php:27
+msgid "You are not authorized to access Thesis OpenHook."
+msgstr ""
+
+#: css-edit.php:57
+#: options.php:236
+#: php-edit.php:57
+msgid "Thesis customizations have been saved. You should now check your site to ensure everything is working as expected, and thank you for using Thesis with OpenHook!"
+msgstr ""
+
+#: css-edit.php:78
+#: php-edit.php:78
+msgid "Little Ass Save Button"
+msgstr ""
+
+#: css-edit.php:83
+msgid "Thesis OpenHook custom.css Editor"
+msgstr ""
+
+#: css-edit.php:91
+msgid "Custom Stylesheet"
+msgstr ""
+
+#: css-edit.php:95
+msgid "<strong>By editing this, you are physically modifying your Thesis <code>custom.css</code> file.</strong> Use caution, and make sure you have a backup in case you need it! Also, it goes without saying that <strong>only <abbr title=\"Cascading Style Sheets\">CSS</abbr></strong> can be used in this box!"
+msgstr ""
+
+#: functions.php:12
+#: options.php:271
+msgid "Thesis OpenHook"
+msgstr ""
+
+#: functions.php:1045
+msgid " queries. "
+msgstr ""
+
+#: functions.php:1047
+msgid "seconds."
+msgstr ""
+
+#: options.php:241
+msgid "Little Save Button"
+msgstr ""
+
+#: options.php:272
+#, php-format
+msgid "Be prepared to get hooked up! This plugin allows you to insert any content you want into any of the custom hooks within the <a href=\"%1$s\">Thesis theme</a>. The hook names are pretty self explanatory, but if you need more help determining where they show up in your mark-up, <a href=\"%2$s\" title=\"Thesis Hooks Reference\">check the manual</a>."
+msgstr ""
+
+#: options.php:273
+msgid "Report bugs &amp; seek support at rick.beckman@gmail.com. Support is limited to the functionality of OpenHook itself; for help crafting your customizations, you should likely begin at the official DIYthemes support forums. Thanks for your understanding!"
+msgstr ""
+
+#: options.php:274
+#, php-format
+msgid "OpenHook is released for free to the Thesis community, but if you’d like to encourage its development, would you consider bribing me with <a href=\"%s\">something off of my wishlist</a>? Thanks!"
+msgstr ""
+
+#: options.php:275
+msgid "Thesis OpenHook is licensed under an open license, meaning anyone can take it, improve it, and generally make the community better. Did you know that the Thesis theme itself is not? Let DIYthemes know that you want them to support the community by open sourcing Thesis!"
+msgstr ""
+
+#: options.php:276
+msgid "Insert any <abbr title=\"Hypertext Markup Language\">HTML</abbr>, <abbr title=\"Cascading Style Sheets\">CSS</abbr>, JavaScript or <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> you like."
+msgstr ""
+
+#: options.php:277
+msgid "Your <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> code must be enclosed within <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> tags, and you have to enable the “Execute <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> on this hook” option for each hook separately."
+msgstr ""
+
+#: options.php:278
+msgid "Please note that using <em>any</em> of the save buttons on this page will save <em>all</em> of the displayed fields. Take care not to save unwanted changes. You’ve been warned."
+msgstr ""
+
+#: options.php:286
+msgid "WP Head"
+msgstr ""
+
+#: options.php:290
+#: options.php:307
+#: options.php:324
+#: options.php:355
+#: options.php:379
+#: options.php:396
+#: options.php:420
+#: options.php:437
+#: options.php:454
+#: options.php:471
+#: options.php:488
+#: options.php:505
+#: options.php:536
+#: options.php:553
+#: options.php:570
+#: options.php:587
+#: options.php:604
+#: options.php:621
+#: options.php:638
+#: options.php:655
+#: options.php:679
+#: options.php:696
+#: options.php:713
+#: options.php:730
+#: options.php:747
+#: options.php:785
+#: options.php:809
+#: options.php:826
+#: options.php:843
+#: options.php:860
+#: options.php:877
+#: options.php:894
+#: options.php:911
+#: options.php:928
+#: options.php:945
+#: options.php:962
+#: options.php:979
+#: options.php:996
+#: options.php:1012
+#: options.php:1036
+#: options.php:1060
+#: options.php:1084
+#: options.php:1101
+#: options.php:1125
+#: options.php:1149
+#: options.php:1173
+#: options.php:1190
+#: options.php:1207
+#: options.php:1224
+#: options.php:1241
+#: options.php:1258
+#: options.php:1275
+#: options.php:1292
+#: options.php:1309
+#: options.php:1326
+#: options.php:1343
+#: options.php:1380
+#, php-format
+msgid "Equivalent to adding to %1$s in your %2$s file."
+msgstr ""
+
+#: options.php:295
+#: options.php:312
+#: options.php:360
+#: options.php:384
+#: options.php:401
+#: options.php:425
+#: options.php:442
+#: options.php:459
+#: options.php:476
+#: options.php:493
+#: options.php:510
+#: options.php:541
+#: options.php:558
+#: options.php:575
+#: options.php:592
+#: options.php:609
+#: options.php:626
+#: options.php:643
+#: options.php:660
+#: options.php:684
+#: options.php:701
+#: options.php:718
+#: options.php:735
+#: options.php:752
+#: options.php:790
+#: options.php:814
+#: options.php:831
+#: options.php:848
+#: options.php:865
+#: options.php:882
+#: options.php:899
+#: options.php:916
+#: options.php:933
+#: options.php:950
+#: options.php:967
+#: options.php:984
+#: options.php:1001
+#: options.php:1017
+#: options.php:1041
+#: options.php:1065
+#: options.php:1089
+#: options.php:1106
+#: options.php:1130
+#: options.php:1154
+#: options.php:1178
+#: options.php:1195
+#: options.php:1212
+#: options.php:1229
+#: options.php:1246
+#: options.php:1263
+#: options.php:1280
+#: options.php:1297
+#: options.php:1314
+#: options.php:1331
+#: options.php:1348
+#: options.php:1385
+msgid "Execute <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> on this hook"
+msgstr ""
+
+#: options.php:303
+msgid "Before <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+msgstr ""
+
+#: options.php:320
+msgid "After <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+msgstr ""
+
+#: options.php:329
+msgid "Execute <abbr title=\"PHP: Hypertext Preprocessor\">PHP<?abbr> on this hook"
+msgstr ""
+
+#: options.php:335
+msgid "Remove Thesis footer scripts"
+msgstr ""
+
+#: options.php:337
+msgid "Thesis footer scripts are specified in the Thesis Options panel; if you wish to disable them without clearing the data in the Thesis Options, you may do so by removing the action itself."
+msgstr ""
+
+#: options.php:342
+msgid "Remove Thesis <abbr title=\"Internet Explorer\">IE</abbr> clearing"
+msgstr ""
+
+#: options.php:344
+msgid "Don’t care about Internet Explorer? Then don’t output this bit of compatibility code! (Not recommended.)"
+msgstr ""
+
+#: options.php:351
+msgid "Before Header"
+msgstr ""
+
+#: options.php:366
+msgid "Remove Thesis nav menu"
+msgstr ""
+
+#: options.php:368
+msgid "To move your navigation menu to below your header, remove it here, then include <code>&lt;?php thesis_nav_menu(); ?&gt;</code> in the “After Header” hook. You can, of course, add it to any hook you want!"
+msgstr ""
+
+#: options.php:375
+msgid "After Header"
+msgstr ""
+
+#: options.php:392
+msgid "Header"
+msgstr ""
+
+#: options.php:407
+msgid "Remove Thesis default header"
+msgstr ""
+
+#: options.php:409
+msgid "The default header contains your site name and tagline, but also the “Before Title” and “After Title” hooks."
+msgstr ""
+
+#: options.php:416
+msgid "Before Title"
+msgstr ""
+
+#: options.php:433
+msgid "After Title"
+msgstr ""
+
+#: options.php:450
+msgid "Before Content Box"
+msgstr ""
+
+#: options.php:467
+msgid "After Content Box"
+msgstr ""
+
+#: options.php:484
+msgid "Before Content"
+msgstr ""
+
+#: options.php:501
+msgid "After Content"
+msgstr ""
+
+#: options.php:516
+msgid "Remove Thesis post navigation"
+msgstr ""
+
+#: options.php:518
+msgid "Disables the older/newer links on the index page and archives. If you would like to move this to another hook, you can use <code>&lt;?php thesis_post_navigation(); ?&gt;</code>."
+msgstr ""
+
+#: options.php:523
+msgid "Remove Thesis prev/next posts"
+msgstr ""
+
+#: options.php:525
+msgid "While you can disable the previous/next post links on single pages via Thesis Options, leaving it active and removing it here allows you to add it to another hook using <code>&lt;?php thesis_prev_next_posts(); ?&gt;</code>."
+msgstr ""
+
+#: options.php:532
+msgid "Before Content Area"
+msgstr ""
+
+#: options.php:549
+msgid "After Content Area"
+msgstr ""
+
+#: options.php:566
+msgid "Post Box Top"
+msgstr ""
+
+#: options.php:583
+msgid "Post Box Bottom"
+msgstr ""
+
+#: options.php:600
+msgid "Content Box Top"
+msgstr ""
+
+#: options.php:617
+msgid "Content Box Bottom"
+msgstr ""
+
+#: options.php:634
+msgid "Feature Box"
+msgstr ""
+
+#: options.php:651
+msgid "Before Post Box"
+msgstr ""
+
+#: options.php:666
+msgid "Remove post images"
+msgstr ""
+
+#: options.php:668
+msgid "Need to completely remove post images without tinkering with Thesis’ settings?"
+msgstr ""
+
+#: options.php:675
+msgid "After Post Box"
+msgstr ""
+
+#: options.php:692
+msgid "Before Teasers Box"
+msgstr ""
+
+#: options.php:709
+msgid "After Teasers Box"
+msgstr ""
+
+#: options.php:726
+msgid "Before Post"
+msgstr ""
+
+#: options.php:743
+msgid "After Post"
+msgstr ""
+
+#: options.php:758
+msgid "Remove WordPress TrackBack <abbr title=\"Resource Description Framework\">RDF</abbr>"
+msgstr ""
+
+#: options.php:760
+msgid "Allows you to remove the TrackBack auto-discovery code from your posts. <a href=\"http://codex.wordpress.org/Template_Tags/trackback_rdf\">More information</a> is available on the WordPress Codex."
+msgstr ""
+
+#: options.php:765
+msgid "Remove post tags"
+msgstr ""
+
+#: options.php:767
+msgid "While you can control the visibility of post tags via Thesis Options, if you would like to change their location, you can remove them here and add them to another hook by using <code>&lt;?php thesis_post_tags(); ?&gt;</code>."
+msgstr ""
+
+#: options.php:772
+msgid "Remove Thesis comments link"
+msgstr ""
+
+#: options.php:774
+msgid "This will remove the “{ Comments # }” link from the index and archive pages."
+msgstr ""
+
+#: options.php:781
+msgid "Before Teaser Box"
+msgstr ""
+
+#: options.php:796
+msgid "Remove Thesis teaser thumbnails"
+msgstr ""
+
+#: options.php:798
+msgid "Need to remove the thumbnail images on teasers without tinkering with Thesis’ options?"
+msgstr ""
+
+#: options.php:805
+msgid "After Teaser Box"
+msgstr ""
+
+#: options.php:822
+msgid "Before Teaser"
+msgstr ""
+
+#: options.php:839
+msgid "After Teaser"
+msgstr ""
+
+#: options.php:856
+msgid "Before Headline"
+msgstr ""
+
+#: options.php:873
+msgid "After Headline"
+msgstr ""
+
+#: options.php:890
+msgid "Before Teaser Headline"
+msgstr ""
+
+#: options.php:907
+msgid "After Teaser Headline"
+msgstr ""
+
+#: options.php:924
+msgid "Byline Item"
+msgstr ""
+
+#: options.php:941
+msgid "Before Comment Meta"
+msgstr ""
+
+#: options.php:958
+msgid "After Comment Meta"
+msgstr ""
+
+#: options.php:975
+msgid "After Comment"
+msgstr ""
+
+#: options.php:992
+msgid "Comment Field"
+msgstr ""
+
+#: options.php:1008
+msgid "Comment Form"
+msgstr ""
+
+#: options.php:1023
+msgid "Remove comments subscription checkbox"
+msgstr ""
+
+#: options.php:1025
+msgid "If you have the Subscribe to Comments plugin installed but dislike the default location for the subscribe option, you can remove it here and place it elsewhere using <code>&lt;?php if (function_exists('show_subscription_checkbox')) show_subscription_checkbox(); ?&gt;</code>."
+msgstr ""
+
+#: options.php:1032
+msgid "Archives Template"
+msgstr ""
+
+#: options.php:1047
+msgid "Remove Thesis archives template"
+msgstr ""
+
+#: options.php:1049
+msgid "Thesis’ default archives template displays a list of monthly archives and categories; if you add your own archives code, you may want to remove the default."
+msgstr ""
+
+#: options.php:1056
+msgid "Custom Template"
+msgstr ""
+
+#: options.php:1071
+msgid "Remove Thesis custom template sample"
+msgstr ""
+
+#: options.php:1073
+msgid "If you are creating your own custom templates for pages, you should disable Thesis’ sample custom output."
+msgstr ""
+
+#: options.php:1080
+msgid "Faux Admin"
+msgstr ""
+
+#: options.php:1097
+msgid "Archive Info"
+msgstr ""
+
+#: options.php:1112
+msgid "Remove Thesis default archive info"
+msgstr ""
+
+#: options.php:1114
+msgid "The default archive info appears at the top of archives and gives the name and type of the archive being viewed."
+msgstr ""
+
+#: options.php:1121
+msgid "404 Title"
+msgstr ""
+
+#: options.php:1136
+msgid "Remove Thesis default 404 title"
+msgstr ""
+
+#: options.php:1138
+msgid "If you’re including your own 404 page title, you will want to remove Thesis’ default title."
+msgstr ""
+
+#: options.php:1145
+msgid "404 Content"
+msgstr ""
+
+#: options.php:1160
+msgid "Remove Thesis default 404 content"
+msgstr ""
+
+#: options.php:1162
+msgid "If you’re including your own 404 content via the box above, you will want to remove Thesis’ default 404 content."
+msgstr ""
+
+#: options.php:1169
+msgid "Before Sidebars"
+msgstr ""
+
+#: options.php:1186
+msgid "After Sidebars"
+msgstr ""
+
+#: options.php:1203
+msgid "Multimedia Box"
+msgstr ""
+
+#: options.php:1220
+msgid "After Multimedia Box"
+msgstr ""
+
+#: options.php:1237
+msgid "Before Sidebar 1"
+msgstr ""
+
+#: options.php:1254
+msgid "After Sidebar 1"
+msgstr ""
+
+#: options.php:1271
+msgid "Before Sidebar 2"
+msgstr ""
+
+#: options.php:1288
+msgid "After Sidebar 2"
+msgstr ""
+
+#: options.php:1305
+msgid "Before Footer"
+msgstr ""
+
+#: options.php:1339
+msgid "Footer"
+msgstr ""
+
+#: options.php:1354
+msgid "Remove Thesis attribution"
+msgstr ""
+
+#: options.php:1356
+msgid "Only those who purchased Thesis using the Developer’s Option are allowed to remove the Thesis attribution link. If you purchased the Personal Option and remove the Thesis attribution, be sure to include it within your own footer content (perhaps replacing it with <a href=\"http://aff.get-thesis.com/\">an affiliate link to DIYthemes</a>)."
+msgstr ""
+
+#: options.php:1361
+msgid "Display debug information"
+msgstr ""
+
+#: options.php:1363
+msgid "If you would like to keep tabs on how long <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> takes to process your page or on how many database queries are being made, turning on the debug information will add this data to your blog’s footer, visible to administrators only. <a href=\"http://rickbeckman.org/use-wordpress-debug-stats-to-trim-the-fat-from-your-blog/\">More information on using debug information to speed up your site.</a>"
+msgstr ""
+
+#: options.php:1368
+#, php-format
+msgid "Help fight spam by including an invisible <a href=\"%s\">Project Honey Pot QuickLink</a> in the footer area."
+msgstr ""
+
+#: options.php:1376
+msgid "WP Footer"
+msgstr ""
+
+#: options.php:1393
+msgid "Save Button"
+msgstr ""
+
+#: options.php:1395
+msgid "You can replace the text of the save button with whatever text you want."
+msgstr ""
+
+#: options.php:1404
+msgid "Jump to a hook"
+msgstr ""
+
+#: options.php:1406
+msgid "Select a hook"
+msgstr ""
+
+#: options.php:1411
+msgid "Header hooks"
+msgstr ""
+
+#: options.php:1418
+msgid "Content hooks"
+msgstr ""
+
+#: options.php:1438
+msgid "Teaser hooks"
+msgstr ""
+
+#: options.php:1446
+msgid "Comment hooks"
+msgstr ""
+
+#: options.php:1453
+msgid "Page templates, archives, and more"
+msgstr ""
+
+#: options.php:1461
+msgid "Sidebar hooks"
+msgstr ""
+
+#: options.php:1471
+msgid "Footer hooks"
+msgstr ""
+
+#: options.php:1477
+msgid "Rename the save button"
+msgstr ""
+
+#: php-edit.php:83
+msgid "Thesis OpenHook custom_functions.php Editor"
+msgstr ""
+
+#: php-edit.php:91
+msgid "Custom Programming"
+msgstr ""
+
+#: php-edit.php:95
+msgid "<strong>By editing this, you are physically modifying your Thesis <code>custom_functions.php</code> file.</strong> Use caution, and make sure you have a backup in case you need it! Not ready to take that risk? Use OpenHook’s standard options page for all your customization needs!"
+msgstr ""
+

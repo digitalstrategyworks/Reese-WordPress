@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Javascript Adder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-02 20:14+0530\n"
+"PO-Revision-Date: 2011-01-02 20:15+0530\n"
+"Last-Translator: Aakash Chakravarthy <aakash.19493@gmail.com>\n"
+"Language-Team: Aakash Chakravarthy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../html-javascript-adder.php:54
+msgid "Used to add HTML, javascripts, Flash embed codes to sidebar"
+msgstr "Используется для добавления HTML, Java-, Flash вставлять коды на боковую панель"
+
+#: ../html-javascript-adder.php:56
+msgid "HTML Javascript Adder"
+msgstr "HTML Javascript Adder"
+
+#: ../html-javascript-adder.php:197
+msgid "Title :"
+msgstr "Название:"
+
+#: ../html-javascript-adder.php:203
+msgid "Content :"
+msgstr "Содержание:"
+
+#: ../html-javascript-adder.php:204
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../html-javascript-adder.php:204
+msgid "Image"
+msgstr "Изображение"
+
+#: ../html-javascript-adder.php:204
+msgid "Code"
+msgstr "Код"
+
+#: ../html-javascript-adder.php:204
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: ../html-javascript-adder.php:209
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../html-javascript-adder.php:212
+msgid "Don't display in Posts page"
+msgstr "Не отображать сообщения в страницы"
+
+#: ../html-javascript-adder.php:214
+msgid "Don't display in Archive or Tag page"
+msgstr "Не показывать в архив или тегов страницы"
+
+#: ../html-javascript-adder.php:216
+msgid "Don't display in Home page"
+msgstr "Не показывать на главной странице"
+
+#: ../html-javascript-adder.php:218
+msgid "Don't display in Pages"
+msgstr "Не отображать на страницах"
+
+#: ../html-javascript-adder.php:220
+msgid "Don't display in Search page"
+msgstr "Не показывать страницу поиска"
+
+#: ../html-javascript-adder.php:222
+msgid "Automatically add paragraphs"
+msgstr "Автоматически добавлять пункты"
+
+#: ../html-javascript-adder.php:228
+msgid "Don't display to admin"
+msgstr "Не показывать администратору"
+
+#: ../html-javascript-adder.php:230
+msgid "Don't show in posts"
+msgstr "Не показывать в должности"
+
+#: ../html-javascript-adder.php:232
+msgid "Post ID's / name / title seperated by comma"
+msgstr "Сообщение идентификатор / имя / название, разделенных запятыми"
+
+#: ../html-javascript-adder.php:240
+#: ../html-javascript-adder.php:282
+msgid "Make Donations"
+msgstr "Сделать пожертвования"
+
+#: ../html-javascript-adder.php:240
+msgid "Documentation"
+msgstr "Документация"
+
+#: ../html-javascript-adder.php:240
+msgid "Visit Author site"
+msgstr "Посетить сайт автора"
+
+#: ../html-javascript-adder.php:240
+msgid "Support Forum"
+msgstr "Поддержка Форум"
+
+#: ../html-javascript-adder.php:240
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: ../html-javascript-adder.php:240
+msgid "Promote"
+msgstr "Содействовать"
+
+#: ../html-javascript-adder.php:249
+msgid "Added with HTML Javascript Adder Wordpress plugin"
+msgstr "Добавлено с HTML Javascript Adder Wordpress плагина"
+
+#: ../html-javascript-adder.php:302
+msgid "Disable HTML Javascript Adder link back"
+msgstr "Отключить HTML Javascript Adder ссылку"
+
+#: ../html-javascript-adder.php:303
+msgid "Save"
+msgstr "Обновление"
+
+#: ../html-javascript-adder.php:322
+msgid "Subscribe to Updates"
+msgstr "Подписаться на обновления"
+
+#: ../html-javascript-adder.php:322
+msgid "Follow on Twitter"
+msgstr "Следуйте по щебетать"
+
+#: ../html-javascript-adder.php:322
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: ../html-javascript-adder.php:327
+msgid "AW Latest Updates"
+msgstr "AW Последние обновления"
+

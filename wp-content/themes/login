@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 TRANSITIONAL//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>[Reese Felts Digital Newsroom] Sign in</title>
+  <script src="https://asset3.basecamphq.com/sprockets.js?1283479621" type="text/javascript"></script>
+    <link href="https://asset1.basecamphq.com/stylesheets/cache/all.css?1283479685" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://asset1.basecamphq.com/stylesheets/print/application.css?1283479685" media="print" rel="stylesheet" type="text/css" />
+  
+  <!--[if IE]><link href="https://asset0.basecamphq.com/stylesheets/ie/base.css?1283479685" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+
+    <meta name="queenbee-id" content="1319986" />
+  <meta name="return-to-location" content="/projects/5396123/file/59064401/reese.zip" />
+
+</head>
+
+<body class="login">
+  
+  <div id="LogoBox"><img alt="Reese Felts Digital Newsroom" src="https://reesefelts.basecamphq.com/companies/2017964/logo.gif" /></div>
+
+  
+  <div class="login">
+    
+
+    <div class="flash_notice" id="Flash">Please sign in first and then we'll send you right along.</div>
+
+    
+
+
+
+<div id="login_dialog" class="login_dialog">
+<form action="https://launchpad.37signals.com/authenticate" method="post" onsubmit="Login.clearHiddenFields()"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="F9sXJAeVKhrqiy4542drKGVB9WVUgY849NOQ7QesOCs=" /></div>    <input id="product" name="product" type="hidden" value="basecamp" />
+    <input id="subdomain" name="subdomain" type="hidden" value="reesefelts" />
+
+    <div id="user_name_login">
+      <h2>Username</h2>
+      <input autocapitalize="off" autocorrect="off" id="username" name="username" type="text" /><br/>
+
+      <h2>Password</h2>
+      <input id="password" name="password" type="password" /><br/>
+
+      <label><input class="auto" id="remember_me" name="remember_me" type="checkbox" value="1" /> Remember me on this computer</label><br />
+
+      <input class="button" name="commit" type="submit" value="Sign in" />
+
+      <div class="extras">
+        <ul>
+          <li><strong>Help:</strong> <a href="/amnesia/forgot_password">I forgot my username or password</a></li>
+          <li><a href="#" onclick="Login.loginWithOpenId(); return false;">Sign in using an OpenID instead</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="open_id_login" style="display: none">
+      <h2><span class="sprite openid_logo" style="background: url(https://asset3.basecamphq.com/images/basecamp_sprites.png?1283479685) no-repeat -88px -25px; width: 80px; padding-top: 30px; " title="Sign in with an OpenID">Sign in with an OpenID</span> </h2>
+      <input autocapitalize="off" autocorrect="off" id="openid_identifier" name="openid_identifier" type="text" /><br/>
+
+      <label><input class="auto" id="remember_me" name="remember_me" type="checkbox" value="1" /> Remember me on this computer</label><br />
+
+      <input class="button" name="commit" type="submit" value="Sign in" />
+
+      <div class="extras">
+        <ul>
+          <li><strong>Help:</strong> <a href="/amnesia/trouble_with_open_id">My OpenID isn't working and I can't sign in</a></li>
+          <li><a href="#" onclick="Login.loginWithUserName(); return false;">Sign in using a standard username/password</a></li>
+        </ul>
+      </div>
+    </div>
+</form></div>
+
+<script type="text/javascript">
+//<![CDATA[
+$("username").focus()
+//]]>
+</script>
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<questionbank>
+		<question>
+			<correct>Michael Jordan</correct>
+			<feet>
+				<x>337.95</x>
+				<y>210.35</y>
+                <rot>30</rot>
+			</feet>
+			<hints>
+				<hint>0:17 remained</hint>
+				<hint>UNC 63, Georgetown 62</hint>
+				<hint>Won an NCAA National Championship</hint>
+                <hint>1982</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Dudley Bradley</correct>
+			<feet>
+				<x>444.90</x>
+				<y>215.80</y>
+                <rot>-5</rot>
+			</feet>
+			<hints>
+				<hint>0:01 remained</hint>
+				<hint>UNC played NCSU</hint>
+				<hint>UNC won 70 to 69</hint>
+                <hint>1979</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Michael Jordan</correct>
+			<feet>
+				<x>447.70</x>
+				<y>243.80</y>
+                <rot>0</rot>
+			</feet>
+			<hints>
+				<hint>0:38 remained</hint>
+				<hint>UNC played UVA</hint>
+				<hint>UNC won 64 to 63</hint>
+                <hint>1983</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Joe Quigg</correct>
+			<feet>
+				<x>429.70</x>
+				<y>316.75</y>
+                <rot>0</rot>
+			</feet>
+			<hints>
+				<hint>0:06 remained</hint>
+				<hint>UNC 54, Kansas 53</hint>
+				<hint>Won NCAA title in 3OT</hint>
+                <hint>1957 perfect season</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Marvin Williams</correct>
+			<feet>
+				<x>498.70</x>
+				<y>222.30</y>
+                <rot>-90</rot>
+			</feet>
+			<hints>
+				<hint>0:17 remained</hint>
+				<hint>UNC played Duke</hint>
+				<hint>UNC won 75 to 73</hint>
+                <hint>2005</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Dante Calabria</correct>
+			<feet>
+				<x>493.70</x>
+				<y>240.90</y>
+                <rot>-30</rot>
+			</feet>
+			<hints>
+				<hint>0:06 remained</hint>
+				<hint>UNC played Wake Forest</hint>
+				<hint>UNC won 86 to 83</hint>
+                <hint>1994</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Brian Reese</correct>
+			<feet>
+				<x>524.70</x>
+				<y>279.90</y>
+                <rot>-30</rot>
+			</feet>
+			<hints>
+				<hint>0:01 remained</hint>
+				<hint>UNC played Wake Forest</hint>
+				<hint>UNC won 80 to 78</hint>
+                <hint>1992</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Ty Lawson</correct>
+			<feet>
+				<x>479.85</x>
+				<y>371.45</y>
+                <rot>-10</rot>
+			</feet>
+			<hints>
+				<hint>0:06 remained</hint>
+				<hint>UNC played FSU</hint>
+				<hint>UNC won 80 to 77</hint>
+                <hint>2009</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Rashad McCants</correct>
+			<feet>
+				<x>290.65</x>
+				<y>272.00</y>
+                <rot>80</rot>
+			</feet>
+			<hints>
+				<hint>0:06 remained</hint>
+				<hint>UNC 86, Connecticut 83</hint>
+				<hint>UNC advanced to Sweet 16</hint>
+                <hint>2004</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Wayne Ellington</correct>
+			<feet>
+				<x>300.10</x>
+				<y>291.45</y>
+                <rot>30</rot>
+			</feet>
+			<hints>
+				<hint>0:00 remained in 2OT</hint>
+				<hint>UNC 90, Clemson 88</hint>
+				<hint>He scored career-high 36 pts</hint>
+                <hint>2008</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Harrison Barnes</correct>
+			<feet>
+				<x>431.50</x>
+				<y>372.70</y>
+                <rot>0</rot>
+			</feet>
+			<hints>
+				<hint>0:03 remained</hint>
+				<hint>UNC played FSU</hint>
+				<hint>UNC won 72 to 70</hint>
+                <hint>2011</hint>
+			</hints>
+		</question>
+		
+		<question>
+			<correct>Tyler Zeller</correct>
+			<feet>
+				<x>443.90</x>
+				<y>179.10</y>
+                <rot>90</rot>
+			</feet>
+			<hints>
+				<hint>0:00 remained</hint>
+				<hint>UNC 61, Miami 59</hint>
+				<hint>Assist from Kendall Marshall</hint>
+                <hint>2011 ACC Tournament</hint>
+			</hints>
+		</question>
+	</questionbank>
+	
+	<playerbank>
+		<!-- 1957 -->
+		<player>Lennie Rosenbluth</player>
+		<player>Ken Rosemond</player>
+		<player>Bob Young</player>
+		<player>Roy Searcy</player>
+		<player>Bill Hathaway</player>
+		<player>Gehrmann Holland</player>
+		<player>Bob Cunningham</player>
+		<player>Danny Lotz</player>
+		<player>Pete Brennan</player>
+		<player>Tommy Kearns</player>
+		<player>Joe Quigg</player>
+		<player>Stan Groll</player>
+		<player>Tony Radovich</player>
+		
+		<!-- 1979 -->
+		<player>Mike Pepper</player>
+		<player>Dave Colescott</player>
+		<player>Jimmy Black</player>
+		<player>Dudley Bradley</player>
+		<player>Ged Doughton</player>
+		<player>Randy Wiel</player>
+		<player>Al Wood</player>
+		<player>Mike O'Koren</player>
+		<player>Eric Kenny</player>
+		<player>Pete Budko</player>
+		<player>Jeff Wolf</player>
+		<player>John Virgil</player>
+		<player>Chris Brust</player>
+		<player>Rich Yonakor</player>
+		
+		<!-- 1982 -->
+		<player>Dean Shaffer</player>
+		<player>Lynwood Robinson</player>
+		<player>Jimmy Black</player>
+		<player>Buzz Peterson</player>
+		<player>Michael Jordan</player>
+		<player>Jim Braddock</player>
+		<player>John Brownlee</player>
+		<player>Sam Perkins</player>
+		<player>Jeb Barlow</player>
+		<player>Matt Doherty</player>
+		<player>Chris Brust</player>
+		<player>Cecil Exum</player>
+		<player>Timo Makkonen</player>
+		<player>James Worthy</player>
+		<player>Warren Martin</player>
+		
+		<!-- 1983 ( do not repeat from previous year ) -->
+		<player>Steve Hale</player>
+		<player>Brad Daugherty</player>
+		<player>Curtis Hunter</player>
+		
+		<!-- 1992 -->
+		<player>Larry Smith</player>
+		<player>Eric Montross</player>
+		<player>Pat Sullivan</player>
+		<player>Henrik Rodl</player>
+		<player>Scott Cherry</player>
+		<player>Derrick Phelps</player>
+		<player>Jason Burgess</player>
+		<player>Donald Williams</player>
+		<player>Brian Reese</player>
+		<player>Kevin Salvadori</player>
+		<player>George Lynch</player>
+		<player>Travis Stephenson</player>
+		<player>Hubert Davis</player>
+		<player>Matt Wenstrom</player>
+		
+		<!-- 1994 (do not repeat from prev year) -->
+		<player>Larry Davis</player>
+		<player>Jeff Mcinnis</player>
+		<player>Pearce Landry</player>
+		<player>Rasheed Wallace</player>
+		<player>Jerry Stackhouse</player>
+		<player>Serge Zwikker</player>
+		
+		<!-- 1997 -->
+		<player>Shammond Williams</player>
+		<player>Makhtar Ndiaye</player>
+		<player>Ed Cota</player>
+		<player>Ademola Okulaja</player>
+		<player>Ryan Sullivan</player>
+		<player>Vince Carter</player>
+		<player>Terrence Newby</player>
+		<player>Webb Tyndall</player>
+		<player>Antawn Jamison</player>
+		<player>Charlie McNairy</player>
+		<player>Brad Frederick</player>
+		<player>Vasco Evtimov</player>
+		
+		<!-- 2004 -->
+		<player>Jesse Holley</player>
+		<player>Melvin Scott</player>
+		<player>Raymond Felton</player>
+		<player>Reyshawn Terry</player>
+		<player>Jackie Manuel</player>
+		<player>Damien Price</player>
+		<player>Justin Bohlander</player>
+		<player>Phillip McLamb</player>
+		<player>Jonathan Miller</player>
+		
+		<!-- 2005 -->
+		<player>Quentin Thomas</player>
+		<player>Charlie Everett</player>
+		<player>Jawad Williams</player>
+		<player>Wes Miller</player>
+		<player>Marvin Williams</player>
+		<player>Damion Grant</player>
+		<player>Rashad McCants</player>
+		<player>David Noel</player>
+		<player>CJ Hooker</player>
+		<player>Byron Sanders</player>
+		<player>Sean May</player>
+		
+		<!-- 2008/09 -->
+		<player>Marcus Ginyard</player>
+		<player>Bobby Frasor</player>
+		<player>Ty Lawson</player>
+		<player>Quentin Thomas</player>
+		<player>Will Graves</player>
+		<player>Danny Green</player>
+		<player>Deon Thompson</player>
+		<player>Wayne Ellington</player>
+		<player>Tyler Hansbrough</player>
+		<player>Ed Davis</player>
+		
+		<!-- 2011 -->
+		<player>Tyler Zeller</player>
+		<player>Dexter Strickland</player>
+		<player>Leslie McDonald</player>
+		<player>Kendall Marshall</player>
+		<player>Larry Drew</player>
+		<player>John Henson</player>
+		<player>Reggie Bullock</player>
+		<player>Harrison Barnes</player>
+		
+	</playerbank>
+</data>
