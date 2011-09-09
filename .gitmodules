@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/reesenews"]
+	path = wp-content/themes/reesenews
+	url = https://github.com/uncrfdn/Reese-Theme
