@@ -1,0 +1,42 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:n="http://www.google.com/schemas/sitemap-news/0.9">
+<!-- Generated with the Google News XML Sitemap plugin for Wordpress -->
+<!-- Created by Chicago Press Release Services | http://chicagopressrelease.com -->
+<!-- http://wordpress.org/extend/plugins/google-news-xml-sitemap/ -->
+	<url>
+		<loc>http://reesenews.org/2011/09/05/unc-mens-soccer-defeats-number-one-cardinals/18905/</loc>
+		<n:news>
+			<n:publication>
+				<n:name>Reesenews</n:name>
+				<n:language>en</n:language>
+			</n:publication>
+			<n:publication_date>2011-09-06</n:publication_date>
+			<n:title>UNC men's soccer defeats number one Cardinals</n:title>
+			<n:keywords>Sport</n:keywords>
+		</n:news>
+	</url>
+	<url>
+		<loc>http://reesenews.org/2011/09/05/what-does-labor-day-mean-to-you/18891/</loc>
+		<n:news>
+			<n:publication>
+				<n:name>Reesenews</n:name>
+				<n:language>en</n:language>
+			</n:publication>
+			<n:publication_date>2011-09-05</n:publication_date>
+			<n:title>What does Labor Day mean to you?</n:title>
+			<n:keywords>Nation, What The Hill</n:keywords>
+		</n:news>
+	</url>
+	<url>
+		<loc>http://reesenews.org/2011/09/03/tar-heels-take-on-james-madison-in-football-season-opener/18775/</loc>
+		<n:news>
+			<n:publication>
+				<n:name>Reesenews</n:name>
+				<n:language>en</n:language>
+			</n:publication>
+			<n:publication_date>2011-09-03</n:publication_date>
+			<n:title>UNC beats James Madison in season opener</n:title>
+			<n:keywords>Sport</n:keywords>
+		</n:news>
+	</url>
+</urlset>
+<!-- Last build time: September 6, 2011, 2:06 am-->

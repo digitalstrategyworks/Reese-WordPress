@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+<account>uncdev</account>
+<debugTracking>true</debugTracking>
+<visitorNamespace>unc</visitorNamespace>
+<trackingServer>unc.d2.sc.omtrdc.net</trackingServer>
+<Media>
+    <autoTrack>true</autoTrack>
+    <trackMilestones>25,50,75,100</trackMilestones>
+    <trackVars>events,eVar4,eVar5,eVar6</trackVars>
+    <trackEvents>event2,event3,event4,event5,event6,event7,event8</trackEvents>
+    <segmentByMilestones>true</segmentByMilestones>
+    <trackUsingContextData>true</trackUsingContextData>
+    <contextDataMapping>
+            <a.media.name>eVar4,prop2</a.media.name>
+            <a.media.segment>eVar5</a.media.segment>
+            <a.contentType>eVar6</a.contentType>
+            <a.media.timePlayed>event2</a.media.timePlayed>
+            <a.media.view>event3</a.media.view>
+            <a.media.segmentView>event5</a.media.segmentView>
+            <a.media.milestones>
+                <item name="25">event6</item>
+                <item name="50">event7</item>
+                <item name="75">event8</item>
+                <item name="100">event4</item>
+            </a.media.milestones>
+    </contextDataMapping>
+</Media>
+</config>
