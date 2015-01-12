@@ -13,7 +13,7 @@ class LmeModulesPage {
 	static function preActivate($q) {
 		global $wp_query;
 
-		if (!is_array($wp_query->query) || !is_array($q->query) || isset($wp_query->query["suppress_filters"]) || isset($q->query["suppress_filters"])) {
+		if (!is_array($wp_query->query) || !is_array($q->query) || $wp_query->query["suppress_filters"] == true || $q->query["suppress_filters"] == true) {
 			return;
 		}
 
